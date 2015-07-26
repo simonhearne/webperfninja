@@ -1,2 +1,0 @@
-# webperfninja
-My Blog
