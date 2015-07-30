@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            WebPerf Ninja
 locale:           en_US
-url:
+url:              
 
 
 # Jekyll configuration
@@ -26,12 +26,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
+  name: Simon Hearne
+  avatar: simon-300x300.jpg
+  bio: "Web Performance Consultant at NCC Group"
   email:
   disqus-shortname:
-  twitter: #username
+  twitter: simonhearne
   facebook: #username
   google:
     plus: #username
@@ -40,9 +40,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: simonhearne
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: simonhearne
   xing: #username
   instagram: #username
   lastfm: #username

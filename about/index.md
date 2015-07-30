@@ -1,25 +1,15 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, responsive]
+title: About Simon
+tags: [about]
 modified: 2014-08-08T20:53:07.573882-04:00
-comments: true
-image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+comments: false
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
-
-## Minimal Mistakes is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+<p>Hi, I'm Simon. I work as a Web Performance Consultant with <a href="https://www.nccgroup.com/en/our-services/website-performance/" target="_blank">NCC Group Web Performance</a> in Surrey, UK.
+I have a passion for all things fast and work with some of the UK's largest websites to help improve their users' online experiences.</p><p>
+I talk about front-end performance with anyone that will listen. Have a look at <a href="/talks">some of my talks</a> to see what I say.
+</p><p>
+You can find me on <a href="https://twitter.com/simonhearne" target="_blank">twitter</a> and <a href="https://www.linkedin.com/in/simonhearne" target="_blank">LinkedIn</a>.
+I live in Surrey, UK with my wife <a href="http://rachel.hearne.me/" target="_blank">Rachel</a> and our son Reuben.
+</p>
