@@ -4,12 +4,11 @@ title:  "Using a Web Performance Heatmap to Assess Page Performance"
 date:   2015-05-29 15:30:00
 category: 2015
 tags: [web performance webperf heatmap]
-
 image:
-  feature: http://webperf.ninja/wp-content/uploads/sites/5/2015/05/heatmap_pinterest-1-1014x352-1014x352.jpg
+  feature: "heatmap_hero.jpg"
 ---
 
-tl;wr: I've made a [Web Performance Heatmap](http://heatmap.webperf.tools/ "Web Performance Heatmap") to visualise when each element loads on a page.   
+#### I've made a [Web Performance Heatmap](http://heatmap.webperf.tools/ "Web Performance Heatmap") to visualise when each element loads on a page.   
 
 I've recently had a few clients ask if there is a way to test when certain parts of their pages become visually complete. Imagine a media company that relies on advertising revenue who wants to measure when the above-the-fold adverts are rendered, relative to the actual content of the page.   
 
@@ -25,7 +24,7 @@ I ended up building a wrapper on top of WebPageTest to automate this process and
 
 <figure>
 <a href="http://heatmap.webperf.tools/render/150527_SH_827d2295b66e4180892db766eaf8a492/10000" target="_blank">
-<img src="http://webperf.hearne.me/wp-content/uploads/sites/5/2015/05/heatmap_pinterest-1.png"/>
+<img src="/images/heatmap_pinterest.png"/>
 <figcaption>Pinterest Heatmap highlighting that the top images are late to load (click to interact).</figcaption></a>
 </figure>
 

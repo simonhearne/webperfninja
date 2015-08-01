@@ -3,11 +3,14 @@ layout: post
 title:  "Manage Third-party Risk Using a Content Security Policy"
 date:   2015-07-03 13:17:00
 category: 2015
-tags: [web performance webperf javascript third-party]
+tags: [web, performance, webperf, javascript, third-party, csp, content-security-policy, jquery]
 comments: true
 image:
-  feature: http://webperf.ninja/wp-content/uploads/sites/5/2015/05/csp_hero-1014x352.png
+  feature: "csp_hero.png"
 ---
+
+#### A feature to prevent cross-site-scripting may make it easier to police third-party javascript.
+
 Andy Davies and I have [spoken](https://www.youtube.com/watch?v=9OtUOgx0cZg "What Are Third-party Components Doing to Your Site?") at a number of conferences about the risks that third-party components can have on your website.
 In these talks we try to illustrate the fact that third-party components can have all sorts of negative consequences on your site's availability and performance.
 At the end of our talks we are always asked the same thing: 'what can we do about it?'.
@@ -20,7 +23,7 @@ We know this through using tools such as [request map](http://blog.webperf.ninja
 
 <figure style="float:right;">
 <a href="http://requestmap.webperf.tools/render/150102_Q9_N37/">
-<img src="http://webperf.hearne.me/wp-content/uploads/sites/5/2015/05/requestmap_http-www.very_.co_.uk-1-300x243.png"/>
+<img src="/images/requestmap_very.png"/>
 <figcaption>
 Third-party calls can become complex and hard to manage
 </figcaption>
@@ -36,7 +39,7 @@ I've built a quick example to demonstrate the concept [on my site](http://simonh
 
 <figure>
 <a href="http://simonhearne.co.uk/sandbox/csp/">
-<img src="http://webperf.hearne.me/wp-content/uploads/sites/5/2015/05/CSP.png"/>
+<img src="/images/CSP.png"/>
 <figcaption>Console message when unexpected third-party asset is blocked</figcaption>
 </a>
 </figure>
