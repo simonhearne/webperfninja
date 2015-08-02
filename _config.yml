@@ -2,7 +2,7 @@
 
 title:            WebPerf Ninja
 locale:           en_US
-url:              
+url:              https://webperf.ninja/
 
 
 # Jekyll configuration
@@ -29,13 +29,13 @@ owner:
   name: Simon Hearne
   avatar: simon-300x300.jpg
   bio: "Web Performance Consultant at NCC Group"
-  email:
-  disqus-shortname:
+  email: simon@hearne.me
+  disqus-shortname: webperfninja
   twitter: simonhearne
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-6512525-16
     verify:
     ad-client:
     ad-slot:
