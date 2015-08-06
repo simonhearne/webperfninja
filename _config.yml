@@ -2,7 +2,7 @@
 
 title:            WebPerf Ninja
 locale:           en_US
-url:              //webperf.ninja
+url:              
 
 
 # Jekyll configuration
@@ -15,6 +15,7 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-press
 
 kramdown:
   auto_ids: true

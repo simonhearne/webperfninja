@@ -13,7 +13,7 @@ image:
 
 My customers often ask how a third party asset got on their site. A director of digital once **_told_** me that Facebook was not on their site, not at all.
 
-I ran the homepage through WebPageTest and sure enough, there were a bunch of calls to various subdomains of facebook.com. Thankfully WebPageTest stores initiator, referer and redirect headers; so with a little work you can find out where these third-party calls come from. The director was correct, there were no calls to Facebook on their site. It was a third-party creating _fourth-party_ calls to Facebook! This can have serious ramifications if the Facebook (or _any other _third-party call) affects customer experience. Radware explain this well in an [article from 2011](http://www.webperformancetoday.com/2011/10/13/how-vulnerable-is-your-site-to-third-party-failure/).
+I ran the homepage through WebPageTest and sure enough, there were a bunch of calls to various subdomains of facebook.com. Thankfully WebPageTest stores initiator, referer and redirect headers; so with a little work you can find out where these third-party calls come from. The director was correct, there were no calls to Facebook on their site. It was a third-party creating _fourth-party_ calls to Facebook! This can have serious ramifications if the Facebook (or _any other_ third-party call) affects customer experience. Radware explain this well in an [article from 2011](http://www.webperformancetoday.com/2011/10/13/how-vulnerable-is-your-site-to-third-party-failure/).
 
 Trawling through the initiators and referers was a headache so I wrote a tool to do it: [requestmap.webperf.tools](http://requestmap.webperf.tools/ "RequestMap").
 

@@ -4,6 +4,7 @@ title: About Simon
 tags: [about]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: false
+share: false
 ---
 
 Hi, I'm Simon. I work as a Web Performance Consultant with [NCC Group Web Performance](https://www.nccgroup.com/en/our-services/website-performance/) in Surrey, UK.
