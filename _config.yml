@@ -1,8 +1,8 @@
 # Site wide configuration
 
 title:            WebPerf Ninja
-locale:           en_US
-url:              
+locale:           en_GB
+url:              webperf.ninja
 
 
 # Jekyll configuration
