@@ -79,43 +79,54 @@ Ilya Grigorik runs the site [isTLSfastyet.com](https://istlsfastyet.com/) which 
 
 ## <a name='responsive'></a>Responsive Images
 
-Delivering content to multiple device-types well is _hard_.
-Delivering content to mutliple device-types fast is _really hard_.
+Delivering content to multiple device-types *well* is _hard_.
+
+Delivering content to mutliple device-types *fast* is _really hard_.
+
 We all know that [desktop is dying](http://qz.com/393553/the-desktop-is-dying-and-mobile-is-winning-in-news-like-everything-else/), giving way to mobile and tablet consumers ([especially while commuting](http://internetretailing.net/2015/07/consumers-to-spend-9-3bn-shopping-on-mobile-while-they-commute-study-finds/ "Consumers to spend £9.3bn shopping on mobile while they commute")).
-
 As images make up [over 50%](http://httparchive.org/interesting.php#bytesperpage) of the average site, and bandwidth is limited with mobile connectivity, delivering a fast responsive site to all users means sending the smallest images possible whilst maintaining visual quality.
-This is by no means an easy task, otherwise companies would not be [selling services](https://www.resrc.it/) specifically to make it easier.
-Fortunately for us, new HTML specifications are [being drawn up](http://responsiveimages.org/ Responsive Image Working Group) and [implemented in browsers](http://caniuse.com/#feat=srcset "CanIUse.com / SrcSet") which will help.
-These new specifications allow us to define images with breakpoints, just [like our CSS](https://css-tricks.com/css-media-queries/), so that smaller devices get smaller images and retina displays get their high resolution versions.
-See the [srcset definition](http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-img-srcset) for a good place to start, and a useful explanation on [CSS-tricks](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/).
-Unfortunately for us, this means more work in creating the multiple sized image versions and the additional mark-up required in our HTML.
-Hey, I didn't say we were getting a free ride.
-Some build and automation tools will make this much easier for you, however, such as the [Grunt Responsive Images](https://github.com/andismith/grunt-responsive-images) plugin (thanks to [Andi Smith](https://twitter.com/andismith "Andi Smith on Twitter").
 
-If this all seems a bit much, your CDN or content delivery provider may be able to do it for you with little work on your end.
+This is by no means an easy task, otherwise companies would not be [selling services](https://www.resrc.it/) specifically to make it easier.
+Fortunately for us, new HTML specifications are [being drawn up](http://responsiveimages.org/ Responsive Image Working Group) and [implemented in browsers](http://caniuse.com/#feat=srcset "CanIUse.com / SrcSet") which will help in our quest.
+These new specifications allow us to define images with breakpoints, just [like our CSS](https://css-tricks.com/css-media-queries/), so that smaller devices get the correct size images and retina displays get their high resolution versions.
+See the [srcset definition](http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-img-srcset) for a good place to start, and a useful explanation on [CSS-tricks](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/).
+
+Unfortunately for us, this creates more work in creating the multiple image versions on top of the additional markup required in our HTML.
+
+Hey, I didn't say we were getting a free ride.
+
+Some build and automation tools will make this process easier for you, however. See the [Grunt Responsive Images](https://github.com/andismith/grunt-responsive-images) plugin (thanks to [Andi Smith](https://twitter.com/andismith "Andi Smith on Twitter") as an example of responsive image automation.
+
+If this all seems a bit much, your CDN or content delivery provider may be able to do it for you with little work on your end. Whatever happens, we need to keep marketing happy by delivering the best quality images, keep development happy by automating everything and keep IT happy by minimising cost of delivery.
+
+This is not a small task!
 
 
 ## <a name='mobile'></a>Mobile-First
 
-I've just mentioned the move from consumers on desktop machines to consumers on mobile devices when discussing images.
+I've mentioned earlier in this post that consumers are moving towards mobile devices.
 This shift in consumer behaviour is also causing a shift in the way we build our websites.
+
 Mobile-first means developing your site to work on mobile devices, then scaling the design up to larger screens.
 This is as opposed to traditional responsive design which tends to wrangle desktop sites into smaller form-factors.
 
-Being mobile-first also means opening up your potential audience to the next _billion_ online consumers.
+Being mobile-first means opening up your potential audience to the next _billion_ online consumers.
 This point was made extremely well by [Bruce Lawson](https://twitter.com/brucel "Bruce Lawson on Twitter") in [his keynote](https://www.youtube.com/watch?v=BHO70H9tvqo) at Velocity Santa Clara 2015.
+Potential consumers in under-privileged areas *will* access your web site or application using a mobile device. Period.
+
 Beyond the obvious advantages in being mobile-friendly, all types of online business will have customers following links from social media on their mobile phones.
 Unfortunately, these types of clicks generally use the webview built in to the social application rather than a 'proper' web browser.
-This means that there are even more platform / device / browser combinations to worry about!
+This means that there are even more platform / device / browser combinations to worry about and further considerations on web performance (which cache will I use? What resources will I get?).
 
-Designing for mobile-first means layouts that start small and grow, as well as minimal network interactions and use of key HTML5 features such as [Open Graph](http://ogp.me/).
+Designing for mobile-first means layouts that start small and grow with the screen, minimal network interactions and use of key HTML5 features such as [Open Graph](http://ogp.me/).
 
 Designing for _fast_ mobile-first means:
-   *   Heavy use of caching
-   *   Optimal use of network time
-   *   Removing _all_ unnecessary third-party assets
-   *   Removing (or at least profiling) Javascript - no event handlers on touch or scroll please!
-   *   Fitting first-render into one round-trip - that means critical CSS is inline, with cacheable CSS added with Javascript
+
+*   Heavy use of caching
+*   Optimal use of network time
+*   Removing _all_ unnecessary third-party assets
+*   Removing (or at least profiling) Javascript - no event handlers on touch or scroll please!
+*   Fitting first-render into one round-trip - that means critical CSS is inline, with cacheable CSS added with Javascript
 
 
 ## <a name='micro'></a>Microservices and Containers
@@ -125,10 +136,11 @@ If you are unfamiliar with the terms have quick read of [this Medium article](ht
 
 Breaking a monolithic application into atomic components - each with their own function and service definition - is a very logical move.
 Microservices have many benefits:
-  * Rapid development cycles - rapidly iterate services on fixed service definitions
-  * Easy replacement of functionality - changing payment provider? Replace the payment service
-  * Simple testing during development - stubbing of services means that each can be tested for performance and functionality in isolation
-  * Logical scalability - scale each component as necessary rather than the whole application
+
+*   Rapid development cycles - rapidly iterate services on fixed service definitions
+*   Easy replacement of functionality - changing payment provider? Replace the payment service
+*   Simple testing during development - stubbing of services means that each can be tested for performance and functionality in isolation
+*   Logical scalability - scale each component as necessary rather than the whole application
 
 There's no escaping microservices. The concept offers many benefits and will apparently make web application development much more simple.
 I won't try to enumerate the various performance issues that microservices create - because [Gareth Rushgrove](https://twitter.com/garethr "Gareth Rushgrove on Twitter") did it better than I could ever do at the most recent [London Web Performance Meetup](http://www.meetup.com/London-Web-Performance-Group/).
