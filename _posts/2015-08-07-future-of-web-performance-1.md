@@ -148,6 +148,6 @@ There are various performance and security issues that we need to be aware of th
 I won't try to enumerate all of the potential issues that microservices create - because [Gareth Rushgrove](https://twitter.com/garethr "Gareth Rushgrove on Twitter") did it better than I could ever do at the most recent [London Web Performance Meetup](http://www.meetup.com/London-Web-Performance-Group/).
 Please find his fantastic slides [here](https://speakerdeck.com/garethr/containers-and-microservices-make-performance-worse).
 
-Wow, that's quite a list of things we need to care about.
-I haven't even started to consider the way we measure and monitor site performance.
-Using [WebPageTest](https://webpagetest.org/), [sitespeedIO](http://www.sitespeed.io/), [SpeedCurve](https://speedcurve.com/), or a similar solution to test front-end performance before releasing a site build to live is _critical_.
+Wow, that's quite a list of things we need to care about, and I haven't even started to consider the way we measure and monitor site performance.
+Using [WebPageTest](https://webpagetest.org/), [sitespeed.io](http://www.sitespeed.io/), [SpeedCurve](https://speedcurve.com/) or similar to test front-end performance before any release is _critical_.
+We also need to ensure that we include mobile and responsive breakpoint testing.
