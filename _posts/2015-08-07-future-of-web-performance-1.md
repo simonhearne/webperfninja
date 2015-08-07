@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Future of Web Performance - Part 1"
-date:   2015-08-10 13:17:00
+date:   2015-08-07 23:00:00
 category: 2015
 description: "Web performance is a hot topic now, how will upcoming technologies change the way we manage it in the future?"
 tags: [web, performance, webperf, future]
