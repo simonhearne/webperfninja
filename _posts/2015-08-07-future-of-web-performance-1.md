@@ -3,7 +3,7 @@ layout: post
 title:  "The Future of Web Performance - Part 1"
 date:   2015-08-07 23:00:00
 category: 2015
-description: "Web performance is a hot topic now, how will upcoming technologies change the way we manage it in the future?"
+description: "Web performance is critically important, how will upcoming technologies change the way we manage it?"
 tags: [web, performance, webperf, future]
 comments: true
 image:
@@ -11,7 +11,7 @@ image:
   credit: flickr/dunechaser
   creditlink: https://www.flickr.com/photos/dunechaser/9312170928/
 ---
-#### Web performance is a hot topic now but how will upcoming technologies change the way we manage it in the future?
+#### Web performance is critically important, how will upcoming technologies change the way we manage it?
 
 Web performance is [critical](/2015/web-performance-optimisation-basics/) to a successful online business.
 Keeping on top of the latest technologies, techniques and practices allow us to stay ahead of the curve and get the edge over our competition.
