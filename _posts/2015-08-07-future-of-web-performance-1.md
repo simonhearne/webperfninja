@@ -143,7 +143,9 @@ Microservices have many benefits:
 *   Logical scalability - scale each component as necessary rather than the whole application
 
 There's no escaping microservices. The concept offers many benefits and will apparently make web application development much more simple.
-I won't try to enumerate the various performance issues that microservices create - because [Gareth Rushgrove](https://twitter.com/garethr "Gareth Rushgrove on Twitter") did it better than I could ever do at the most recent [London Web Performance Meetup](http://www.meetup.com/London-Web-Performance-Group/).
+
+There are various performance and security issues that we need to be aware of though. 
+I won't try to enumerate all of the potential issues that microservices create - because [Gareth Rushgrove](https://twitter.com/garethr "Gareth Rushgrove on Twitter") did it better than I could ever do at the most recent [London Web Performance Meetup](http://www.meetup.com/London-Web-Performance-Group/).
 Please find his fantastic slides [here](https://speakerdeck.com/garethr/containers-and-microservices-make-performance-worse).
 
 Wow, that's quite a list of things we need to care about.
