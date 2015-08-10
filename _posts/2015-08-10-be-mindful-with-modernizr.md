@@ -41,7 +41,7 @@ Over 150ms spent in modernizr.js - on a Core i7 processor
 </figure>
 
 Note that the bulk of the time spent on this script is in one function - s.csstransforms3d. Following the stack you can see that this function causes a style recalculation.
-A quick bit of digging into the Modernizr source identifies the cause. The script injects an element and then uses functions offsetLeft and offsetHeight to test whether a CSS 3D transform has worked on the enjected element:
+A quick bit of digging into the Modernizr source identifies the cause. The script injects an element and then uses functions offsetLeft and offsetHeight to test whether a CSS 3D transform has worked on the injected element:
 
 {% highlight javascript %}
 tests['csstransforms3d'] = function() {

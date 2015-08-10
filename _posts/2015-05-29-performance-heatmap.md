@@ -10,6 +10,8 @@ image:
 
 #### I've made a [Web Performance Heatmap](http://heatmap.webperf.tools/ "Web Performance Heatmap") to visualise when each element loads on a page.   
 
+<a href="http://heatmap.webperf.tools" class="btn btn-block btn-primary">Go to the tool</a>
+
 I've recently had a few clients ask if there is a way to test when certain parts of their pages become visually complete. Imagine a media company that relies on advertising revenue who wants to measure when the above-the-fold adverts are rendered, relative to the actual content of the page.   
 
 We have a few ways to attempt this, for example [user timings](http://www.html5rocks.com/en/tutorials/webperformance/usertiming/ "HTML5Rocks User Timings Tutorial") can add a performance timing marker based on an element loading (note that this can't tell when the loaded element / image is actually rendered). To really tell when an element is rendered we either need to dig in to [paint traces](https://www.chromium.org/developers/how-tos/trace-event-profiling-tool/trace-event-reading "Chromium about:tracing page") or use a filmstrip view from e.g. [webpagetest](http://webpagetest.org "WebPageTest.org").   
