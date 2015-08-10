@@ -26,7 +26,7 @@ h3 {
 	@include font-size(24);
 }
 h4 {
-	@include font-size(18);
+	@include font-size(20);
 }
 h5 {
 	@include font-size(16);
@@ -81,7 +81,7 @@ figcaption {
 	@include suffix(12,1);
 	display: block;
 	text-align: right;
-	@include font(12);
+	@include font(14);
 	line-height: 1.3;
 	font-style: italic;
 	color: lighten($text-color, 30);
@@ -141,6 +141,7 @@ blockquote {
 
 p {
 	margin: 0 0 $indent-var;
+	@include font-size(20);
 	// sibling indentation
   @if $paragraph-indent == true {
     & + p {
