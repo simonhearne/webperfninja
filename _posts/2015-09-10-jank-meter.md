@@ -5,7 +5,7 @@ date:   2015-09-11 12:00:00
 category: 2015
 tags: [web, performance, webperf, jank]
 comments: true
-published: false
+published: true
 image:
   feature: "jankfree_hero.jpg"
 ---
@@ -59,3 +59,9 @@ The bookmarklet produces a small overlay on the top-right of the screen showing 
 
 There are probably a few more limitations, give it a go and let me know if you have any issues.
 The code is in [a gist](https://gist.github.com/simonhearne/ef145e2732f2082771d3) so feel free to fork.
+
+## How to fix jank?
+
+Paul Lewis has a great [live demo](https://www.youtube.com/watch?v=QU1JAW5LRKU) on youtube of debugging and fixing jank in realtime.
+
+There are a number of resources available, [jankfree.org](https://jankfree.org) is a great place to start.
