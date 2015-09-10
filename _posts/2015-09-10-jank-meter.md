@@ -7,7 +7,7 @@ tags: [web, performance, webperf, jank]
 comments: true
 published: true
 image:
-  feature: "jankfree_hero.jpg"
+  feature: "jankfree_hero.png"
 ---
 #### Webpage jank can harm the user experience, here's an easy way to measure it on your pages
 
@@ -24,7 +24,7 @@ Anything that is expensive to process and causes the browser to repaint can caus
 Here's an example of the jank meter on a web design agency's homepage. They use a jQuery plugin to create a parallax effect on large (but barely visible) background images.
 
 <figure>
-<img src="/images/jankysite2.png"/>
+<img src="/images/janky_site2.png"/>
 <figcaption>Dev Tools showing Jank</figcaption>
 </figure>
 
