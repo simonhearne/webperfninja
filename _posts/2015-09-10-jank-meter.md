@@ -63,7 +63,7 @@ The bookmarklet produces a small overlay on the top-right of the screen showing 
 * Style is inherited, so it may look funny
 * It depends on being able to scroll, so the page has to be longer than 2 x viewport height
 * It relies on performance.now() and requestAnimationFrame() so it won't work in all browsers (latest Firefox and Chrome are fine)
-* The chart image won't load on secure sites
+* The chart image may not load on secure sites
 
 There are probably a few more limitations, give it a go and let me know if you have any issues.
 The code is in [a gist](https://gist.github.com/simonhearne/ef145e2732f2082771d3) so feel free to fork.
