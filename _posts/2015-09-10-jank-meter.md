@@ -45,7 +45,7 @@ You can detect jank using the Timeline tab in Chrome Developer Tools. Simply hit
 
 You can also enable the framerate overlay in Chrome to show the live render performance:
 
-<figure>
+<figure align="center">
 <img src="/images/framerate.png"/>
 <figcaption>Dev Tools showing FPS meter</figcaption>
 </figure>
