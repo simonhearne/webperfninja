@@ -7,7 +7,7 @@ tags: [web, performance, webperf, jank]
 comments: true
 published: true
 image:
-  feature: "janky_site2.png"
+  feature: "janky_hero.png"
 ---
 #### Webpage jank can harm the user experience, here's an easy way to measure it on your pages
 
