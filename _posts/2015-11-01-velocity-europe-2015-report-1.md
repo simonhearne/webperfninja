@@ -7,6 +7,7 @@ tags: [web performance, velocity, europe, amsterdam, 2015]
 comments: true
 image:
   feature: "ams_hero.jpg"
+  credit: Velocity at the RAI in Amsterdam
 ---
 
 This post is a summary of the talks that I attended at the first day of Velocity in Amsterdam in 2015. Partly for my own reference, I've briefly described each talk that I attended, links to any descriptions, slides and videos as well as the ratings from myself and the average rating for the talk.
