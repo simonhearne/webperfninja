@@ -14,6 +14,8 @@ This post is a summary of the talks that I attended at the first day of Velocity
 
 A second post will follow for the second day, and I will also add a review of the WebPerfDays unconference day which followed the main conference.
 
+----------
+
 ###The Physical Web is a Speed Issue - *Scott Jenson (Google)*
 
 ####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/45231) | [Video (18m)](https://www.youtube.com/watch?v=7H_E_ZbFAn0) | My Rating: ★★★★★ | Average Rating: ★★★★☆
