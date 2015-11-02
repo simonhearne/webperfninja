@@ -64,9 +64,9 @@ Anna lost a couple of stars from me as the talk was dry and could have focussed 
 
 ----------
 
-##Probabilistically sampling a stream of events with a sketch - *Baron Schwartz (VividCortex)*
+###Probabilistically sampling a stream of events with a sketch - *Baron Schwartz (VividCortex)*
 
-###[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/43888) | [Slides (pdf)](http://cdn.oreillystatic.com/en/assets/1/event/134/Probabilistically%20sampling%20a%20stream%20of%20events%20with%20a%20sketch%20Presentation%201.pdf) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
+####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/43888) | [Slides (pdf)](http://cdn.oreillystatic.com/en/assets/1/event/134/Probabilistically%20sampling%20a%20stream%20of%20events%20with%20a%20sketch%20Presentation%201.pdf) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
 
 In this talk Baron took us on a technical tour of the event sampling algorithm behind [VividCortex](https://www.vividcortex.com/). VividCortex is a cloud based intelligence platform for database system performance and health, it works with all of the big open source database players.
 
@@ -144,6 +144,7 @@ Eleanor suggests that we should all be building thorough threat models (rather t
 I'm afraid I got lost at a few points in Eleanor's keynote, the slides were occasionally distracting and some un-introduced security terms threw me off. That's why she lost a couple of stars from me.
 
 ----------
+
 ###A day in the life - An immersive data experience - *David Boloker (IBM Corporation)*
 
 ####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/47746) | [Video (10m)](https://www.youtube.com/watch?v=6vMR6p-ff9U) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
