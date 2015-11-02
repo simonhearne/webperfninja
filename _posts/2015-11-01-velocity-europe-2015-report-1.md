@@ -22,7 +22,7 @@ A [further post](/2015/velocity-europe-2015-report-1/) contains the talks that d
 
 ####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/45231) | [Video (18m)](https://www.youtube.com/watch?v=7H_E_ZbFAn0) | My Rating: ★★★★★ | Average Rating: ★★★★☆
 
-Scott's keynote was probably the highlight of this Velocity for me. He discusses how the web will change over the next few years with the development of the advent of the Physical Web and the Internet Of Things.
+Scott's keynote was probably the highlight of this Velocity for me. He discusses how the web will change over the next few years with the advent of the Physical Web and the Internet Of Things.
 
 Scott used a number of examples to show how this will affect our daily lives, with a parking meter being the clearest demonstration.
 
