@@ -42,8 +42,8 @@ I've borrowed from a recent report to demonstrate this theory in practise, below
 |Enable gzip on CSS|★★★|★★★|
 |Reduce upstream cookie size|☆★★|☆★★|
 |Replace icon fonts with SVG|☆★★|☆☆★|
-|Review thrid-party content|☆☆★|☆☆★|
-|Remove redundant / unnecessary JavaScript|☆★★|☆☆★|
+|Review third-party content|☆☆★|☆☆★|
+|Remove redundant JavaScript|☆★★|☆☆★|
 |Remove redirects|☆☆★|☆★★|
 
 The sum of the stars give a good idea of priority. Take the uncompressed CSS issue for example: enabling gzip compression should be trivial on any modern set-up, and as CSS is critical to render a page it should be delivered as soon as possible.
