@@ -35,7 +35,7 @@
   <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
     {% for post in site.posts limit:10 %}
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><article>
+    <a href="{{ site.url }}{{ post.url }}#hero-top" title="{{ post.title }}"><article>
 	  {% if post.image %}
       <img src="{{ site.url }}/images/{{ post.image.feature }}"/>
 	  {% endif %}

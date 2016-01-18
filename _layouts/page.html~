@@ -7,14 +7,14 @@
 {% include _head.html %}
 </head>
 
-<body class="post-index">
+<body class="page">
 
 {% include _browser-upgrade.html %}
 
 {% include _navigation.html %}
 
 {% if page.image.feature %}
-  <div class="image-wrap" id="hero-top">
+  <div class="image-wrap">
   <img src=
     {% if page.image.feature contains 'http' %}
       "{{ page.image.feature }}"
@@ -32,32 +32,20 @@
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
-  <div id="index">
+  <article class="page">
     <h1>{{ page.title }}</h1>
-    {% for post in site.posts %}
-    {% unless post.next %}
-      <h3>{{ post.date | date: '%Y' }}</h3>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h3>{{ post.date | date: '%Y' }}</h3>
-        {% endif %}
-      {% endunless %}
-      <a href="{{ site.url }}{{ post.url }}#hero-top" title="{{ post.title }}"><article>
-      {% if post.image %}
-      <img src="{{ site.url }}/images/{{ post.image.feature }}"/>
-	  {% endif %}
-        {% if post.link %}
-          <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
-        {% else %}
-          <h2>{{ post.title }}</h2>
-          <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-        {% endif %}
-      </article></a>
-    {% endfor %}
-  </div><!-- /#index -->
-</div><!-- /#main -->
+    <div class="article-wrap">
+      {{ content }}
+      {% if page.share != false %}
+        <hr />
+        {% include _social-share.html %}
+      {% endif %}
+    </div><!-- /.article-wrap -->
+    {% if site.owner.disqus-shortname and page.comments == true %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
 
 <div class="footer-wrap">
   <footer>
