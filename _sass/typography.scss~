@@ -139,7 +139,7 @@ blockquote {
    Paragraphs
    ========================================================================== */
 
-p {
+p,ul {
 	margin: 0 0 $indent-var;
 	@include font-size(20);
 	// sibling indentation
@@ -152,8 +152,7 @@ p {
 }
 
 ul {
-	margin: 0 0 $indent-var;
-	@include font-size(20);
+	#margin: $indent-var 0 0 0;
 }
 
 /*

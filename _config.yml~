@@ -2,8 +2,7 @@
 
 title:            WebPerf Ninja
 locale:           en_GB
-#url:              https://webperf.ninja
-url:
+url:              
 
 
 # Jekyll configuration
