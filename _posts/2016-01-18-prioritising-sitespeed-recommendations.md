@@ -27,7 +27,7 @@ The last few of these types of engagements have led me to a realisation; for mos
 
 My document structure has evolved due to this. There's little value in telling a client about the best practices they've already implemented, nor is there any point in documenting the fact that they could shave another 10kB off their image weight.
 
-So in my reports I know suggest that site speed optimisations can be ranked by two critical factors:
+So in my reports I now suggest that site speed optimisations can be ranked by two critical factors:
 
  * what impact will this change have on the users
  * how hard will the change be to implement
