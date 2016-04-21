@@ -4,7 +4,7 @@ title:  "Web Performance Optimisation Basics"
 date:   2015-03-11 19:54:00
 category: 2015
 tags: [web performance, webperf, rules]
-comments: trus
+comments: true
 image:
   feature: "speed_hero.jpg"
   credit: flickr/jaise
