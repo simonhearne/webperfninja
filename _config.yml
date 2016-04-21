@@ -10,7 +10,7 @@ url:
 permalink:   /:categories/:title/
 markdown:    kramdown
 hard_wrap: false
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed

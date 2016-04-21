@@ -7,7 +7,6 @@ tags: [web performance, render, jquery, conference, 2016]
 comments: true
 image:
   feature: "render_hero_bruce.jpg"
-  credit: "[http://twitter.com/brucel](@brucel) taking a caffeine hit"
 ---
 
 I'm attending Render - previously known as jQuery UK. It's a front-end conference for front-end people, which makes me a bit of an outsider. Performance is not the focus of Render.
