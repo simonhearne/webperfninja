@@ -18,10 +18,13 @@ To give an example, below is the homepage of Transport for London loading at Cab
 
 <figure>
 <img src="/uploads/tfl_6-5.JPG"/>
-<figcaption>Filmstrip section showing TfL visually complete at 6.5 seconds.</figcaption>
+<figcaption>Filmstrip section showing TfL appear visually complete at 6.5 seconds.</figcaption>
 </figure>
 
+The reason that the WebPageTest metrics disagree with what we can see is that a few seconds after the 'first' visual complete, an advert appears which pushes content down the page. Notice that in the image above the visual completeness is reported at 90%. The image below shows what happens between 9 and 12 seconds.
+
 <figure>
-<img src="/uploads/tfl_6-5.JPG"/>
-<figcaption>Filmstrip section showing TfL visually complete at 6.5 seconds.</figcaption>
+<img src="/uploads/tfl_9-12.JPG"/>
+<figcaption>Filmstrip section showing TfL visually complete at 12 seconds.</figcaption>
 </figure>
+
