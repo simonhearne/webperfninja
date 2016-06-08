@@ -28,3 +28,15 @@ The reason that the WebPageTest metrics disagree with what we can see is that a 
 <figcaption>Filmstrip section showing TfL visually complete at 12 seconds.</figcaption>
 </figure>
 
+This effect can be caused by a number of issues:
+
+ * Cookie banners which appear after the page loads
+ * Adverts which load late
+ * Carousels which auto-advance
+ * Auto-play videos
+ * Subscription popups
+
+Unfortunately this is often outside of my control as consultant. This is an especially pertinent issue when comparing multiple websites or pages, as some can appear artificially worse.
+
+While I believe that anything which creates this effect is bad for user experience (e.g. [rotating carousels :rage:](http://shouldiuseacarousel.com/)).
+
