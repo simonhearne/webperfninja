@@ -1,5 +1,5 @@
 ---
-title: Getting Reliable Visual Metrics
+title: Getting Reliable Visual Performance Metrics
 date: 2016-06-08 11:26:00 Z
 categories:
 - '2016'
