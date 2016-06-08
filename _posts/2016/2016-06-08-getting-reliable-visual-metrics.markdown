@@ -16,14 +16,14 @@ Visual metrics such as Speed Index, render start and visual complete are the bes
 
 To give an example, below is the homepage of Transport for London loading at Cable speed from London. It's clear that the main content of the page is visible by 6.5 seconds. The metrics we get from WebPageTest don't tally though, with visual complete coming in at almost 12 seconds.
 
-<figure>
+<figure align="center">
 <img src="/uploads/tfl_6-5.JPG"/>
 <figcaption>Filmstrip section showing TfL appear visually complete at 6.5 seconds.</figcaption>
 </figure>
 
 The reason that the WebPageTest metrics disagree with what we can see is that a few seconds after the 'first' visual complete, an advert appears which pushes content down the page. Notice that in the image above the visual completeness is reported at 90%. The image below shows what happens between 9 and 12 seconds.
 
-<figure>
+<figure align="center">
 <img src="/uploads/tfl_9-12.JPG"/>
 <figcaption>Filmstrip section showing TfL visually complete at 12 seconds.</figcaption>
 </figure>
@@ -51,11 +51,11 @@ navigate    http://tfl.gov.uk
 
 The result is a page which finishes before the advert pushes content down, as shown below.
 
-<figure>
+<figure align="center">
 <img src="/uploads/timeout.jpg"/>
 <figcaption>Filmstrips of TfL tested with and without a 100ms activity timeout.</figcaption>
 </figure>
-<figure>
+<figure align="center">
 <img src="/uploads/visual_progression.PNG"/>
 <figcaption>Visual progression over time.</figcaption>
 </figure>
