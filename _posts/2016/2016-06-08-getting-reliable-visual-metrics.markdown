@@ -9,6 +9,7 @@ tags:
 comments: true
 image:
   feature: ads_hero.jpg
+layout: post
 ---
 
 Visual metrics such as Speed Index, render start and visual complete are the best proxies we have for user experience. Unfortunately two of these are totally thrown by rotating carousels, popups, cookie banners and adverts.
