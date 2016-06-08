@@ -38,5 +38,24 @@ This effect can be caused by a number of issues:
 
 Unfortunately this is often outside of my control as consultant. This is an especially pertinent issue when comparing multiple websites or pages, as some can appear artificially worse.
 
-While I believe that anything which creates this effect is bad for user experience (e.g. [rotating carousels :rage:](http://shouldiuseacarousel.com/)).
+While I believe that anything which creates this effect is bad for user experience (e.g. [rotating carousels :rage:](http://shouldiuseacarousel.com/)), it's not my place to make recommendations on their use! So, we need a way to get reliable visual metrics given that a page under test can have any one of these features.
 
+When testing a page, WebPageTest has a default activity threshold of 2 seconds. That is: after all page activity stops, the test will continue for a further 2 seconds. If there is network activity within this time the timeout will reset. If the screen changes within this time, the final frame (after the timeout) will be used as the reference point for visually complete and Speed Index.
+
+Thus, a potential way to improve visual metrics is to reduce this timeout. To do so in WebPageTest you can use a script, e.g.:
+
+```
+setActivityTimeout    100
+navigate    http://tfl.gov.uk
+```
+
+The result is a page which finishes before the advert pushes content down, as shown below.
+
+<figure>
+<img src="/uploads/timeout.jpg"/>
+<figcaption>Filmstrips of TfL tested with and without a 100ms activity timeout.</figcaption>
+</figure>
+<figure>
+<img src="/uploads/visual_progression.PNG"/>
+<figcaption>Visual progression over time.</figcaption>
+</figure>
