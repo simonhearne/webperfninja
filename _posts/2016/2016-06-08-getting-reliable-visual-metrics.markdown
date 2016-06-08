@@ -44,7 +44,7 @@ When testing a page, WebPageTest has a default activity threshold of 2 seconds. 
 
 Thus, a potential way to improve visual metrics is to reduce this timeout. To do so in WebPageTest you can use a script, e.g.:
 
-```ini
+```
 setActivityTimeout    100
 navigate    http://tfl.gov.uk
 ```
