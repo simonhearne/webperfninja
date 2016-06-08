@@ -8,7 +8,7 @@ tags:
 - speedindex
 comments: true
 image:
-  feature: ads_hero.jpg
+  feature: "/uploads/ads_hero.jpg"
 layout: post
 ---
 
@@ -16,4 +16,7 @@ Visual metrics such as Speed Index, render start and visual complete are the bes
 
 To give an example, below is the homepage of Transport for London loading at Cable speed from London. It's clear that the main content of the page is visible by 6.5 seconds. The metrics we get from WebPageTest don't tally though, with visual complete coming in at almost 12 seconds.
 
-[tfl_6-5.JPG](/uploads/tfl_6-5.JPG)
+<figure>
+<img src="/uploads/tfl_6-5.JPG"/>
+<figcaption>Filmstrip section showing TfL visually complete at 6.5 seconds.</figcaption>
+</figure>
