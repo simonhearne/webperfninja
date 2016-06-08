@@ -1,12 +1,21 @@
 ---
+title: Manage Third-party Risk Using a Content Security Policy
+date: 2015-07-03 13:17:00 Z
+categories:
+- '2015'
+tags:
+- web
+- performance
+- webperf
+- javascript
+- third-party
+- csp
+- content-security-policy
+- jquery
 layout: post
-title:  "Manage Third-party Risk Using a Content Security Policy"
-date:   2015-07-03 13:17:00
-category: 2015
-tags: [web, performance, webperf, javascript, third-party, csp, content-security-policy, jquery]
 comments: true
 image:
-  feature: "csp_hero.png"
+  feature: csp_hero.png
 ---
 
 #### A feature to prevent cross-site-scripting may make it easier to police third-party javascript.

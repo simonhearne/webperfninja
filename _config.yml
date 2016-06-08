@@ -1,62 +1,81 @@
-# Site wide configuration
-
-title:            WebPerf Ninja
-locale:           en_GB
-url:              
-
-
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
+---
+title: WebPerf Ninja
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+locale: en_GB
+url: 
+permalink: "/:categories/:title/"
+markdown: kramdown
 hard_wrap: false
 highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
 gems:
-  - jekyll-sitemap
-
+- jekyll-sitemap
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-
-
-# Site owner
 owner:
   name: Simon Hearne
   avatar: simon-150x150.jpg
-  bio: "Web Performance Consultant at NCC Group"
+  bio: Web Performance Consultant at NCC Group
   email: simon@hearne.me
   disqus-shortname: webperfninja
   twitter: simonhearne
-  facebook: #username
+  facebook: 
   google:
-    plus: #username
+    plus: 
     analytics: UA-6512525-16
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
   github: simonhearne
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 
   linkedin: simonhearne
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+  xing: 
+  instagram: 
+  lastfm: 
+  tumblr: 
+  pinterest: 
+  foursquare: 
+  steam: 
+  dribbble: 
+  youtube: 
+  soundcloud: 
+  weibo: 
+  flickr: 
+  codepen: 
+include:
+- ".htaccess"
+exclude:
+- lib
+- config.rb
+- Capfile
+- config
+- log
+- Rakefile
+- Rakefile.rb
+- tmp
+- less
+- "*.sublime-project"
+- "*.sublime-workspace"
+- test
+- spec
+- Gruntfile.js
+- package.json
+- node_modules
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md

@@ -1,8 +1,9 @@
 ---
-layout: page
 title: About Simon
-tags: [about]
-modified: 2014-08-08T20:53:07.573882-04:00
+layout: page
+tags:
+- about
+modified: 2014-08-09 00:53:07.573000000 Z
 comments: false
 share: false
 ---

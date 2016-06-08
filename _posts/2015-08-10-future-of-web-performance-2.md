@@ -1,16 +1,22 @@
 ---
-layout: post
-title:  "The Future of Web Performance - Part 1"
-date:   2015-08-10 13:17:00
-category: 2015
-tags: [web, performance, webperf, future]
-comments: true
+title: The Future of Web Performance - Part 1
+date: 2015-08-10 13:17:00 Z
 published: false
+categories:
+- '2015'
+tags:
+- web
+- performance
+- webperf
+- future
+layout: post
+comments: true
 image:
-  feature: "question_hero.jpg"
+  feature: question_hero.jpg
   credit: flickr/eleaf
   creditlink: https://www.flickr.com/photos/eleaf/2536358399
 ---
+
 #### Web performance is a hot topic now, how will upcoming technologies change the way we manage it in the future?
 
 Web performance is critical to a successful online business. Keeping on top of the latest technologies, techniques and practices allow companies and individuals to stay ahead of the curve and get the edge over competitors. This comes through improved user experience and reduced operational costs. New technologies are emerging which will change the way we manage web performance forever. These technologies range from the underlying transport mechanism for our bytes to new javascript frameworks and an ever-growing range of web-browsing devices. This complex and rapidly changing environment makes it harder than ever to plan and manage web performance. In this series I've attempted to summarise the key upcoming issues and describe how each one may impact your day-to-day life as a stakeholder in an online business. I've also estimated the time where you need to really start thinking about it. This post covers the issues that you should be considering now, further posts cover:

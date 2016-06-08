@@ -1,17 +1,24 @@
 ---
+title: Be Mindful With Modernizr
+date: 2015-08-10 22:02:00 Z
+categories:
+- '2015'
+tags:
+- web
+- performance
+- webperf
+- modernizr
+- javascript
+- third-party
 layout: post
-title:  "Be Mindful With Modernizr"
-date:   2015-08-10 22:02:00
-category: 2015
-tags: [web, performance, webperf, modernizr, javascript, third-party]
-description: "Modernizr might be making your site slow, especially on mobiles"
+description: Modernizr might be making your site slow, especially on mobiles
 comments: true
-published: true
 image:
-  feature: "parachute_hero.jpg"
+  feature: parachute_hero.jpg
   credit: flickr/jaguarcarsmena
   creditlink: https://www.flickr.com/photos/jaguarcarsmena/18769889306
 ---
+
 #### Modernizr might be making your site slow, especially on mobiles
 
 According to [Modernizr.com](http://www.modernizr.com/), Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.

@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Talks
-tags: [talks]
-modified: 2015-08-01T20:53:07.573882-04:00
+layout: page
+tags:
+- talks
+modified: 2015-08-02 00:53:07.573000000 Z
 comments: false
 ---
 

@@ -1,12 +1,16 @@
 ---
+title: Web Performance Optimisation Basics
+date: 2015-03-11 19:54:00 Z
+categories:
+- '2015'
+tags:
+- web performance
+- webperf
+- rules
 layout: post
-title:  "Web Performance Optimisation Basics"
-date:   2015-03-11 19:54:00
-category: 2015
-tags: [web performance, webperf, rules]
 comments: true
 image:
-  feature: "speed_hero.jpg"
+  feature: speed_hero.jpg
   credit: flickr/jaise
   creditlink: https://www.flickr.com/photos/jaise/293926701
 ---

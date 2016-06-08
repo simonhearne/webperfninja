@@ -1,10 +1,12 @@
 ---
-layout: page
 title: Web Performance Tools
-tags: [tools]
-modified: 2015-08-01T20:53:07.573882-04:00
+layout: page
+tags:
+- tools
+modified: 2015-08-02 00:53:07.573000000 Z
 comments: true
 ---
+
 ## Tools that I've created
  * [Heatmap](http://heatmap.webperf.tools/) - Generate a heatmap of a webpage showing which elements of the page are slow to render
  * [Request Map](http://requestmap.webperf.tools/) - Plot the domains on a web page showing how they all connect to each other

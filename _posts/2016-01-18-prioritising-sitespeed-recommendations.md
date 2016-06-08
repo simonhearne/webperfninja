@@ -1,14 +1,22 @@
 ---
+title: Prioritising Site Speed Recommendations
+date: 2016-01-18 00:00:00 Z
+categories:
+- '2016'
+tags:
+- web
+- performance
+- webperf
+- recommendations
+- prioritisation
 layout: post
-title:  "Prioritising Site Speed Recommendations"
-date:   2016-01-18 00:00:00
-category: 2016
-description: "Sometimes prioritising recommendations is more important than making them."
-tags: [web, performance, webperf, recommendations, prioritisation]
+description: Sometimes prioritising recommendations is more important than making
+  them.
 comments: true
 image:
-  feature: "prioritisation_hero.jpg"
+  feature: prioritisation_hero.jpg
 ---
+
 #### Sometimes prioritising recommendations is more important than making them.
 
 One of my favourite tasks as a consultant is to provide reports to clients which make recommendations for improving site speed. Often these reports are taken very seriously, with senior managers using them to help drive the development roadmap for the next few months.

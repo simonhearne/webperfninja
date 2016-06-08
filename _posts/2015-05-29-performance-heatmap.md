@@ -1,11 +1,13 @@
 ---
+title: Using a Web Performance Heatmap to Assess Page Performance
+date: 2015-05-29 15:30:00 Z
+categories:
+- '2015'
+tags:
+- web performance webperf heatmap
 layout: post
-title:  "Using a Web Performance Heatmap to Assess Page Performance"
-date:   2015-05-29 15:30:00
-category: 2015
-tags: [web performance webperf heatmap]
 image:
-  feature: "heatmap_hero.jpg"
+  feature: heatmap_hero.jpg
 ---
 
 #### I've made a [Web Performance Heatmap](http://heatmap.webperf.tools/ "Web Performance Heatmap") to visualise when each element loads on a page.   

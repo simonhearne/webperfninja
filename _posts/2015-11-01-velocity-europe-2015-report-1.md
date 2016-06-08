@@ -1,12 +1,18 @@
 ---
+title: Velocity Europe 2015 - My Allstars
+date: 2015-11-01 19:54:00 Z
+categories:
+- '2015'
+tags:
+- web performance
+- velocity
+- europe
+- amsterdam
+- 2015
 layout: post
-title:  "Velocity Europe 2015 - My Allstars"
-date:   2015-11-01 19:54:00
-category: 2015
-tags: [web performance, velocity, europe, amsterdam, 2015]
 comments: true
 image:
-  feature: "ams_hero_5.jpg"
+  feature: ams_hero_5.jpg
   credit: Velocity at the RAI in Amsterdam
 ---
 

@@ -1,14 +1,19 @@
 ---
+title: Measuring Webpage Jank
+date: 2015-09-11 12:00:00 Z
+categories:
+- '2015'
+tags:
+- web
+- performance
+- webperf
+- jank
 layout: post
-title:  "Measuring Webpage Jank"
-date:   2015-09-11 12:00:00
-category: 2015
-tags: [web, performance, webperf, jank]
 comments: true
-published: true
 image:
-  feature: "janky_hero.png"
+  feature: janky_hero.png
 ---
+
 #### Webpage jank can harm the user experience, here's an easy way to measure it on your pages
 
 Here's the bookmarklet: 

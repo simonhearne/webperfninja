@@ -1,12 +1,18 @@
 ---
+title: Render Conf 2016 - Day 1
+date: 2016-01-21 21:54:00 Z
+categories:
+- '2016'
+tags:
+- web performance
+- render
+- jquery
+- conference
+- 2016
 layout: post
-title:  "Render Conf 2016 - Day 1"
-date:   2016-01-21 21:54:00
-category: 2016
-tags: [web performance, render, jquery, conference, 2016]
 comments: true
 image:
-  feature: "render_hero_bruce.jpg"
+  feature: render_hero_bruce.jpg
 ---
 
 Render Conference - previously known as jQuery UK - was held in Oxford last week. It's a front-end conference for front-end people, which makes me a bit of an outsider. Performance is not the focus of Render Conference.
