@@ -62,10 +62,9 @@ The result is a page which finishes before the advert pushes content down, as sh
 
 So if you want more reliable visual performance metrics, reduce the activity timeout threshold to something reasonable - like 100ms.
 
-Unfortunately this can only be done through scripted sessions, or by changing the default in WebPageTest private as shown below.
-[
+Unfortunately this can only be done through scripted sessions, or by changing the [default in WebPageTest private](https://github.com/WPO-Foundation/webpagetest/blob/master/agent/browser/ie/pagetest/PagetestBase.h) as shown below.
+
 <figure align="center">
 <img src="/uploads/timeouts.png"/>
 <figcaption>Default timeouts in PagetestBase.h</figcaption>
 </figure>
-](https://github.com/WPO-Foundation/webpagetest/blob/master/agent/browser/ie/pagetest/PagetestBase.h)
