@@ -20,3 +20,8 @@ To give an example, below is the homepage of Transport for London loading at Cab
 <img src="/uploads/tfl_6-5.JPG"/>
 <figcaption>Filmstrip section showing TfL visually complete at 6.5 seconds.</figcaption>
 </figure>
+
+<figure>
+<img src="/uploads/tfl_6-5.JPG"/>
+<figcaption>Filmstrip section showing TfL visually complete at 6.5 seconds.</figcaption>
+</figure>
