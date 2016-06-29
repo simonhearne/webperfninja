@@ -8,7 +8,7 @@ tags:
 - speedindex
 comments: true
 image:
-  feature: "../uploads/ads_hero2.jpg"
+  feature: uploads/ads_hero2.jpg
 layout: post
 ---
 
