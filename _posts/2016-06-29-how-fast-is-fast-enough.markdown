@@ -3,7 +3,7 @@ title: How fast is fast enough?
 date: 2016-06-29 21:53:00 Z
 comments: true
 image:
-  feature: 
+  feature: "/uploads/hero_fastenough.jpg"
 ---
 
 Do you know when your website's speed starts to impact your customers' behaviour?
