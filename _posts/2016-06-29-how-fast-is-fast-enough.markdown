@@ -19,4 +19,4 @@ We're really lucky to have some concrete RUM data and broad experience to work o
 
 <br/>
 
-<a href="https://nccgroup.webex.com/mw3000/mywebex/default.do?nomenu=true&siteurl=nccgroup&service=6&rnd=0.24723548156909292&main_url=https%3A%2F%2Fnccgroup.webex.com%2Fec3000%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26confViewID%3D3822876165%26%26EMK%3D4832534b0000000218d0482b90974d7e1ef41953704b23f39034a9232b91ac31301bf591fe16da86%26%26encryptTicket%3DSDJTSwAAAALowbmkprltpwRLbC5orAOy-okFD8LrGW9xp4mlj30H9g2%26%26siteurl%3Dnccgroup" class="btn btn-block btn-primary">Register!</a>
+<script async class="speakerdeck-embed" data-id="ebcabd2299de462dbd6dbc47c6b8c7a3" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
