@@ -27,7 +27,7 @@ Let's take an example: [cyclingweekly.co.uk](http://www.cyclingweekly.co.uk/). N
 
 Now to test the impact of this large number of third-parties lets block them and re-run the test. Here's the result:
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/cyclingweekly_chrome_blocked.png"/>
+<img style="max-width:80%;" src="/uploads/cyclingweekly_chrome_blocked.jpg"/>
 <figcaption>Filmstrip comparison without & with third-party content</figcaption>
 </figure>
 
