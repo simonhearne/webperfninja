@@ -15,7 +15,7 @@ In order to demonstrate the performance impact that third-party content can have
 To do this, I run a test in webpagetest and get the list of domains as JSON. I parse this to filter out first-parties then re-run the test with all of those domains blocked by webpagetest. Often, though, just blocking tag container(s) will do the job.
 
 Let's take an example: [cyclingweekly.co.uk](http://www.cyclingweekly.co.uk/). Not for any reason other than I like bikes. When you load the homepage, approximately 150 objects are loaded from 60 domains:
-<iframe seamless id="requestmap" style="background-color: transparent;border: 0px none transparent;padding: 0px;overflow: hidden;margin-top:-10px;" src="http://requestmap.webperf.tools/headless.php?id=160712_4N_b3f4e12bc1e1f5058c769a029ff52616" width="100%" height="360px"/>
+[http://requestmap.webperf.tools/render/160712_4N_b3f4e12bc1e1f5058c769a029ff52616](![cyclingweekly_requestmap.png](/uploads/cyclingweekly_requestmap.png))
 
 Now to test the impact of this large number of third-parties lets block them and re-run the test. Here's the result:
 ![cyclingweekly_chrome_blocked.png](/uploads/cyclingweekly_chrome_blocked.png)
