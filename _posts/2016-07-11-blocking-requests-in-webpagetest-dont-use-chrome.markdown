@@ -76,6 +76,8 @@ And for visual performance, IE gives the best result:
 
 So the final result, to show the impact of third-party content on the user experience comes out below:
 <figure align="center">
+<a href="http://www.webpagetest.org/video/compare.php?tests=160713_R1_c806002ca46eb2f775660192cc9086bd,160713_EM_6602f7fa269476d6430c84d5e30f6f24">
 <img style="max-width:95%;" src="/uploads/cyclingweekly_ieblocked2.png"/>
-<figcaption>Filmstrip image showing with cyclingweekly.co.uk loading without & with third-party assets</figcaption>
+</a>
+<figcaption>Filmstrip image showing with cyclingweekly.co.uk loading without & with third-party assets (click to see in webpagetest)</figcaption>
 </figure>
