@@ -5,6 +5,7 @@ categories:
 - '2016'
 tags:
 - webpagetest
+layout: post
 ---
 
 We know that third-party content can harm the user experience on a website. Measuring that impact can be tricky.
