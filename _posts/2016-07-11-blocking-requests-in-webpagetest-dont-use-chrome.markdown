@@ -10,7 +10,7 @@ layout: post
 
 We know that third-party content can harm the user experience on a website. Measuring that impact can be tricky.
 
-TL;DR: Blocking third-party requests in webpagetest shows you the impact they're having on a page, but Chrome is inefficient at blocking the requests. So use another browser such as Firefox to do third-party impact testing.
+TL;DR: Blocking third-party requests in webpagetest shows you the impact they're having on a page, but Chrome is inefficient at blocking the requests. So use another browser such as Internet Explorer to do third-party impact testing.
 
 In order to demonstrate the performance impact that third-party content can have, I like to remove the offending requests to show a before & after view of a web page. Nothing says 'your third-parties are harming user experience' quite like a video of a page loading twice as fast without them.
 
@@ -51,10 +51,31 @@ This gives you a json file that you can drag into your local Chrome developer to
 <figcaption>Download timeline json</figcaption>
 </figure>
 
-Loading this up in Chrome Canary lets you analyse the network waterfall in the timeline view, where I saw significant gaps in the processing timeline, and a strange grey request:
+Loading this up in Chrome Canary lets you analyse the network waterfall in the timeline view, where I saw significant gaps in the processing timeline, and a number of grey requests:
 <figure align="center">
 <img style="max-width:80%;" src="/uploads/cyclingweekly_timeline_gaps.png"/>
 <figcaption>Blocked requests appearing and gaps in timeline</figcaption>
 </figure>
 
-The grey request was one which should have been blocked by webpagetest. It returned an empty 200 response
+The grey request was one which should have been blocked by webpagetest. You can't drill into any more details from this view, although it looks like the blocked requests still consume time yet don't have a response.
+
+In [issue 584](https://github.com/WPO-Foundation/webpagetest/issues/584) on the webpagetest GitHub repo Pat Meenan states:
+> blocking (or modifying request headers) in Chrome is exceedingly expensive
+
+So, trying again in Firefox and Internet Explorer we get the following results:
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/cyclingweekly_allwaterfalls.png"/>
+<figcaption>Waterfall charts for three browsers while blocking third-party domains</figcaption>
+</figure>
+
+And for visual performance, IE gives the best result:
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/cyclingweekly_allfilmstrips.png"/>
+<figcaption>Waterfall charts for three browsers while blocking third-party domains</figcaption>
+</figure>
+
+So the final result, to show the impact of third-party content on the user experience comes out below:
+<figure align="center">
+<img style="max-width:95%;" src="/uploads/cyclingweekly_ieblocked2.png"/>
+<figcaption>Filmstrip image showing with cyclingweekly.co.uk loading without & with third-party assets</figcaption>
+</figure>
