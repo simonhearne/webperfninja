@@ -25,7 +25,7 @@ This post is a summary of the key talks from day one of Render Conference.
 
 ### [Bruce Lawson](https://twitter.com/@brucel) - web.next
 
-#### [Description](http://2016.render-conf.com/talks.php#webnext) | [Slides](https://speakerdeck.com/brucel/web-dot-next-render)
+#### [Description](http://2016.render-conf.com/talks.php#webnext) | [Slides](https://speakerdeck.com/brucel/web-dot-next-render) | [Video](https://vimeo.com/album/3953264/video/165995132)
 
 I had assumed that Bruce's talk would be identical to the [last few I've seen](/2015/velocity-europe-2015-report-1/#ensuring-a-high-performing-web-for-the-next-billion-people---bruce-lawson-opera-asa). Bruce's previous talks on web.next have focused on where customers are coming from and what devices they are using. This talk was much more focused around the web technologies that will *allow* the next 4 billion people to use the web.
 
@@ -41,7 +41,7 @@ Another great talk by Bruce, inspiring a room of front-end engineers to get invo
 
 ### [Val Head](https://twitter.com/@vlh) - Designing Meaningful Animation
 
-#### [Description](http://2016.render-conf.com/talks.php#designing-meaningful-animation)
+#### [Description](http://2016.render-conf.com/talks.php#designing-meaningful-animation) | [Video](https://vimeo.com/album/3953264/video/165995133)
 
 Val believes that animation is often mis-used and mis-understood on the web. Throughout the talk Val uses a mocked-up registration confirmation form to demonstrate how animation can be used to reinforce a brand message.
 
@@ -58,7 +58,7 @@ Using a live example and the Chrome Developer Tools [animation controls](http://
 
 ### [Alicia Sedlock](https://twitter.com/@aliciability) - The landscape of front-end testing
 
-#### [Description](http://2016.render-conf.com/talks.php#the-landscape-of-front-end-testing) | [Slides](https://speakerdeck.com/aliciasedlock/the-landscape-of-front-end-testing)
+#### [Description](http://2016.render-conf.com/talks.php#the-landscape-of-front-end-testing) | [Slides](https://speakerdeck.com/aliciasedlock/the-landscape-of-front-end-testing) | [Video](https://vimeo.com/album/3953264/video/165995134)
 
 Alicia knows that testing is hard, and that front-end developers aren't traditionally great at testing. By introducing testing framework language Alicia sets the scene for unit testing, introducing core concepts for front-end developers. The focus is on automation, making testing as simple as possible to drive adoption and engagement.
 
@@ -89,7 +89,7 @@ I would add to the list a notable exception:
 
 ### [Harry Roberts](https://twitter.com/@csswizardry) - CSS for software engineers for CSS developers
 
-#### [Description](http://2016.render-conf.com/talks.php#css-for-software-engineers-for-css-developers) | [Slides](https://speakerdeck.com/csswizardry/css-for-software-engineers-for-css-developers)
+#### [Description](http://2016.render-conf.com/talks.php#css-for-software-engineers-for-css-developers) | [Slides](https://speakerdeck.com/csswizardry/css-for-software-engineers-for-css-developers) | [Video](https://vimeo.com/album/3953264/video/166790749)
 
 Harry starts his talk with a look back over his family history, highlighting that we have been use modern programming languages since 1959, the year his parents were born. CSS has only been around since 1996, but we have decades more software engineering experience which we can apply to CSS to make our projects more robust, scalable and predictable. I've noted down the core principles Harry advocates below:
 
@@ -113,13 +113,13 @@ I will never look at CSS the same. While a lot of this seems obvious when writte
 
 ### [Sara Soueidan](http://twitter.com/@SaraSoueidan) - SVG in motion
 
-#### [Description](http://2016.render-conf.com/talks.php#svg-in-motion) | [Slides (PDF)](https://sarasoueidan.com/slides/SVG-In-Motion.pdf)
+#### [Description](http://2016.render-conf.com/talks.php#svg-in-motion) | [Slides (PDF)](https://sarasoueidan.com/slides/SVG-In-Motion.pdf) | [Video](https://vimeo.com/album/3953264/video/166790778)
 
 Sara is well-known as the SVG guru, in this talk she guides us through the perils and pitfalls of embedding SVG in our applications. It turns out that the way you embed an SVG image directly impacts what you can do with it. The table below summarises how you can animate SVG based on the way it is embedded, with the most flexible being an &lt;svg> element. This has the drawback of increasing your HTML size and reducing cache-ability, however.
 
 
 | Embedding Technique | CSS Animations | JS Animations |
-|---|---|---|
+|:-:|:-:|:-:|
 | &lt;img> | Inside &lt;svg> | N/A |
 | url(); | Inside &lt;svg> | N/A |
 | &lt;picture> | Inside &lt;svg> | N/A |
@@ -130,7 +130,7 @@ Sara is well-known as the SVG guru, in this talk she guides us through the peril
 Sara then details the various methods of animating SVG, with the following table summarising her recommendations:
 
 | Animation | Technique |
-|---|---|
+|---|--:|
 | Transforms | JavaScript (or CSS) |
 | Path Morphing | JavaScript |
 | Line Drawing | JavaScript (or CSS) |
