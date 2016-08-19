@@ -8,12 +8,12 @@ tags:
 - velocity
 - europe
 - amsterdam
-- 2015
-layout: post
+- '2015'
 comments: true
 image:
   feature: ams_hero_5.jpg
   credit: Velocity at the RAI in Amsterdam
+layout: post
 ---
 
 This post is a review and summary of the talks at Velocity Europe that got a 5 star review from me. I've summarised each talk and given links to the slides, videos and ratings.
@@ -24,9 +24,9 @@ A [further post](/2015/velocity-europe-2015-report-2/) contains the talks that d
 
 ----------
 
-###The Physical Web is a Speed Issue - *Scott Jenson (Google)*
+### The Physical Web is a Speed Issue - *Scott Jenson (Google)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/45231) | [Video (18m)](https://www.youtube.com/watch?v=7H_E_ZbFAn0) | My Rating: ★★★★★ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/45231) | [Video (18m)](https://www.youtube.com/watch?v=7H_E_ZbFAn0) | My Rating: ★★★★★ | Average Rating: ★★★★☆
 
 Scott's keynote was probably the highlight of this Velocity for me. He discusses how the web will change over the next few years with the advent of the Physical Web and the Internet Of Things.
 
@@ -46,9 +46,9 @@ This talk really hit home for me. As someone who runs two QR Code services ([QR 
 
 ----------
 
-###Discovering Operations Expertise - *John Allspaw (Etsy)*
+### Discovering Operations Expertise - *John Allspaw (Etsy)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/47779) | [Video (20m)](https://www.youtube.com/watch?v=OJ21jwJThq4) | [Thesis (pdf)](http://bit.ly/AllspawThesis) | My Rating: ★★★★★ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/47779) | [Video (20m)](https://www.youtube.com/watch?v=OJ21jwJThq4) | [Thesis (pdf)](http://bit.ly/AllspawThesis) | My Rating: ★★★★★ | Average Rating: ★★★★☆
 
 John's keynote was a very brief summary of his work towards a thesis in Human Factors Engineering.
 
@@ -60,9 +60,9 @@ This talk was a refreshing change from the technical focus of the conference, in
 
 ----------
 
-###Ensuring a high performing web for the next billion people - *Bruce Lawson (Opera ASA)*
+### Ensuring a high performing web for the next billion people - *Bruce Lawson (Opera ASA)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44920) | [Video (20m)](https://www.youtube.com/watch?v=f6As5HEkG5E) | My Rating: ★★★★★ | Average Rating: ★★★★★
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44920) | [Video (20m)](https://www.youtube.com/watch?v=f6As5HEkG5E) | My Rating: ★★★★★ | Average Rating: ★★★★★
 
 The highest rated talk of Velocity. I saw Bruce give this talk at Velocity Santa Clara earlier this year and it has got even better.
 
@@ -71,9 +71,9 @@ Few of us consider proxy browsers when we develop websites, but Opera Mini alone
 
 ----------
 
-###One year later: How Marks & Spencer revolutionized PerfOps after Velocity 2014 - *Andrew Neilson (M&S)*
+### One year later: How Marks & Spencer revolutionized PerfOps after Velocity 2014 - *Andrew Neilson (M&S)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44100) |  My Rating: ★★★★★ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44100) |  My Rating: ★★★★★ | Average Rating: ★★★★☆
 
 Andy runs PerfOps and marksandspencer.com - a large UK retailer that does 20% of its business online. In this talk he described how Velocity Europe 2014 inspired him to refactor performance operations at M&S.
 
