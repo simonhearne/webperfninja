@@ -8,12 +8,12 @@ tags:
 - velocity
 - europe
 - amsterdam
-- 2015
-layout: post
+- '2015'
 comments: true
 image:
   feature: ams_hero.jpg
   credit: Velocity at the RAI in Amsterdam
+layout: post
 ---
 
 This post is a review and summary of the talks at Velocity Europe that I attended. I've summarised each talk and given links to the slides, videos and ratings.
@@ -22,9 +22,9 @@ A [previous post](/2015/velocity-europe-2015-report-1/) contains the talks that 
 
 ----------
 
-###Continuous Performance - *Stijn Polfliet (CoScale)*
+### Continuous Performance - *Stijn Polfliet (CoScale)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/45495) | [Video (5m)](https://www.youtube.com/watch?v=D4tVpzj6BvE) | [Slides (ppt)](http://cdn.oreillystatic.com/en/assets/1/event/134/Continuous%20performance%20Presentation.pptx) | My Rating: ★★★★☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/45495) | [Video (5m)](https://www.youtube.com/watch?v=D4tVpzj6BvE) | [Slides (ppt)](http://cdn.oreillystatic.com/en/assets/1/event/134/Continuous%20performance%20Presentation.pptx) | My Rating: ★★★★☆ | Average Rating: ★★★★☆
 
 Stijn's keynote piece was only short (as all sponsored keynotes should be) but he used the time well to highlight CoScale's killer feature.
 
@@ -36,9 +36,9 @@ Stijn lost a star from me as the talk was not as engaging as it could have been 
 
 ----------
 
-###Stranger danger - *Guy Podjarny & Assaf Hefetz (Snyk)*
+### Stranger danger - *Guy Podjarny & Assaf Hefetz (Snyk)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/46147) | [Video (14m)](http://www.youtube.com/watch?v=iXA14OFXxZA) | My Rating: ★★★★☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/46147) | [Video (14m)](http://www.youtube.com/watch?v=iXA14OFXxZA) | My Rating: ★★★★☆ | Average Rating: ★★★★☆
 
 Guy and Assaf got 15 minutes to demonstrate [Snyk.io](https://snyk.io/) in their (sponsored?) keynote.
 
@@ -54,9 +54,9 @@ Guy and Assam lost a star from me as the demo could have been done in less time 
 
 ----------
 
-###A PaaS for government - *Anna Shipman (Government Digital Service)*
+### A PaaS for government - *Anna Shipman (Government Digital Service)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/46814) | [Blog Post](https://gdstechnology.blog.gov.uk/2015/10/27/looking-at-open-source-paas-technologies/) | [Video (15m)](https://www.youtube.com/watch?v=OLOaq-Xf5zU) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/46814) | [Blog Post](https://gdstechnology.blog.gov.uk/2015/10/27/looking-at-open-source-paas-technologies/) | [Video (15m)](https://www.youtube.com/watch?v=OLOaq-Xf5zU) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
 
 Anna took us through the thought process of the Government Digital Service as they introduce a Platform as a Service (PaaS) for government websites.
 
@@ -70,9 +70,9 @@ Anna lost a couple of stars from me as the talk was dry and could have focussed 
 
 ----------
 
-###Probabilistically sampling a stream of events with a sketch - *Baron Schwartz (VividCortex)*
+### Probabilistically sampling a stream of events with a sketch - *Baron Schwartz (VividCortex)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/43888) | [Slides (pdf)](http://cdn.oreillystatic.com/en/assets/1/event/134/Probabilistically%20sampling%20a%20stream%20of%20events%20with%20a%20sketch%20Presentation%201.pdf) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/43888) | [Slides (pdf)](http://cdn.oreillystatic.com/en/assets/1/event/134/Probabilistically%20sampling%20a%20stream%20of%20events%20with%20a%20sketch%20Presentation%201.pdf) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
 
 In this talk Baron took us on a technical tour of the event sampling algorithm behind [VividCortex](https://www.vividcortex.com/). VividCortex is a cloud based intelligence platform for database system performance and health, it works with all of the big open source database players.
 
@@ -86,9 +86,9 @@ Baron lost a couple of stars from me for this reason, as well as the strong feel
 
 ----------
 
-###Fake it until you make it - *Jean-Pierre Vincent (BrainCracking)*
+### Fake it until you make it - *Jean-Pierre Vincent (BrainCracking)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44543) | [Slides (ppt)](https://docs.google.com/uc?id=0ByrWN83fytRxQzc3b01wQmJOaEE&export=download) | My Rating: ★★★★☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44543) | [Slides (ppt)](https://docs.google.com/uc?id=0ByrWN83fytRxQzc3b01wQmJOaEE&export=download) | My Rating: ★★★★☆ | Average Rating: ★★★★☆
 
 In this talk JP uses stories from his clients to show how interface design can overcome some of our inherent performance challenges.
 
@@ -102,9 +102,9 @@ I think JP's conclusions could have been stronger - for example giving your user
 
 ----------
 
-###Bigger, faster, and more engaging while on a budget - *Nathan Bower (Zillow)*
+### Bigger, faster, and more engaging while on a budget - *Nathan Bower (Zillow)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/46156) | My Rating: ★★★★☆ | Average Rating: ★★★☆☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/46156) | My Rating: ★★★★☆ | Average Rating: ★★★☆☆
 
 Nathan introduced [Zillow](http://www.zillow.com/) as one of the biggest property websites in the United States. Zillow have faced a number of challenges around web performance, Nathan detailed one challenge in particular as a case study - when the mobile homepage size increased by 12MB.
 
@@ -116,9 +116,9 @@ Nathan's conclusions were that performance budgets are critical, but they must b
 
 ----------
 
-###Finding bad apples early: Minimizing performance impact - *Arun Kejariwal (Machine Zone)*
+### Finding bad apples early: Minimizing performance impact - *Arun Kejariwal (Machine Zone)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/43716) | My Rating: ★★★☆☆ | Average Rating: ★★★☆☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/43716) | My Rating: ★★★☆☆ | Average Rating: ★★★☆☆
 
 Arun used to work at Twitter where he helped to develop an open source [anomaly detection library](https://github.com/twitter/AnomalyDetection). In this talk he presented how he uses anomaly detection to find bad server nodes in large clusters at his new job with [Machine Zone](https://www.machinezone.com/) (they make the hugely popular mobile game [Game Of War](http://www.gameofwarapp.com/)).
 
@@ -132,9 +132,9 @@ Arun lost a couple of stars from me as I found it hard to follow the presentatio
 
 ----------
 
-###Designing for Security Outcomes - *Eleanor Saitta (Dymaxion.org)*
+### Designing for Security Outcomes - *Eleanor Saitta (Dymaxion.org)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/46786) | [Video (18m)](https://www.youtube.com/watch?v=zqnQ0Mvi-as) | [Slides (pdf)](http://cdn.oreillystatic.com/en/assets/1/event/134/Designing%20for%20security%20outcomes%20Presentation.pdf) | My Rating: ★★★☆☆ | Average Rating: ★★★☆☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/46786) | [Video (18m)](https://www.youtube.com/watch?v=zqnQ0Mvi-as) | [Slides (pdf)](http://cdn.oreillystatic.com/en/assets/1/event/134/Designing%20for%20security%20outcomes%20Presentation.pdf) | My Rating: ★★★☆☆ | Average Rating: ★★★☆☆
 
 Eleanor introduced her keynote by telling us we've got security all wrong, that we focus on technology and not people. She then tells us how we can get better at designing our teams and applications with security in mind.
 
@@ -151,9 +151,9 @@ I'm afraid I got lost at a few points in Eleanor's keynote, the slides were occa
 
 ----------
 
-###A day in the life - An immersive data experience - *David Boloker (IBM Corporation)*
+### A day in the life - An immersive data experience - *David Boloker (IBM Corporation)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/47746) | [Video (10m)](https://www.youtube.com/watch?v=6vMR6p-ff9U) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/47746) | [Video (10m)](https://www.youtube.com/watch?v=6vMR6p-ff9U) | My Rating: ★★★☆☆ | Average Rating: ★★★★☆
 
 David had a hard job in his sponsored keynote. He started by introducing the limitations we currently have with our Human-Computer Interaction (HCI) and that we need a more natural way to communicate with machines.
 
@@ -161,9 +161,9 @@ To demonstrate this David quickly switched into a live demonstration of a piece 
 
 ----------
 
-###Thinking about thinking (about people) - *Courtney W. Nash (O'Reilly)*
+### Thinking about thinking (about people) - *Courtney W. Nash (O'Reilly)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/48025) | [Video (10m)](https://www.youtube.com/watch?v=tkJtr6xJp4g) |  My Rating: ★★★★☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/48025) | [Video (10m)](https://www.youtube.com/watch?v=tkJtr6xJp4g) |  My Rating: ★★★★☆ | Average Rating: ★★★★☆
 
 Courtney's background is in cognitive science and that really comes across in this keynote.
 
@@ -177,9 +177,9 @@ Courtney then took a turn towards operations for a conclusion that everyone shou
 
 ----------
 
-###Measuring the performance of single page web applications - *Philip Tellis & Nic Jansma (SOASTA)*
+### Measuring the performance of single page web applications - *Philip Tellis & Nic Jansma (SOASTA)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44019) |  My Rating: ★★★★☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44019) |  My Rating: ★★★★☆ | Average Rating: ★★★★☆
 
 Philip and Nic work on SOASTA's Real User Measurement (RUM) product mPulse. In this talk they gave a run-down on the work they are doing with [boomerang](https://github.com/lognormal/boomerang/) to improve the data captured on single-page applications (SPAs).
 
@@ -191,9 +191,9 @@ The conclusion is that browsers need to catch up with vendors - it should not be
 
 ----------
 
-###Open components as microservices in the front-end world - *Matteo Figus (OpenTable)*
+### Open components as microservices in the front-end world - *Matteo Figus (OpenTable)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44289) |  My Rating: ★★★★☆ | Average Rating: ★★★☆☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44289) |  My Rating: ★★★★☆ | Average Rating: ★★★☆☆
 
 In this talk Matteo introduced his open source project [open components](https://github.com/opentable/oc). Matteo describes how difficult it is to develop a website in the complex environment at OpenTable, with many engineers based out of multiple countries all working on the same site.
 
@@ -203,9 +203,9 @@ Open components provides a registry and commandline service to create front-end 
 
 ----------
 
-###A real-life account of moving 100% to a public cloud - *Julien Simon (AWS) & Antoine Guy (Viadeo)*
+### A real-life account of moving 100% to a public cloud - *Julien Simon (AWS) & Antoine Guy (Viadeo)*
 
-####[Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44042) |  My Rating: ★★★☆☆ | Average Rating: ★★★★☆
+#### [Description](http://velocityconf.com/devops-web-performance-eu-2015/public/schedule/detail/44042) |  My Rating: ★★★☆☆ | Average Rating: ★★★★☆
 
 Julien and Antoine were part of the team that migrated [Viadeo](http://gb.viadeo.com/en/) to a public cloud stack. In this talk they describe the technical process they went through to get the site successfully migrated.
 
