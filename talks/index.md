@@ -1,13 +1,20 @@
 ---
 title: Talks
-layout: page
 tags:
 - talks
 modified: 2015-08-02 00:53:07.573000000 Z
 comments: false
+layout: page
 ---
 
 I occasionally talk at events, here's a list of past and upcoming talks.  
+
+## Too Hot to Handle - Optimising for Low Powered Devices
+
+#### Velocity New York - 21<sup>st</sup> September 2016
+
+<script async class="speakerdeck-embed" data-id="f63884061b08421c88732cf6468465f9" data-ratio="1.78086956521739" src="//speakerdeck.com/assets/embed.js"></script>
+
 
 ## Designing Better Web Performance Visualisations
 
