@@ -1,7 +1,6 @@
 ---
 title: Velocity NY 2016 - Wrap-up
 date: 2016-10-11 14:29:00 Z
-published: false
 layout: post
 ---
 
