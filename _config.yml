@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 locale: en_GB
-url: 
+url: "https://webperf.ninja/"
 permalink: "/:categories/:title/"
 markdown: kramdown
 hard_wrap: false
