@@ -20,9 +20,15 @@ Everyone is using RUM. The vendors are maturing rapidly to be able to offer eith
 
 * Insight - analysis of user behaviour and business events to create actionable insight.
 
-An example of a vendor going down the second route is SOASTA’s mPulse; there was a lot of discussion around [machine learning](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51082), with conclusions that the highest predictor of bounce rate is DOM Ready time, number of <script>s and DOM elements inversely correlated with conversion rate. SOASTA also introduced [measuring continuity](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50522), using cool new script snippets to measure user behaviour. For example, measuring dead clicks, frame rate, time between intent and action. It’s all exciting stuff but I have concerns about the impact on user experience that these measurements will have (see [Observer Effect & Bias](http://www.dnb.com/perspectives/data-management-and-analytics/recognizing-observer-effect-issues-in-data-science.html)!).
+An example of a vendor going down the second route is SOASTA’s mPulse; there was a lot of discussion around [machine learning](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51082), with conclusions that the highest predictor of bounce rate is DOM Ready time, number of <script>s and DOM elements inversely correlated with conversion rate.
 
-There is clearly a lot of potential in using RUM to make predictions and measure outcomes. What we’re still missing is tight integration with experiment technology (e.g. Maxymiser or Google Experiments). Without that, we can’t use RUM to properly manage development decisions. [Stuart McMillan](https://twitter.com/mcmillanstu) from Schuh recently mentioned that they use Google Analytics for performance data during experiments, probably because the integration works well. Unfortunately, the site speed data from Analytics is pretty poor…
+![domnode_conversion.png](/uploads/domnode_conversion.png)
+
+SOASTA also introduced [measuring continuity](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50522), using cool new script snippets to measure user behaviour. For example, measuring dead clicks, frame rate, time between intent and action. It’s all exciting stuff but I have concerns about the impact on user experience that these measurements will have (see [Observer Effect & Bias](http://www.dnb.com/perspectives/data-management-and-analytics/recognizing-observer-effect-issues-in-data-science.html)!). Their experiments are available in a public [GitHub repo](https://github.com/soasta/measuring-continuity).
+
+There is clearly a lot of potential in using RUM to make predictions and measure outcomes. What we’re still missing is tight integration with experiment technology (e.g. Maxymiser or Google Experiments). Without that, we can’t use RUM to properly manage development decisions. [Stuart McMillan](https://twitter.com/mcmillanstu) from Schuh recently mentioned that they use Google Analytics for performance data during experiments, probably because the integration works well. Unfortunately, the site speed data from Analytics is pretty poor… In the example below site speed metrics were collected for under 1% of pageviews!
+
+![sitespeed_sample.png](/uploads/sitespeed_sample.png)
 
 ## Synthetic Monitoring vendors are disappearing from Velocity
 
@@ -32,25 +38,34 @@ I think this says a lot about the advancement of RUM and APM. Synthetic gives th
 
 ## WebPageTest is bigger than ever
 
+Almost every talk referenced [WebPageTest](http://www.webpagetest.org/) or [HTTPArchive](http://httparchive.org/) (which uses WebPageTest under the hood). It has certainly become the defacto web performance testing tool, with companies forming off the back of it such as [SpeedCurve](https://speedcurve.com/). What seems to be missing is contribution back in to the project. Looking at the contributors page on GitHub shows that [Pat](https://twitter.com/patmeenan) is responsible for almost all development on the project. 
+
+Perhaps the industry is taking this for granted.
+
+[webpagetest_contributors.PNG](/uploads/webpagetest_contributors.PNG)
+
 ## Big companies are talking about site speed
 
 Ancestry and GoDaddy both spoke at Velocity. [Jed Wood](https://twitter.com/silentrant)’s talk about [creating a performance culture](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51033) at Ancestry was insightful, describing the journey from quick wins (gzip, images etc.) to a full understanding of performance. To do this, Ancestry track business metrics such as conversions, alongside user-centric performance metrics such as time to an ancestor’s name rendering. The focus on both business metrics and user-centric metrics means that Jed can demonstrate a correlation to the business to help drive further work on site speed.
 
-Improving the Ancestry.com sign up page from 2.7 seconds to 1.7 generated a 7% increase in conversions. Interestingly, further work to get to 1.3 seconds made no further improvement to conversion.
+Improving the Ancestry.com sign up page from 2.7 seconds to 1.7 generated a 7% increase in conversions. Interestingly, further work to get to 1.3 seconds made no further improvement to conversion. The chart below is taken from SpeedCurve and shows the team's progress over time to reduce Speed Index. What I really like about this is the use of annotations to mark where changes and releases occurred, so changes in performance can be traced back to a specific build of the website.
+
+[ancestry_speedindex.PNG](/uploads/ancestry_speedindex.PNG)
 
 One of the ways Ancestry maintains performance is by adding an artificial delay to third-party scripts executing. I wonder if [requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback) could be used for this?
 
 [Jim Pierson](https://twitter.com/perfmangodaddy) from GoDaddy took a different approach. To prove that performance was important, he and an engineer [secretly improved the performance](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50588) of the GoDaddy homepage in India, while there was no change in marketing activity. The result of improving load time by 50% was an additional $35,000 of revenue per day. Now if that doesn’t sell the value of performance I’m not sure what will. Those performance tweaks are now rolled out across all of GoDaddy.
 
-Jim used a maturity model to describe his journey in web performance, with anomaly detection, regression analysis and communication being at the top.
-\[insert image here\]
+Jim used a maturity model to describe his journey in web performance, with anomaly detection, regression analysis and communication being at the top. I think the most important point that Jim made was the need for solid understanding of performance impact across the business. There's nothing quite like $35,000 to do that, I suppose.
+
+[godaddy_maturity.PNG](/uploads/godaddy_maturity.PNG)
 
 ## Single Page Apps are slow
 
 I was really happy that someone else said this out loud. [Boris](https://twitter.com/livshitz98) and [Manuel](https://twitter.com/MD_A13) talked about [making SPAs faster](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51232) through selecting the right SPA framework, using JS bundlers, server-side rendering and tricking the user with a skeleton page. All of these are hacks around the fundamental problem with client-side applications. As such, I’m not a fan!
 
-I also spoke a lot about SPAs being slow [in my presentation](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51254). In my study, a SPA will be 43% slower than a traditional web page. Of course this difference is magnified on mobile devices.
-\[insert image from my talk here\]
+I also spoke a lot about SPAs being slow [in my presentation](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51254). In my study, a SPA will generally be 43% slower than a traditional web page. Of course this difference is magnified on mobile devices.
+
 
 ## AMP is not the killer feature
 
@@ -60,7 +75,7 @@ One of the interesting points brought up by Malte was that as AMP pages are almo
 
 Analytics gathered by SOASTA paint a rather gloomy picture for publishers using AMP. While AMP pages are almost six times faster than the regular page, they take users out of the publishers’ domain. The probability of a reader of an AMP article going to the *article publishers’ own site* in the next 30 days is only 3%. So it seems there is a significant trade-off to be had: in order to have super-fast articles that are *promoted by Google in search results*, you have to sacrifice engagement and brand awareness.
 
-This all feels very walled-garden, especially as AMP pages are just optimised web pages, which anyone can make. I like the fact that it promotes fast content as better content, but I don’t think it’s in the publisher’s best interest.
+This all feels very walled-garden, especially as AMP pages are just optimised web pages, which anyone can make. I like the fact that it promotes fast content as better content, but I don’t think it’s in the publisher’s best interest. [Tim Kadlec](https://twitter.com/tkadlec) has proposed an open alternative to AMP, the [Content Performance Policy](https://timkadlec.com/2016/02/a-standardized-alternative-to-amp/), which is definitely worth read.
 
 ## There are lots of underutilised performance and security features on the web
 
