@@ -81,22 +81,22 @@ This all feels very walled-garden, especially as AMP pages are just optimised we
 
 [Sonia](https://twitter.com/soniaburney) and [Sabrina](https://twitter.com/sabrina_burney) Burney of Akamai promised a talk on the [cross-overs in web security and web performance](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51203). The talk was fast-paced and covered a lot of ground including how features we use already (iframes, pre-load etc.) have additional security features that few people use. This was the most practical session of the conference for me, and I need to list all of these out to make sense of it:
 
-### iframes
+### iFrames
 
 Iframes are great for performance, kinda.
-Over 60% of sites use iframes, yet virtually none of them use the *[sandbox](https://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/)*[ attribute](https://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/).
+Over 60% of sites use iframes, yet virtually none of them use the [sandbox attribute](https://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/). Sandbox allows you to define what access the iframe has to the parent page and whether it can execute scripts. It will also deny pointer lock, form submissions and a whole host of other scary stuff.
 
-### preload, prefetch & preconnect
+### Preload As
 
 Preload allows
 
 https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/#how-can-preload-do-better
 Types https://fetch.spec.whatwg.org/#concept-request-destination
 
-### content security policy
+### Content Security Policy
 
-### service worker
+### Service Worker
 
-### subresource integrity
+### Sub-Resource Integrity
 
 ## Progressive web apps aren’t all that. Yet.
