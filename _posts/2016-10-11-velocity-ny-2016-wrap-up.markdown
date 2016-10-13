@@ -110,7 +110,13 @@ I think the next logical step is for service workers to apply time thresholds to
 
 ### Sub-Resource Integrity
 
-Sabrina and Sonia only briefly mentioned SRI bu t I think it's worth covering in a little more detail here. SRI allows you to take a hash of an asset (e.g. jQuery v1.9.1, minified) and add that to your ```<script>``` tag. If the downlaoded asset does not have the same hash, then the browser will refuse to execute it. This is really handy for third-party content that has the potential to effect user experience and/or security, or whose provenance is not entirely clear (JavaScript CDNs, anyone?)
+Sabrina and Sonia only briefly mentioned SRI but I think it's worth covering in a little more detail here. SRI allows you to take a hash of an asset (e.g. jQuery v1.9.1, minified) and add that to your ```<script>``` tag. If the downlaoded asset does not have the same hash, then the browser will refuse to execute it. This is really handy for third-party content that has the potential to effect user experience and/or security, or whose provenance is not entirely clear (JavaScript CDNs, anyone?)
+
+```
+<script src="https://example.com/example-framework.js"
+        integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC"
+        crossorigin="anonymous"></script>
+```
 
 ![sri.png](/uploads/sri.png) 
 
