@@ -104,7 +104,11 @@ Speaking of content security policy... This is the header directive which tells 
 
 Now we come to service worker, the magic JavaScript proxy thread. This is the concept most fundamental to 'offline-first': a developer-controlled proxy which can intercept network requests, build an internal cache and do all sorts of other magic.
 
-For performance, service worker is critical for good performance in poor network conditions, if you haven't seen [Jake Archibald](https://twitter.com/jaffathecake) talk about service worker yet, check out his video from Google IO.
+For performance, service worker is critical for good performance in poor network conditions, if you haven't seen [Jake Archibald](https://twitter.com/jaffathecake) talk about service worker yet, check out his [video from Google IO](https://www.youtube.com/watch?v=cmGr0RszHc8). No, seriously, go watch that video.
+
+Now on to security. As service worker has access to network requests, it can be used to enforce rules in a similar way to content security policy. You can even maintain your own black- and white-lists of blocked assets or domains, and let the service worker manage how these are enforced in the browser. Cool, eh?
+
+I think the next logical step is for service workers to apply time thresholds to third-party downloads. That tracker tag taking over a second to load? Kill the request, give a safe response to the browser, and log the event to keep track of how often it happens. The possibilities are almost endless!
 
 ### Sub-Resource Integrity
 
