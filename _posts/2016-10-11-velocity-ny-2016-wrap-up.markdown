@@ -112,4 +112,10 @@ I think the next logical step is for service workers to apply time thresholds to
 
 ### Sub-Resource Integrity
 
+Sabrina and Sonia only briefly mentioned SRI bu t I think it's worth covering in a little more detail here. SRI allows you to take a hash of an asset (e.g. jQuery v1.9.1, minified) and add that to your <script> tag. If the downlaoded asset does not have the same hash, then the browser will refuse to execute it. This is really handy for third-party content that has the potential to effect user experience and/or security, or whose provenance is not entirely clear (JavaScript CDNs, anyone?)
+
+![sri.png](/uploads/sri.png) 
+
 ## Progressive web apps aren’t all that. Yet.
+
+There was a lot of conversation around progressive web applications, but the lack of good browser support for some of the key features: Web Push is only [available on Firefox and Chrome](http://caniuse.com/#feat=push-api), service worker is only [partially supported on Firefox, Chrome and Opera](http://caniuse.com/#feat=serviceworkers).
