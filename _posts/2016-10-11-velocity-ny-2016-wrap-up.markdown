@@ -60,7 +60,7 @@ Jim used a maturity model to describe his journey in web performance, with anoma
 
 ## Single Page Apps are slow
 
-I was really happy that someone else said this out loud. [Boris](https://twitter.com/livshitz98) and [Manuel](https://twitter.com/MD_A13) talked about [making SPAs faster](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51232) through selecting the right SPA framework, using JS bundlers, server-side rendering and tricking the user with a skeleton page. All of these are hacks around the fundamental problem with client-side applications. As such, I’m not a fan!
+I was really happy that someone else said this out loud. [Boris](https://twitter.com/livshitz98) and [Manuel](https://twitter.com/MD_A13) from Akamai talked about [making SPAs faster](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51232) through selecting the right SPA framework, using JS bundlers, server-side rendering and tricking the user with a skeleton page. All of these are hacks around the fundamental problem with client-side applications. As such, I’m not a fan!
 
 I also spoke a lot about SPAs being slow [in my presentation](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51254). In my study, a SPA will generally be 43% slower than a traditional web page. Of course this difference is magnified on mobile devices.
 
@@ -77,7 +77,7 @@ This all feels very walled-garden, especially as AMP pages are just optimised we
 
 ## There are lots of underutilised performance and security features on the web
 
-[Sonia](https://twitter.com/soniaburney) and [Sabrina](https://twitter.com/sabrina_burney) Burney of Akamai promised a talk on the [cross-overs in web security and web performance](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51203). The talk was fast-paced and covered a lot of ground including how features we use already (iframes, pre-load etc.) have additional security features that few people use. This was the most practical session of the conference for me, and I need to list all of these out to make sense of it:
+[Sonia](https://twitter.com/soniaburney) and [Sabrina](https://twitter.com/sabrina_burney) Burney of Akamai promised a talk on the [cross-overs in web security and web performance](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51203). The talk was fast-paced and covered a lot of ground including how features we use already (iframes, pre-load etc.) have additional security options that few people use. This was the most practical session of the conference for me, and I need to list all of these out to make sense of it:
 
 ### iFrames
 
@@ -110,7 +110,7 @@ I think the next logical step is for service workers to apply time thresholds to
 
 ### Sub-Resource Integrity
 
-Sabrina and Sonia only briefly mentioned SRI bu t I think it's worth covering in a little more detail here. SRI allows you to take a hash of an asset (e.g. jQuery v1.9.1, minified) and add that to your <script> tag. If the downlaoded asset does not have the same hash, then the browser will refuse to execute it. This is really handy for third-party content that has the potential to effect user experience and/or security, or whose provenance is not entirely clear (JavaScript CDNs, anyone?)
+Sabrina and Sonia only briefly mentioned SRI bu t I think it's worth covering in a little more detail here. SRI allows you to take a hash of an asset (e.g. jQuery v1.9.1, minified) and add that to your ```<script>``` tag. If the downlaoded asset does not have the same hash, then the browser will refuse to execute it. This is really handy for third-party content that has the potential to effect user experience and/or security, or whose provenance is not entirely clear (JavaScript CDNs, anyone?)
 
 ![sri.png](/uploads/sri.png) 
 
