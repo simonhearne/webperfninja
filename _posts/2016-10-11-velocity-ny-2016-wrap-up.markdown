@@ -7,7 +7,7 @@ image:
 layout: post
 ---
 
-Velocity New York seems like a distant memory now, especially with Velocity Europe around the corner. With that said, I have copious notes from the two day conference which I will try to summarise here. There were a lot of nuggets of wisdom which I’ll try to organise into a logical order.
+Velocity New York seems like a distant memory now, especially with Velocity Europe around the corner. With that said, I have copious notes from the two day conference which I have summarised here. There were a lot of nuggets of wisdom which I’ll try to organise into a logical order.
 
 {:toc}
 
