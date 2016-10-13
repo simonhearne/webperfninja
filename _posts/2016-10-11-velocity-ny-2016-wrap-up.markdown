@@ -90,12 +90,11 @@ Over 60% of sites use iframes, yet virtually none of them use the [sandbox attri
 
 Prefetch allows web developers to provide hints to browsers about assets which should be optimistically downloaded. This is great for objects which are critical to render, such as CSS and WebFonts. Prefetch can be used in <link> tags or in HTTP headers, the advantage of a header being that it can be used by the browser before the HTML document has been downloaded and parsed.
 
-Preload builds on prefetch by forcing the browser to downlaod the asset, whereas prefetch hints can be ignored.
+Preload builds on prefetch by forcing the browser to download the asset, whereas prefetch hints can be ignored.
+
+Both of these have an additional optional attribute: `as`. This allows us to define the type of asset to be loaded, e.g. 'image', 'script' or any one of the [standard fetch types](https://fetch.spec.whatwg.org/#concept-request-destination). Adding the type of asset allows the browser to send the correct Accept header, as well as ensuring that any content security policy can be applied correctly to the preloaded asset. 
 
 ![preload_prefetch-9863b9.png](/uploads/preload_prefetch-9863b9.png)
-
-https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/#how-can-preload-do-better
-Types https://fetch.spec.whatwg.org/#concept-request-destination
 
 ### Content Security Policy
 
