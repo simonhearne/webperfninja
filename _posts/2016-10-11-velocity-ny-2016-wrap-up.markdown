@@ -102,6 +102,10 @@ Speaking of content security policy... This is the header directive which tells 
 
 ### Service Worker
 
+Now we come to service worker, the magic JavaScript proxy thread. This is the concept most fundamental to 'offline-first': a developer-controlled proxy which can intercept network requests, build an internal cache and do all sorts of other magic.
+
+For performance, service worker is critical for good performance in poor network conditions, if you haven't seen [Jake Archibald](https://twitter.com/jaffathecake) talk about service worker yet, check out his video from Google IO.
+
 ### Sub-Resource Integrity
 
 ## Progressive web apps aren’t all that. Yet.
