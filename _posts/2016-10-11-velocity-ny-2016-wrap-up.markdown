@@ -98,6 +98,8 @@ Both of these have an additional optional attribute: `as`. This allows us to def
 
 ### Content Security Policy
 
+Speaking of content security policy... This is the header directive which tells a browser what permissions each domain used on a site has. For example, fonts.example.com should not be able to execute scritps, and static.example.com might only be for serving images. Using a [content security policy](https://developers.google.com/web/fundamentals/security/csp/) ensures that only the correct domains have access to the browser, which is obviously a security win. The performance benefit comes mainly from the audit and analysis required in order to write a CSP - what domains are being used on our site, for what, and why?!
+
 ### Service Worker
 
 ### Sub-Resource Integrity
