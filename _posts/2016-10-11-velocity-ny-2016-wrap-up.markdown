@@ -1,7 +1,6 @@
 ---
 title: Velocity NY 2016 - Wrap-up
 date: 2016-10-11 14:29:00 Z
-published: false
 comments: true
 image:
   feature: "../uploads/newyork_hero.jpg"
@@ -118,4 +117,6 @@ Sabrina and Sonia only briefly mentioned SRI bu t I think it's worth covering in
 
 ## Progressive web apps aren’t all that. Yet.
 
-There was a lot of conversation around progressive web applications, but the lack of good browser support for some of the key features: Web Push is only [available on Firefox and Chrome](http://caniuse.com/#feat=push-api), service worker is only [partially supported on Firefox, Chrome and Opera](http://caniuse.com/#feat=serviceworkers).
+There was a lot of conversation around [progressive web applications](https://developers.google.com/web/progressive-web-apps/), but the lack of good browser support for some of the key features means that large organisations are holding off implementation: Web Push is only [available on Firefox and Chrome](http://caniuse.com/#feat=push-api), service worker is only [partially supported on Firefox, Chrome and Opera](http://caniuse.com/#feat=serviceworkers).
+
+In summary, an awesome conference with huge amounts to mull over.
