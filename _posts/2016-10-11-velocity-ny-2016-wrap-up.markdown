@@ -32,7 +32,7 @@ There is clearly a lot of potential in using RUM to make predictions and measure
 
 There was virtually no presence from synthetic monitoring vendors at Velocity NY, the exception being [Mehdi](https://twitter.com/mdaoudi) from [Catchpoint](http://www.catchpoint.com/). This is a trend that I’ve noticed over the past three years, probably driven by the commoditised synthetic monitoring being bundled into APM solutions (e.g. New Relic’s [Synthetics](https://newrelic.com/synthetics)).
 
-I think this says a lot about the advancement of RUM and APM. Synthetic gives the heartbeat monitoring and alerting for operational awareness, but if you know that your infrastructure and applications are ok, and that customers are having a good experience, then you don’t need synthetic monitoring right then.
+I think this says a lot about the advancement of RUM and APM. Synthetic gives the heartbeat monitoring and alerting for operational awareness, but if you know that your infrastructure and applications are ok, and that customers are having a good experience, then you don’t need synthetic monitoring to tell you a page is available.
 
 ## WebPageTest is bigger than ever
 
@@ -40,7 +40,7 @@ Almost every talk referenced [WebPageTest](http://www.webpagetest.org/) or [HTTP
 
 Perhaps the industry is taking this for granted.
 
-[webpagetest_contributors.PNG](/uploads/webpagetest_contributors.PNG)
+![webpagetest_contributors.PNG](/uploads/webpagetest_contributors.PNG)
 
 ## Big companies are talking about site speed
 
