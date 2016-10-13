@@ -16,16 +16,15 @@ Velocity New York seems like a distant memory now, especially with Velocity Euro
 Everyone is using RUM. The vendors are maturing rapidly to be able to offer either:
 
 * Single view of customer - integration with Application Performance Monitoring.
-
 * Insight - analysis of user behaviour and business events to create actionable insight.
 
 An example of a vendor going down the second route is SOASTA’s mPulse; there was a lot of discussion around [machine learning](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51082), with conclusions that the highest predictor of bounce rate is DOM Ready time, number of <script>s and DOM elements inversely correlated with conversion rate.
 
 ![domnode_conversion.png](/uploads/domnode_conversion.png)
 
-SOASTA also introduced [measuring continuity](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50522), using cool new script snippets to measure user behaviour. For example, measuring dead clicks, frame rate, time between intent and action. It’s all exciting stuff but I have concerns about the impact on user experience that these measurements will have (see [Observer Effect & Bias](http://www.dnb.com/perspectives/data-management-and-analytics/recognizing-observer-effect-issues-in-data-science.html)!). Their experiments are available in a public [GitHub repo](https://github.com/soasta/measuring-continuity).
+SOASTA also introduced [measuring continuity](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50522), using cool new script snippets to measure user behaviour. For example: measuring dead clicks, frame rate, time between intent and action. It’s all exciting stuff but I have concerns about the impact on user experience that these measurements will have (see [observer effect & bias](http://www.dnb.com/perspectives/data-management-and-analytics/recognizing-observer-effect-issues-in-data-science.html)!). Their experiments are available in a public [GitHub repo](https://github.com/soasta/measuring-continuity).
 
-There is clearly a lot of potential in using RUM to make predictions and measure outcomes. What we’re still missing is tight integration with experiment technology (e.g. Maxymiser or Google Experiments). Without that, we can’t use RUM to properly manage development decisions. [Stuart McMillan](https://twitter.com/mcmillanstu) from Schuh recently mentioned that they use Google Analytics for performance data during experiments, probably because the integration works well. Unfortunately, the site speed data from Analytics is pretty poor… In the example below site speed metrics were collected for under 1% of pageviews!
+There is clearly a lot of potential in using RUM to make predictions and measure outcomes. What we’re still missing is tight integration with experiment technology (e.g. Maxymiser or Google Experiments). Without that, we can’t use RUM to properly manage development decisions. [Stuart McMillan](https://twitter.com/mcmillanstu) from Schuh recently mentioned that they use Google Analytics for performance data during experiments, probably because the integration works well. Unfortunately, the site speed data from Analytics is pretty poor… In the example below site speed metrics were only collected for under 1% of pageviews!
 
 ![sitespeed_sample.png](/uploads/sitespeed_sample.png)
 
