@@ -38,7 +38,8 @@ I think this says a lot about the advancement of RUM and APM. Synthetic gives th
 
 Almost every talk referenced [WebPageTest](http://www.webpagetest.org/) or [HTTPArchive](http://httparchive.org/) (which uses WebPageTest under the hood). It has certainly become the defacto web performance testing tool, with companies forming off the back of it such as [SpeedCurve](https://speedcurve.com/). What seems to be missing is contribution back in to the project. Looking at the contributors page on GitHub shows that [Pat](https://twitter.com/patmeenan) is responsible for almost all development on the project. 
 
-Perhaps the industry (including myself) is taking this for granted.
+Perhaps the industry ([including myself](https://webperf.ninja/2015/find-third-party-assets/)) is taking this for granted.
+
 
 ![webpagetest_contributors.PNG](/uploads/webpagetest_contributors.PNG)
 
@@ -117,8 +118,6 @@ Sabrina and Sonia only briefly mentioned SRI but I think it's worth covering in 
         integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC"
         crossorigin="anonymous"></script>
 ```
-
-![sri.png](/uploads/sri.png) 
 
 ## Progressive web apps aren’t all that. Yet.
 
