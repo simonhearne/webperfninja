@@ -86,9 +86,13 @@ This all feels very walled-garden, especially as AMP pages are just optimised we
 Iframes are great for performance, kinda.
 Over 60% of sites use iframes, yet virtually none of them use the [sandbox attribute](https://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/). Sandbox allows you to define what access the iframe has to the parent page and whether it can execute scripts. It will also deny pointer lock, form submissions and a whole host of other scary stuff.
 
-### Preload As
+### Prefetch / Preload `As`
 
-Preload allows
+Prefetch allows web developers to provide hints to browsers about assets which should be optimistically downloaded. This is great for objects which are critical to render, such as CSS and WebFonts. Prefetch can be used in <link> tags or in HTTP headers, the advantage of a header being that it can be used by the browser before the HTML document has been downloaded and parsed.
+
+Preload builds on prefetch by forcing the browser to downlaod the asset, whereas prefetch hints can be ignored.
+
+![preload_prefetch-9863b9.png](/uploads/preload_prefetch-9863b9.png)
 
 https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/#how-can-preload-do-better
 Types https://fetch.spec.whatwg.org/#concept-request-destination
