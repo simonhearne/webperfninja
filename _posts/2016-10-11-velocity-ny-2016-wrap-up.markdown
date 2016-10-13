@@ -48,7 +48,7 @@ Ancestry and GoDaddy both spoke at Velocity. [Jed Wood](https://twitter.com/sile
 
 Improving the Ancestry.com sign up page from 2.7 seconds to 1.7 generated a 7% increase in conversions. Interestingly, further work to get to 1.3 seconds made no further improvement to conversion. The chart below is taken from SpeedCurve and shows the team's progress over time to reduce Speed Index. What I really like about this is the use of annotations to mark where changes and releases occurred, so changes in performance can be traced back to a specific build of the website.
 
-[ancestry_speedindex.PNG](/uploads/ancestry_speedindex.PNG)
+![ancestry_speedindex.PNG](/uploads/ancestry_speedindex.PNG)
 
 One of the ways Ancestry maintains performance is by adding an artificial delay to third-party scripts executing. I wonder if [requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback) could be used for this?
 
@@ -56,7 +56,7 @@ One of the ways Ancestry maintains performance is by adding an artificial delay 
 
 Jim used a maturity model to describe his journey in web performance, with anomaly detection, regression analysis and communication being at the top. I think the most important point that Jim made was the need for solid understanding of performance impact across the business. There's nothing quite like $35,000 to do that, I suppose.
 
-[godaddy_maturity.PNG](/uploads/godaddy_maturity.PNG)
+![godaddy_maturity.PNG](/uploads/godaddy_maturity.PNG)
 
 ## Single Page Apps are slow
 
