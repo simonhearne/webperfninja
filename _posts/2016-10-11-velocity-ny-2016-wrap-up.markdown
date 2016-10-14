@@ -20,13 +20,19 @@ Everyone is using RUM. The vendors are maturing rapidly to be able to offer eith
 
 An example of a vendor going down the second route is SOASTA’s mPulse; there was a lot of discussion around [machine learning](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51082), with conclusions that the highest predictor of bounce rate is DOM Ready time, number of ```<script>```s and DOM elements inversely correlated with conversion rate.
 
-![domnode_conversion.png](/uploads/domnode_conversion.png)
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/domnode_conversion.png"/>
+<figcaption>Conversion likelihood by number of DOM nodes</figcaption>
+</figure>
 
 SOASTA also introduced [measuring continuity](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50522), using cool new script snippets to measure user behaviour. For example: measuring dead clicks, frame rate, time between intent and action. It’s all exciting stuff but I have concerns about the impact on user experience that these measurements will have (see [observer effect & bias](http://www.dnb.com/perspectives/data-management-and-analytics/recognizing-observer-effect-issues-in-data-science.html)!). Their experiments are available in a public [GitHub repo](https://github.com/soasta/measuring-continuity).
 
 There is clearly a lot of potential in using RUM to make predictions and measure outcomes. What we’re still missing is tight integration with experiment technology (e.g. Maxymiser or Google Experiments). Without that, we can’t use RUM to properly manage development decisions. [Stuart McMillan](https://twitter.com/mcmillanstu) from Schuh recently mentioned that they use Google Analytics for performance data during experiments, probably because the integration works well. Unfortunately, the site speed data from Analytics is pretty poor… In the example below site speed metrics were only collected for under 1% of pageviews!
 
-![sitespeed_sample.png](/uploads/sitespeed_sample.png)
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/sitespeed_sample.png"/>
+<figcaption>Screenshot from Google Analytics low sample rate for site speed metrics</figcaption>
+</figure>
 
 ## Synthetic Monitoring vendors are disappearing from Velocity
 
@@ -40,8 +46,10 @@ Almost every talk referenced [WebPageTest](http://www.webpagetest.org/) or [HTTP
 
 Perhaps the industry ([including myself](https://webperf.ninja/2015/find-third-party-assets/)) is taking this for granted.
 
-
-![webpagetest_contributors.PNG](/uploads/webpagetest_contributors.PNG)
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/webpagetest_contributors.PNG"/>
+<figcaption>WebPageTest contibutors page on [GitHub](https://github.com/WPO-Foundation/webpagetest/graphs/contributors) showing Pat's huge contribution</figcaption>
+</figure>
 
 ## Big companies are talking about site speed
 
@@ -49,7 +57,10 @@ Ancestry and GoDaddy both spoke at Velocity. [Jed Wood](https://twitter.com/sile
 
 Improving the Ancestry.com sign up page from 2.7 seconds to 1.7 generated a 7% increase in conversions. Interestingly, further work to get to 1.3 seconds made no further improvement to conversion. The chart below is taken from SpeedCurve and shows the team's progress over time to reduce Speed Index. What I really like about this is the use of annotations to mark where changes and releases occurred, so changes in performance can be traced back to a specific build of the website.
 
-![ancestry_speedindex.PNG](/uploads/ancestry_speedindex.PNG)
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/ancestry_speedindex.PNG"/>
+<figcaption>Screenshot of Ancestry.com's SpeedCurve Speed Index dashboard</figcaption>
+</figure>
 
 One of the ways Ancestry maintains performance is by adding an artificial delay to third-party scripts executing. I wonder if [requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback) could be used for this?
 
@@ -57,7 +68,10 @@ One of the ways Ancestry maintains performance is by adding an artificial delay 
 
 Jim used a maturity model to describe his journey in web performance, with anomaly detection, regression analysis and communication being at the top. I think the most important point that Jim made was the need for solid understanding of performance impact across the business. There's nothing quite like $35,000 to do that, I suppose.
 
-![godaddy_maturity.PNG](/uploads/godaddy_maturity.PNG)
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/godaddy_maturity.PNG"/>
+<figcaption>Jim Pierson's web performance maturity pyramid</figcaption>
+</figure>
 
 ## Single Page Apps are slow
 
@@ -68,11 +82,22 @@ I also spoke a lot about SPAs being slow [in my presentation](http://conferences
 
 ## AMP is not the killer feature
 
-The [Accelerated Mobile Pages](https://www.ampproject.org/) project is over a year old now. There were two talks about AMP which took very different approaches. [Malte Ubl](https://plus.google.com/\+MalteUbl) (creator of AMP) [gave a talk](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50798) about the current state of AMP and what’s coming in the future, while [Nic](https://twitter.com/nicj) and [Nigel](https://twitter.com/querymetrics) of SOASTA used analytics data gathered by mPulse to [describe what consumers were doing with AMP pages](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51319).
+The [Accelerated Mobile Pages](https://www.ampproject.org/) project is over a year old now. There were two talks about AMP which took very different approaches. [Malte Ubl](https://twitter.com/cramforce) (creator of AMP) [gave a talk](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50798) about the current state of AMP and what’s coming in the future, while [Nic](https://twitter.com/nicj) and [Nigel](https://twitter.com/querymetrics) of SOASTA used analytics data gathered by mPulse to [describe what consumers were doing with AMP pages](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51319).
+
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/amp.png"/>
+<figcaption>Misleading statistic from the [AMP Year in Review](https://amphtml.wordpress.com/2016/10/07/amp-a-year-in-review/)</figcaption>
+</figure>
+
 
 One of the interesting points brought up by Malte was that as AMP pages are almost always (>99%) served by the AMP CDN, there is a lot of potential for static performance optimisation. For example, the average image on the AMP CDN can be further compressed to reduce the file size by 40%. Rolling out these optimisations at the CDN level will have a great bang-for-buck across all AMP pages.
 
 Analytics gathered by SOASTA paint a rather gloomy picture for publishers using AMP. While AMP pages are almost six times faster than the regular page, they take users out of the publishers’ domain. The probability of a reader of an AMP article going to the *article publishers’ own site* in the next 30 days is only 3%. So it seems there is a significant trade-off to be had: in order to have super-fast articles that are *promoted by Google in search results*, you have to sacrifice engagement and brand awareness.
+
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/amp_bounce.PNG"/>
+<figcaption>Scary engagement statistic for publishers</figcaption>
+</figure>
 
 This all feels very walled-garden, especially as AMP pages are just optimised web pages, which anyone can make. I like the fact that it promotes fast content as better content, but I don’t think it’s in the publisher’s best interest. [Tim Kadlec](https://twitter.com/tkadlec) has proposed an open alternative to AMP, the [Content Performance Policy](https://timkadlec.com/2016/02/a-standardized-alternative-to-amp/), which is definitely worth read.
 
@@ -85,6 +110,11 @@ This all feels very walled-garden, especially as AMP pages are just optimised we
 Iframes are great for performance, kinda.
 Over 60% of sites use iframes, yet virtually none of them use the [sandbox attribute](https://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/). Sandbox allows you to define what access the iframe has to the parent page and whether it can execute scripts. It will also deny pointer lock, form submissions and a whole host of other scary stuff.
 
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/iframe_sandbox.PNG"/>
+<figcaption>Using sandbox with iframes</figcaption>
+</figure>
+
 ### Prefetch / Preload `As`
 
 Prefetch allows web developers to provide hints to browsers about assets which should be optimistically downloaded. This is great for objects which are critical to render, such as CSS and WebFonts. Prefetch can be used in <link> tags or in HTTP headers, the advantage of a header being that it can be used by the browser before the HTML document has been downloaded and parsed.
@@ -93,11 +123,29 @@ Preload builds on prefetch by forcing the browser to download the asset, whereas
 
 Both of these have an additional optional attribute: `as`. This allows us to define the type of asset to be loaded, e.g. 'image', 'script' or any one of the [standard fetch types](https://fetch.spec.whatwg.org/#concept-request-destination). Adding the type of asset allows the browser to send the correct Accept header, as well as ensuring that any content security policy can be applied correctly to the preloaded asset. 
 
-![preload_prefetch-9863b9.png](/uploads/preload_prefetch-9863b9.png)
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/preload_prefetch-9863b9.png"/>
+<figcaption>Using prefetch and preload with `as` attribute</figcaption>
+</figure>
 
 ### Content Security Policy
 
 Speaking of content security policy... This is the header directive which tells a browser what permissions each domain used on a site has. For example, fonts.example.com should not be able to execute scritps, and static.example.com might only be for serving images. Using a [content security policy](https://developers.google.com/web/fundamentals/security/csp/) ensures that only the correct domains have access to the browser, which is obviously a security win. The performance benefit comes mainly from the audit and analysis required in order to write a CSP - what domains are being used on our site, for what, and why?!
+
+<figure align="center">
+```
+Content-Security-Policy:
+    default-src 'self' ;
+    img-src 'self' https://*.google.com ;
+    script-src 'self' http://www.google-analytics.com 'unsafe-inline’
+    http://*gstatic.com ;
+    style-src 'self' https://fonts.googleapis.com ;
+    font-src 'self' https://themes.googleusercontent.com ;
+    frame-src 'self' http://3rdparty.com
+    sandbox ‘allow-scripts’; 
+```
+<figcaption>Sample CSP, including `sandbox`</figcaption>
+</figure>
 
 ### Service Worker
 
@@ -109,15 +157,24 @@ Now on to security. As service worker has access to network requests, it can be 
 
 I think the next logical step is for service workers to apply time thresholds to third-party downloads. That tracker tag taking over a second to load? Kill the request, give a safe response to the browser, and log the event to keep track of how often it happens. The possibilities are almost endless!
 
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/sw_whitelist.png"/>
+<figcaption>Using service worker as a client reputation enforcer</figcaption>
+</figure>
+
+
 ### Sub-Resource Integrity
 
 Sabrina and Sonia only briefly mentioned SRI but I think it's worth covering in a little more detail here. SRI allows you to take a hash of an asset (e.g. jQuery v1.9.1, minified) and add that to your ```<script>``` tag. If the downlaoded asset does not have the same hash, then the browser will refuse to execute it. This is really handy for third-party content that has the potential to effect user experience and/or security, or whose provenance is not entirely clear (JavaScript CDNs, anyone?)
 
+<figure align="center">
 ```
 <script src="https://example.com/example-framework.js"
         integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC"
         crossorigin="anonymous"></script>
 ```
+<figcaption>Example use of sub-resource integrity</figcaption>
+</figure>
 
 ## Progressive web apps aren’t all that. Yet.
 
@@ -125,7 +182,6 @@ There was a lot of conversation around [progressive web applications](https://de
 I'm also wary of websites going fully PWA - which may not provide the desktop with a good experience. Definitely a 'watch this space'.
 
  
-
 
 
 In summary, an awesome conference with huge amounts to mull over.
