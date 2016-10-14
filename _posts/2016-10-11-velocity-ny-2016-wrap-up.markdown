@@ -4,6 +4,7 @@ date: 2016-10-11 14:29:00 Z
 comments: true
 image:
   feature: "../uploads/newyork_hero.jpg"
+toc: true
 layout: post
 ---
 
@@ -18,7 +19,10 @@ Everyone is using RUM. The vendors are maturing rapidly to be able to offer eith
 * Single view of customer - integration with Application Performance Monitoring.
 * Insight - analysis of user behaviour and business events to create actionable insight.
 
-An example of a vendor going down the second route is SOASTA’s mPulse; there was a lot of discussion around [machine learning](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51082), with conclusions that the highest predictor of bounce rate is DOM Ready time, number of ```<script>```s and DOM elements inversely correlated with conversion rate.
+An example of a vendor going down the second route is SOASTA’s mPulse; there was a lot of discussion around [machine learning](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51082). The key conclusions from [Tammy](https://twitter.com/tameverts) and [Pat](https://twitter.com/patmeenan)'s [talk](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51082) were that:
+
+* the best predictor of bounce rate is DOM Ready time
+* the number of ```<script>```s and DOM elements are inversely correlated with conversion rate
 
 <figure align="center">
 <img style="max-width:80%;" src="/uploads/domnode_conversion.png"/>
