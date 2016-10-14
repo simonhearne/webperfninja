@@ -86,7 +86,7 @@ The [Accelerated Mobile Pages](https://www.ampproject.org/) project is over a ye
 
 <figure align="center">
 <img style="max-width:80%;" src="/uploads/amp.png"/>
-<figcaption>Misleading statistic from the [AMP Year in Review](https://amphtml.wordpress.com/2016/10/07/amp-a-year-in-review/)</figcaption>
+<figcaption>Misleading statistic from the <a href="https://amphtml.wordpress.com/2016/10/07/amp-a-year-in-review/">AMP Year in Review</a></figcaption>
 </figure>
 
 
@@ -132,7 +132,7 @@ Both of these have an additional optional attribute: `as`. This allows us to def
 
 Speaking of content security policy... This is the header directive which tells a browser what permissions each domain used on a site has. For example, fonts.example.com should not be able to execute scritps, and static.example.com might only be for serving images. Using a [content security policy](https://developers.google.com/web/fundamentals/security/csp/) ensures that only the correct domains have access to the browser, which is obviously a security win. The performance benefit comes mainly from the audit and analysis required in order to write a CSP - what domains are being used on our site, for what, and why?!
 
-<figure align="center">
+
 ```
 Content-Security-Policy:
     default-src 'self' ;
@@ -145,7 +145,7 @@ Content-Security-Policy:
     sandbox ‘allow-scripts’; 
 ```
 <figcaption>Sample CSP, including `sandbox`</figcaption>
-</figure>
+
 
 ### Service Worker
 
@@ -167,14 +167,13 @@ I think the next logical step is for service workers to apply time thresholds to
 
 Sabrina and Sonia only briefly mentioned SRI but I think it's worth covering in a little more detail here. SRI allows you to take a hash of an asset (e.g. jQuery v1.9.1, minified) and add that to your ```<script>``` tag. If the downlaoded asset does not have the same hash, then the browser will refuse to execute it. This is really handy for third-party content that has the potential to effect user experience and/or security, or whose provenance is not entirely clear (JavaScript CDNs, anyone?)
 
-<figure align="center">
 ```
 <script src="https://example.com/example-framework.js"
         integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC"
         crossorigin="anonymous"></script>
 ```
 <figcaption>Example use of sub-resource integrity</figcaption>
-</figure>
+
 
 ## Progressive web apps aren’t all that. Yet.
 
