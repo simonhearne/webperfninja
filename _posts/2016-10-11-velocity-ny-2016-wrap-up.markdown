@@ -48,7 +48,7 @@ Perhaps the industry ([including myself](https://webperf.ninja/2015/find-third-p
 
 <figure align="center">
 <img style="max-width:80%;" src="/uploads/webpagetest_contributors.PNG"/>
-<figcaption>WebPageTest contibutors page on [GitHub](https://github.com/WPO-Foundation/webpagetest/graphs/contributors) showing Pat's huge contribution</figcaption>
+<figcaption>WebPageTest contibutors page on <a href="https://github.com/WPO-Foundation/webpagetest/graphs/contributors">GitHub</a> showing Pat's huge contribution</figcaption>
 </figure>
 
 ## Big companies are talking about site speed
