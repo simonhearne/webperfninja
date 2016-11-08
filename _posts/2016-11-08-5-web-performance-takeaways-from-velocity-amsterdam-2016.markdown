@@ -1,7 +1,6 @@
 ---
 title: 5 Web Performance Takeaways from Velocity Amsterdam 2016
 date: 2016-11-08 13:08:00 Z
-published: false
 categories:
 - '2016'
 layout: post
