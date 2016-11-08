@@ -11,13 +11,13 @@ Velocity Amsterdam has just come to a close. Here are the five key things that I
 
 # We need a performance conference
 
-# Business success == team success
+# Team success == business success
 
 # Performance goals, targets and KPIs are broken
 
-# HTTP/2 isn't perfect, but we should be using it
+# We still struggle with data visualisation
 
 # We are under-utilising or abusing great Web features
-Push. Preload. PWAs.
+HTTP/2 Push. Preload. PWAs.
 
-# Corporate IT sucks
+# BONUS: Corporate IT sucks
