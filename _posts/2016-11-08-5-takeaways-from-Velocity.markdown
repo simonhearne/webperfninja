@@ -4,6 +4,9 @@ date: 2016-11-08 13:08:00 Z
 published: false
 categories:
 - '2016'
+comments: true
+image:
+  feature: "../uploads/velocity_hillary_hero.jpg"
 layout: post
 ---
 
