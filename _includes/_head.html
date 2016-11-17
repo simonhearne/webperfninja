@@ -2,6 +2,7 @@
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+<link rel='preconnect' href='https://llpc.lite.imgeng.in'>
 {% if page.author %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
 {% endif %}
@@ -25,6 +26,7 @@
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
 
 <!-- HTML5 Shiv and Media Query Support -->
 <!--[if lt IE 9]>
