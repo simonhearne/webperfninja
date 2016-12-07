@@ -70,6 +70,11 @@ HTTP/2 takes this paradigm one step further. [HTTP/2 Server Push](https://www.ig
 
 [Colin Bendell](https://twitter.com/colinbendell) of Akamai spoke about the [promise of Push](http://conferences.oreilly.com/velocity/devops-web-performance-eu/public/schedule/detail/53584). Although there is still some work to do on mainstream support(test your browser at [canipush.com](https://canipush.com)), we can deploy Push now. Pushing CSS shows performance gains, while pushing anything else might actually make things worse. ```<link rel='preload'>``` may still be the best option for WebFonts, for example.
 
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/push.png"/>
+<figcaption>Potential win area for Push</figcaption>
+</figure>
+
 Another technology mentioned a lot, again, was Progressive Web Apps. The magical combination of [web app manifests](https://developers.google.com/web/updates/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android), [service worker](https://jakearchibald.com/2014/using-serviceworker-today/) and [web push notifications](https://developers.google.com/web/fundamentals/engage-and-retain/push-notifications/) which give us a near-native web app experience on Android devices. The fundamental technologies for PWAs have [been around since mid-2015](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/), and yet adoption is extremely low. Only 0.5% of mobile pages tested by HTTP Archive include a ```manifest``` object.
 
 [Jason Grigsby](https://twitter.com/grigs) gave an [interesting keynote](http://conferences.oreilly.com/velocity/devops-web-performance-eu/public/schedule/detail/54697) about PWAs. He explained that every step towards a PWA [makes sense on its own](https://cloudfour.com/thinks/progressive-web-apps-simply-make-sense/). As such it's shocking that web app manifests, the first step towards PWAs, have such a low penetration.
