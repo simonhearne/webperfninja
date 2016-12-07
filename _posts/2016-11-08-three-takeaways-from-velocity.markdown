@@ -84,5 +84,3 @@ From speaking with my clients, it seems that there is a hesitance to 'jump in to
 ## BONUS - Corporate IT sucks
 
 ## SUPER BONUS - Empathise with your audience
-
-![push.png](/uploads/push.png)
