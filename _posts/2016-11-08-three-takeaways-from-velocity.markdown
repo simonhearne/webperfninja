@@ -1,5 +1,5 @@
 ---
-title: Three Web Performance Takeaways from Velocity Amsterdam 2016
+title: Three WebPerf Takeaways from Velocity Europe
 date: 2016-11-08 13:08:00 Z
 categories:
 - '2016'
