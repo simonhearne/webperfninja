@@ -600,7 +600,7 @@ $button-size: 1.5rem;
   }
   a {
 	  display: block;
-	  padding: 8px 20px;
+	  padding: 4px 10px;
 	  text-decoration: none !important;
 	  text-transform: uppercase;
 	  @include font-rem(14);
@@ -613,11 +613,8 @@ $button-size: 1.5rem;
 	  }
 	}
 	span {
-		display: none;
-		@media #{$medium} {
-			display: inline;
-			padding-left: 5px;
-		}
+		display: inline;
+		padding-left: 4px;
 	}
 	h4 {
 		@include font-rem(14);
