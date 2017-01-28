@@ -8,8 +8,8 @@ image:
   feature: "../uploads/hero-sprite.png"
 toc: true
 layout: post
-excerpt: Optimising sprites might be more important than you think, and easier
-  than you expect!
+excerpt: Optimising sprites might be more important than you think, and easier than
+  you expect!
 ---
 
 CSS image sprites can provide a performance benefit for most sites.
