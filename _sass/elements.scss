@@ -21,12 +21,14 @@ figure {
 }
 
 article img {
-  min-width: 100%;
-	max-width: 100%;  
+  max-width: 100%;  
 	height: auto;
 	border-width: 0;
 	vertical-align: middle;
 	-ms-interpolation-mode: bicubic;
+}
+article img.wide {
+  min-width: 100%;
 }
 
 svg:not(:root) {

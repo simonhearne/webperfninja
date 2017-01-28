@@ -8,7 +8,7 @@ image:
   feature: "../uploads/hero-sprite.png"
 toc: true
 layout: post
-description: Optimising sprites might be more important than you think, and easier
+excerpt: Optimising sprites might be more important than you think, and easier
   than you expect!
 ---
 
