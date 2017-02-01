@@ -12,13 +12,26 @@ function respIm(){
   var imgs = document.querySelectorAll('img.resp');
   forEach(imgs,function(i,v){
     var p = v.getAttribute('data-src');
-    v.src = imcdn+v.width+'/'+p;
+    var w = v.width;
+    if (w == 0) {
+      w = v.parentElement.clientWidth;
+      if (v.hasAttribute('data-width')) {
+        var x = v.getAttribute('data-width');
+        if (x > 1) x/=100;
+        w*=x;
+      }
+    }
+    v.src = imcdn+w+'/'+p;
   });
   window.debounce=true;
   setTimeout(function(){window.debounce=false},1000);
 };
 respIm();
-window.addEventListener('resize', respIm);
+/*
+setTimeout(function(){
+  window.addEventListener('resize', respIm);
+},1000);
+*/
 </script>
 {% if site.owner.google.analytics %}
 <script>
