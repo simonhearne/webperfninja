@@ -56,19 +56,6 @@
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
-<script nonce='responsiveImages'>
-var forEach = function (array, callback, scope) {
-  for (var i = 0; i < array.length; i++) {
-    callback.call(scope, i, array[i]); // passes back stuff we need
-  }
-};
-var imcdn = '//llpc.lite.imgeng.in/w_';
-var imgs = document.querySelectorAll('img.resp');
-forEach(imgs,function(i,v){
-  var p = v.getAttribute('data-src');
-  v.src = imcdn+v.width+'/'+p;
-});
-</script>
 {% include _scripts.html %}
 </body>
 </html>
