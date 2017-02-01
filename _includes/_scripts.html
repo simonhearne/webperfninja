@@ -1,5 +1,7 @@
 <script nonce='responsiveImages'>
+window.debounce = false;
 function respIm(){
+  if (window.debounce) return;
   console.log('respIm()');
   var forEach = function (array, callback, scope) {
     for (var i = 0; i < array.length; i++) {
@@ -12,6 +14,8 @@ function respIm(){
     var p = v.getAttribute('data-src');
     v.src = imcdn+v.width+'/'+p;
   });
+  window.debounce=true;
+  setTimeout(function(){window.debounce=false},1000);
 };
 respIm();
 window.addEventListener('resize', respIm);
