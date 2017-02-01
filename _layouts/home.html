@@ -37,7 +37,8 @@
     {% for post in site.posts limit:10 %}
     <a href="{{ site.url }}{{ post.url }}#hero-top" title="{{ post.title }}"><article>
 	  {% if post.image %}
-      <img class="wide" src="//llpc.lite.imgeng.in/w_694/{{ site.url }}/images/{{ post.image.feature }}"/>
+      <!--<img class="wide" src="{{ site.url }}/images/{{ post.image.feature }}"/>-->
+      <img class="resp wide" data-src="{{ site.url }}/images/{{ post.image.feature }}"/>
 	  {% endif %}
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
@@ -55,6 +56,19 @@
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
+<script nonce='responsiveImages'>
+var forEach = function (array, callback, scope) {
+  for (var i = 0; i < array.length; i++) {
+    callback.call(scope, i, array[i]); // passes back stuff we need
+  }
+};
+var imcdn = '//llpc.lite.imgeng.in/w_';
+var imgs = document.querySelectorAll('img.resp');
+forEach(imgs,function(i,v){
+  var p = v.getAttribute('data-src');
+  v.src = imcdn+v.width+'/'+p;
+});
+</script>
 {% include _scripts.html %}
 </body>
 </html>
