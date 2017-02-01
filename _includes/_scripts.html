@@ -1,4 +1,7 @@
 <script nonce='responsiveImages'>
+var css=document.getElementById('css_ref');
+css.href=css.getAttribute('data-href');
+
 window.debounce = false;
 function respIm(){
   if (window.debounce) return;
