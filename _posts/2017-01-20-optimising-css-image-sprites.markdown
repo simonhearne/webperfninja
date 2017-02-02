@@ -26,7 +26,7 @@ Here are some top tips to improve your sprite's performance:
 Serve your logo image as a separate file, referenced in an ```<img>``` element.
 This will be downloaded earlier than the sprite file (which is discovered late by the browser).
 <figure align="center">
-<img style="max-width:50%;" class="resp" data-width="50" data-src="https://webperf.ninja/uploads/amazon-sprite.png" />
+<img style="width:50%;" class="resp" data-width="50" data-src="https://webperf.ninja/uploads/amazon-sprite.png" />
 <figcaption>Amazon used to put its logo in a sprite. Why?!</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ unaffected by minor changes to the other icons in the sprite.
 It's common to see simple elements such as left and right arrows included in sprites.
 Oftentimes there is a UTF-8 symbol which provides a suitable match. <a href="https://www.utf8icons.com/">UTF-8 Icons</a> provides a good reference.
 <figure align="center">
-<img style="max-width:50%;" class="resp" data-width="50" data-src="https://webperf.ninja/uploads/utf8-icons.png" />
+<img style="width:50%;" class="resp" data-width="50" data-src="https://webperf.ninja/uploads/utf8-icons.png" />
 <figcaption>Some of the characters available for free in UTF-8</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ While extra whitespace will not have a significant impact on filesize, thanks to
 In a world of £50 Android phones from Amazon, we have to be extremely conservative with memory usage.
 
 <figure align="center">
-<img style="max-width:50%;" class="resp" data-width="50" data-src="https://webperf.ninja/uploads/sprite-whitespace.png" />
+<img style="width:50%;" class="resp" data-width="50" data-src="https://webperf.ninja/uploads/sprite-whitespace.png" />
 <figcaption>That's a lot of wasted memory</figcaption>
 </figure>
 

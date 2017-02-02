@@ -30,6 +30,7 @@ function respIm(){
   setTimeout(function(){window.debounce=false},1000);
 };
 respIm();
+window.addEventListener('resize',function(){if (!window.debounce) respIm();});
 </script>
 {% if site.owner.google.analytics %}
 <script>
