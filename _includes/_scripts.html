@@ -2,6 +2,15 @@
 var css=document.getElementById('css_ref');
 if (css) css.href=css.getAttribute('data-href');
 
+function isInViewport(element) {
+  var rect = element.getBoundingClientRect();
+  var html = document.documentElement;
+  return (
+    rect.top >= 0 &&
+    rect.bottom <= (window.innerHeight || html.clientHeight)
+  );
+}
+
 window.debounce = false;
 function respIm(){
   if (window.debounce) return;
@@ -14,23 +23,28 @@ function respIm(){
   var imcdn = '//llpc.lite.imgeng.in/w_';
   var imgs = document.querySelectorAll('img.resp');
   forEach(imgs,function(i,v){
-    var p = v.getAttribute('data-src');
-    var w = v.width;
-    if (w == 0) {
-      w = v.parentElement.clientWidth;
-      if (v.hasAttribute('data-width')) {
-        var x = v.getAttribute('data-width');
-        if (x > 1) x/=100;
-        w*=x;
+    var inv = isInViewport(v);
+    console.log(inv);
+    if (inv) {
+      var p = v.getAttribute('data-src');
+      var w = v.width;
+      if (w == 0) {
+        w = v.parentElement.clientWidth;
+        if (v.hasAttribute('data-width')) {
+          var x = v.getAttribute('data-width');
+          if (x > 1) x/=100;
+          w*=x;
+        }
       }
+      v.src = imcdn+w+'/'+p;
     }
-    v.src = imcdn+w+'/'+p;
   });
   window.debounce=true;
   setTimeout(function(){window.debounce=false},1000);
 };
 respIm();
 window.addEventListener('resize',function(){if (!window.debounce) respIm();});
+window.addEventListener('scroll',function(){if (!window.debounce) respIm();});
 </script>
 {% if site.owner.google.analytics %}
 <script>
