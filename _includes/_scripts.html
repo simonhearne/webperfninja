@@ -50,7 +50,7 @@ function respIm(force){
 };
 respIm();
 window.addEventListener('resize',function(){if (!debounce) respIm(false);});
-window.addEventListener('scroll',function(){if (!doneAllImages) respIm(true);});
+setTimeout(function(){respIm(true)},1000);
 </script>
 {% if site.owner.google.analytics %}
 <script>
