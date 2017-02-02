@@ -47,7 +47,7 @@ function respIm(force){
 };
 respIm();
 window.addEventListener('resize',function(){if (!debounce) respIm(false);});
-setTimeout(function(){respIm(true)},1000);
+window.addEventListener('load',function(){respIm(true)});
 </script>
 {% if site.owner.google.analytics %}
 <script nonce='googleAnalytics'>
@@ -60,8 +60,7 @@ a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', '{{ site.owner.google.analytics }}', 'auto');
 ga('send', 'pageview');
 
-// Initialize GA when you see fit
-setTimeout(initAnalytics,2000);
+window.addEventListener('load',function(){initAnalytics()});
 </script>
 {% endif %}
 {% if page.comments %}
