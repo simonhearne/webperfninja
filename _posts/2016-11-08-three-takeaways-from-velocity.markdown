@@ -45,7 +45,7 @@ A great example of this was given by Kevin from Sky Betting. In the run up to th
 To keep Leaseweb on track, there is a shared dashboard which shows the results of an anonymous post-sprint retrospective survey. This gives an early indication of when team dynamics begin to fail.
 
 <figure align="center">
-<img style="max-width:90%;" src="/uploads/team_dashboard.png"/>
+<img class="resp" style="max-width:90%;" data-width="90" data-src="//webperf.ninja/uploads/team_dashboard.png"/>
 <figcaption>Leaseweb's Retro Dashboard (<a href="http://cdn.oreillystatic.com/en/assets/1/event/167/The%20Anarchist%20Cookbook_%20DevOps%20and%20Agile%20recipes%20for%20blowing%20up%20the%20waterfall%20Presentation.pdf">source</a>)</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ HTTP/2 takes this paradigm one step further. [HTTP/2 Server Push](https://www.ig
 [Colin Bendell](https://twitter.com/colinbendell) of Akamai spoke about the [promise of Push](http://conferences.oreilly.com/velocity/devops-web-performance-eu/public/schedule/detail/53584). Although there is still some work to do on mainstream support (test your browser using Colin's [canipush.com](https://canipush.com)), we can deploy Push now. Pushing CSS shows performance gains, while pushing anything else might actually make things worse. ```<link rel='preload'>``` may still be the best option for WebFonts, for example.
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/push.png"/>
+<img class="resp" style="max-width:80%;" data-width="80" data-src="//webperf.ninja/uploads/push.png"/>
 <figcaption>Potential win area for Push</figcaption>
 </figure>
 

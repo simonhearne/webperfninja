@@ -27,7 +27,7 @@ An example of a vendor going down the second route is SOASTA’s mPulse; there w
 * the number of ```<script>```s and DOM elements are inversely correlated with conversion rate
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/domnode_conversion.png"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/domnode_conversion.png"/>
 <figcaption>Conversion likelihood by number of DOM nodes</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ SOASTA also introduced [measuring continuity](http://conferences.oreilly.com/vel
 There is clearly a lot of potential in using RUM to make predictions and measure outcomes. What we’re still missing is tight integration with experiment technology (e.g. Maxymiser or Google Experiments). Without that, we can’t use RUM to properly manage development decisions. [Stuart McMillan](https://twitter.com/mcmillanstu) from Schuh recently mentioned that they use Google Analytics for performance data during experiments, probably because the integration works well. Unfortunately, the site speed data from Analytics is pretty poor… In the example below site speed metrics were only collected for under 1% of pageviews!
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/sitespeed_sample.png"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/sitespeed_sample.png"/>
 <figcaption>Screenshot from Google Analytics low sample rate for site speed metrics</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Almost every talk referenced [WebPageTest](http://www.webpagetest.org/) or [HTTP
 Perhaps the industry ([including myself](https://webperf.ninja/2015/find-third-party-assets/)) is taking this for granted.
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/webpagetest_contributors.PNG"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/webpagetest_contributors.PNG"/>
 <figcaption>WebPageTest contibutors page on <a href="https://github.com/WPO-Foundation/webpagetest/graphs/contributors">GitHub</a> showing Pat's huge contribution</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ Ancestry and GoDaddy both spoke at Velocity. [Jed Wood](https://twitter.com/sile
 Improving the Ancestry.com sign up page from 2.7 seconds to 1.7 generated a 7% increase in conversions. Interestingly, further work to get to 1.3 seconds made no further improvement to conversion. The chart below is taken from SpeedCurve and shows the team's progress over time to reduce Speed Index. What I really like about this is the use of annotations to mark where changes and releases occurred, so changes in performance can be traced back to a specific build of the website.
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/ancestry_speedindex.PNG"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/ancestry_speedindex.PNG"/>
 <figcaption>Screenshot of Ancestry.com's SpeedCurve Speed Index dashboard</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ One of the ways Ancestry maintains performance is by adding an artificial delay 
 Jim used a maturity model to describe his journey in web performance, with anomaly detection, regression analysis and communication being at the top. I think the most important point that Jim made was the need for solid understanding of performance impact across the business. There's nothing quite like $35,000 to do that, I suppose.
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/godaddy_maturity.PNG"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/godaddy_maturity.PNG"/>
 <figcaption>Jim Pierson's web performance maturity pyramid</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ I also spoke a lot about SPAs being slow [in my presentation](http://conferences
 The [Accelerated Mobile Pages](https://www.ampproject.org/) project is over a year old now. There were two talks about AMP which took very different approaches. [Malte Ubl](https://twitter.com/cramforce) (creator of AMP) [gave a talk](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/50798) about the current state of AMP and what’s coming in the future, while [Nic](https://twitter.com/nicj) and [Nigel](https://twitter.com/querymetrics) of SOASTA used analytics data gathered by mPulse to [describe what consumers were doing with AMP pages](http://conferences.oreilly.com/velocity/devops-web-performance-ny/public/schedule/detail/51319).
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/amp.png"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/amp.png"/>
 <figcaption>Misleading statistic from the <a href="https://amphtml.wordpress.com/2016/10/07/amp-a-year-in-review/">AMP Year in Review</a></figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ One of the interesting points brought up by Malte was that as AMP pages are almo
 Analytics gathered by SOASTA paint a rather gloomy picture for publishers using AMP. While AMP pages are almost six times faster than the regular page, they take users out of the publishers’ domain. The probability of a reader of an AMP article going to the *article publishers’ own site* in the next 30 days is only 3%. So it seems there is a significant trade-off to be had: in order to have super-fast articles that are *promoted by Google in search results*, you have to sacrifice engagement and brand awareness.
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/amp_bounce.PNG"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/amp_bounce.PNG"/>
 <figcaption>Scary engagement statistic for publishers</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ Iframes are great for performance, kinda.
 Over 60% of sites use iframes, yet virtually none of them use the [sandbox attribute](https://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/). Sandbox allows you to define what access the iframe has to the parent page and whether it can execute scripts. It will also deny pointer lock, form submissions and a whole host of other scary stuff.
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/iframe_sandbox.PNG"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/iframe_sandbox.PNG"/>
 <figcaption>Using sandbox with iframes</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ Preload builds on prefetch by forcing the browser to download the asset, whereas
 Both of these have an additional optional attribute: `as`. This allows us to define the type of asset to be loaded, e.g. 'image', 'script' or any one of the [standard fetch types](https://fetch.spec.whatwg.org/#concept-request-destination). Adding the type of asset allows the browser to send the correct Accept header, as well as ensuring that any content security policy can be applied correctly to the preloaded asset. 
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/preload_prefetch-9863b9.png"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/preload_prefetch-9863b9.png"/>
 <figcaption>Using prefetch and preload with `as` attribute</figcaption>
 </figure>
 
@@ -164,7 +164,7 @@ Now on to security. As service worker has access to network requests, it can be 
 I think the next logical step is for service workers to apply time thresholds to third-party downloads. That tracker tag taking over a second to load? Kill the request, give a safe response to the browser, and log the event to keep track of how often it happens. The possibilities are almost endless!
 
 <figure align="center">
-<img style="max-width:80%;" src="/uploads/sw_whitelist.png"/>
+<img style="max-width:80%;" class="resp" data-width="80" data-src="//webperf.ninja/uploads/sw_whitelist.png"/>
 <figcaption>Using service worker as a client reputation enforcer</figcaption>
 </figure>
 
