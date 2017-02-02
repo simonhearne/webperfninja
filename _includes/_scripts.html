@@ -12,9 +12,7 @@ function isInViewport(element) {
 }
 
 debounce = false;
-doneAllImages = false;
 function respIm(force){
-  if (debounce) return;
   console.log('respIm()');
   var forEach = function (array, callback, scope) {
     for (var i = 0; i < array.length; i++) {
@@ -30,7 +28,6 @@ function respIm(force){
       doneAllImages = true;
     }
     else inv = isInViewport(v);
-    console.log(inv);
     if (inv) {
       var p = v.getAttribute('data-src');
       var w = v.width;
