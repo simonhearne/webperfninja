@@ -112,8 +112,6 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   left: 0;
   top: 0;
   padding: 0 $mfp-popup-padding-left;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -262,7 +260,6 @@ button {
     outline: none;
     padding: 0;
     z-index: $mfp-z-index-base + 6;
-    -webkit-box-shadow: none;
     box-shadow: none;
   }
   &::-moz-focus-inner {
@@ -466,8 +463,6 @@ button {
       height: auto;
       display: block;
       line-height: 0;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
       box-sizing: border-box;
       padding: $mfp-image-padding-top 0 $mfp-image-padding-bottom;
       margin: 0 auto;
@@ -565,8 +560,6 @@ button {
           top: auto;
           padding: 3px 5px;
           position: fixed;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
           box-sizing: border-box;
           &:empty {
             padding: 0;
