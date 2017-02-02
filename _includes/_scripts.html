@@ -11,9 +11,10 @@ function isInViewport(element) {
   );
 }
 
-window.debounce = false;
-function respIm(){
-  if (window.debounce) return;
+debounce = false;
+doneAllImages = false;
+function respIm(force){
+  if (debounce) return;
   console.log('respIm()');
   var forEach = function (array, callback, scope) {
     for (var i = 0; i < array.length; i++) {
@@ -23,7 +24,12 @@ function respIm(){
   var imcdn = '//llpc.lite.imgeng.in/w_';
   var imgs = document.querySelectorAll('img.resp');
   forEach(imgs,function(i,v){
-    var inv = isInViewport(v);
+    var inv;
+    if (force) {
+      inv = true;
+      doneAllImages = true;
+    }
+    else inv = isInViewport(v);
     console.log(inv);
     if (inv) {
       var p = v.getAttribute('data-src');
@@ -43,8 +49,8 @@ function respIm(){
   setTimeout(function(){window.debounce=false},1000);
 };
 respIm();
-window.addEventListener('resize',function(){if (!window.debounce) respIm();});
-window.addEventListener('scroll',function(){if (!window.debounce) respIm();});
+window.addEventListener('resize',function(){if (!debounce) respIm(false);});
+window.addEventListener('scroll',function(){if (!doneAllImages) respIm(true);});
 </script>
 {% if site.owner.google.analytics %}
 <script>
