@@ -10,7 +10,9 @@ function isInViewport(element) {
     rect.bottom <= (window.innerHeight || html.clientHeight)
   );
 }
-dpr=window.devicePixelRatio;
+dpr = 1;
+if (window.hasOwnProperty('devicePixelRatio'))
+  dpr=window.devicePixelRatio;
 if (dpr<1) dpr=1;
 if (dpr>3) dpr=3;
 debounce = false;
