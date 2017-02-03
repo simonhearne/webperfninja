@@ -10,7 +10,9 @@ function isInViewport(element) {
     rect.bottom <= (window.innerHeight || html.clientHeight)
   );
 }
-
+dpr=window.devicePixelRatio;
+if (dpr<1) dpr=1;
+if (dpr>3) dpr=3;
 debounce = false;
 function respIm(force){
   console.log('respIm()');
@@ -39,6 +41,9 @@ function respIm(force){
           w*=x;
         }
       }
+      
+      w = w * dpr;
+
       v.src = imcdn+w+'/'+p;
     }
   });
