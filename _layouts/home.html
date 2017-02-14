@@ -37,7 +37,7 @@
     {% for post in site.posts limit:10 %}
     <a href="{{ site.url }}{{ post.url }}#hero-top" title="{{ post.title }}"><article>
 	  {% if post.image %}
-      <img class="resp wide" data-src="{{ site.url }}/images/{{ post.image.feature }}"/>
+      <img class="resp wide" alt="{{ page.title }} feature image" data-src="{{ site.url }}/images/{{ post.image.feature }}"/>
 	  {% endif %}
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
