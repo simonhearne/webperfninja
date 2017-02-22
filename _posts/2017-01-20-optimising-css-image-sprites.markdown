@@ -72,11 +72,11 @@ In a world of £50 Android phones from Amazon, we have to be extremely conservat
 <figcaption>That's a lot of wasted memory</figcaption>
 </figure>
 
-## Keep it under 15kB
+## Keep it under 14kB
 
 On the web, a packet is around 1,500B of data (the [maximum transmission unit](https://en.m.wikipedia.org/wiki/Maximum_transmission_unit)). In general you should send up to 10 packets in the first round trip of a TCP connection (the [TCP initial congestion window](https://en.m.wikipedia.org/wiki/TCP_congestion_control#Congestion_window)).
 
-Assuming you expect the image sprite to load early in the page load, it might be the first object in one of the six available TCP connections (in HTTP/1.1), and thus subject to the initial congestion window. Keeping it under 15kB means that the image can download in one network round-trip, reducing the effect of latency and packet loss.
+Assuming you expect the image sprite to load early in the page load, it might be the first object in one of the six available TCP connections (in HTTP/1.1), and thus subject to the initial congestion window. Keeping it under 14kB means that the image can download in one network round-trip (assuming header data is under 1kB), reducing the effect of latency and packet loss.
 
 ## Make it square
 
