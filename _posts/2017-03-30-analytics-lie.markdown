@@ -7,9 +7,9 @@ comments: true
 image:
   feature: "../uploads/hero-sprite.png"
 toc: true
-excerpt: You can't rely on your web analytics for performance data, oh and it's underestimating traffic from old devices.
+excerpt: You can't rely on your web analytics for performance data, oh and it's underestimating
+  traffic from old devices.
 layout: post
-published: true
 ---
 
 tl;dr: your analytics is almost certainly rubbish at reporting site speed data, and definitely under-reports bounce rate and traffic from old devices.
