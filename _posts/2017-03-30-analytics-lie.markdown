@@ -27,7 +27,7 @@ A further 29% of attendees use synthetic monitoring as their source of site spee
 Using analytics for site speed is logical, if you have a website you will have analytics. Access to products like Google Analytics is widespread throughout an organisation, and it provides reporting on site speed data. Google Analytics (GA) is actually the best we've seen for reporting site speed. You can view multiple timing metrics and segment by device type or location. Adobe Analytics has no default site speed data, you have to manually add it to the analytics code, once it's being collected there is very little you can do with it.
 
 <figure align="center">
-<img style="max-width:80%;" s class="resp" data-width="80" data-rc="https://webperf.ninja/uploads/ga-speed-sampling.png"/>
+<img style="max-width:80%;" s class="resp" data-width="80" data-src="https://webperf.ninja/uploads/ga-speed-sampling.png"/>
 <figcaption>GA quietly samples site speed data.</figcaption>
 </figure>
 
@@ -46,14 +46,16 @@ Most of my job as a performance consultant is convincing companies that site spe
 Anyway, so you've changed your sampling rate and got 100% of your pageviews sending site speed data. The average page load time is seven seconds, seems pretty slow. Bounce rate is just touching 50%, that seems pretty bad too.
 It's scary to think about, but your bounce rate is likely *much* higher than 50%. Bounces are sessions which have only one pageview, they don't count sessions which have less than one pageview... bear with me.
 
-A recent [study by Google](https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/) showed, by comparing DoubleClick ad clicks and Google Analytics pageviews, that 53% of ad clicks never result in a pageview when the page has a load time of over three seconds. Your analytics shows you that your mobile page load time is eight seconds, so how many users with the intention of loading your site *never* result in a pageview?
+A recent [study by Google](https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/) showed, by comparing DoubleClick ad clicks and Google Analytics pageviews, that 53% of mobile ad clicks never result in a pageview, when the page has a load time of three seconds or more. Your analytics shows you that your mobile page load time is eight seconds, how many users who click on a link to your site *never* result in a pageview?
 
 <figure align="center">
 <img style="max-width:80%;"  class="resp" data-width="80" data-src="https://webperf.ninja/uploads/ga_cancelled.png"/>
 <figcaption>GA beacons cancelled when user navigates away during page load.</figcaption>
 </figure>
 
-These non-pageviews are *phantom bounces*. They don't appear anywhere in your analytics, but they could be a significant proportion of your traffic driven by marketing campaigns. What's worse, your marketing budget will be spent on traffic which may never reach your landing pages.
+These non-pageviews are *phantom bounces*. They don't appear anywhere in your analytics, but they could be a significant proportion of your traffic. What's worse, your marketing budget is being spent on traffic which may never reach your landing pages.
+
+## Device representation
 
 Most of my clients base their device testing strategy on their analytics. I vividly remember a story I was told by an employee at a large UK retailer: when first joining the mobile team as a contract resource she questioned why there was no testing on the first generation iPad. She was told that their analytics showed no traffic from such an old device (three years after it was launched) so there was no need to test. The sceptical contractor got our her very-much-still-working first-gen iPad and loaded the homepage. Safari crashed.
 
@@ -81,3 +83,7 @@ Phantom bounces are an interesting challenge. From the DoubleClick study we know
  Ideally, we would get data from the first step - how many people make the intention to load the page. This information is extremely hard to get, although an advertising provider should report on the number of clicks. If you have a good URL strategy then you might be able to do your own DoubleClick-style study, correlating ad clicks with pageviews.
 
  It's possible to correlate page requests with pageviews. Web server or CDN logs can be plotted against reported page impressions to determine the analytics loss. Further correlation can be run against the useragent of the requests to identify devices which are more underreported in analytics than others.
+
+## Device representation
+
+Unless your website has a very specific audience, base your device testing on your target markets. Amazon's list 
