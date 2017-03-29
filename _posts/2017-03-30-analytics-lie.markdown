@@ -49,7 +49,7 @@ It's scary to think about, but your bounce rate is likely *much* higher than 50%
 A recent [study by Google](https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/) showed, by comparing DoubleClick ad clicks and Google Analytics pageviews, that 53% of ad clicks never result in a pageview when the page has a load time of over three seconds. Your analytics shows you that your mobile page load time is eight seconds, so how many users with the intention of loading your site *never* result in a pageview?
 
 <figure align="center">
-<img style="max-width:80%;"  class="resp" data-width="80" data-src="https://webperf.ninja/uploads/ga-cancelled.png"/>
+<img style="max-width:80%;"  class="resp" data-width="80" data-src="https://webperf.ninja/uploads/ga_cancelled.png"/>
 <figcaption>GA beacons cancelled when user navigates away during page load.</figcaption>
 </figure>
 
