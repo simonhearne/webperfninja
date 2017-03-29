@@ -5,7 +5,7 @@ categories:
 - '2017'
 comments: true
 image:
-  feature: "../uploads/hero-sprite.png"
+  feature: "../uploads/analytics-hero.png"
 toc: true
 excerpt: You can't rely on your web analytics for performance data, oh and it's underestimating traffic from old devices.
 layout: post
