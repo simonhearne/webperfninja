@@ -1,14 +1,13 @@
 ---
 title: Your Analytics is Lying to You
-date: 2017-03-30 00:00:00 Z
+date: 2017-03-20 00:00:00 Z
 categories:
 - '2017'
 comments: true
 image:
   feature: "../uploads/analytics-hero.png"
 toc: true
-excerpt: You can't rely on your web analytics for performance data, oh and it's underestimating
-  traffic from old devices.
+excerpt: You can't rely on your web analytics for performance data and it's underestating bounce rate and  traffic numbers from old devices.
 layout: post
 ---
 
@@ -27,8 +26,18 @@ A further 29% of attendees use synthetic monitoring as their source of site spee
 
 Using analytics for site speed is logical, if you have a website you will have analytics. Access to products like Google Analytics is widespread throughout an organisation, and it provides reporting on site speed data. Google Analytics (GA) is actually the best we've seen for reporting site speed. You can view multiple timing metrics and segment by device type or location. Adobe Analytics has no default site speed data, you have to manually add it to the analytics code, once it's being collected there is very little you can do with it.
 
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/ga-speed-sampling.png"/>
+<figcaption>GA quietly samples site speed data.</figcaption>
+</figure>
+
 GA's site speed data is flawed. The data is sampled, limited by default to [no more than 1% of pageviews](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference#siteSpeedSampleRate). This sample rate can be changed to 100%, although I've not seen that done on a high-traffic site.
 Even if GA collects 100% of site speed data, it cannot be correlated with any other metric. The speed data is aggregated by time, and not linked with sessions. As such it is impossible to determine the user experience of a whole session, or indeed to correlate speed with likelihood to convert.
+
+<figure align="center">
+<code>ga('create', 'UA-XXXX-Y', {'siteSpeedSampleRate': 100});</code>
+<figcaption>Set a 100% sample rate for GA site speed.</figcaption>
+</figure>
 
 Most of my job as a performance consultant is convincing companies that site speed is critical to their business, GA does not make that easy!
 
@@ -38,6 +47,11 @@ Anyway, so you've changed your sampling rate and got 100% of your pageviews send
 It's scary to think about, but your bounce rate is likely *much* higher than 50%. Bounces are sessions which have only one pageview, they don't count sessions which have less than one pageview... bear with me.
 
 A recent [study by Google](https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/) showed, by comparing DoubleClick ad clicks and Google Analytics pageviews, that 53% of ad clicks never result in a pageview when the page has a load time of over three seconds. Your analytics shows you that your mobile page load time is eight seconds, so how many users with the intention of loading your site *never* result in a pageview?
+
+<figure align="center">
+<img style="max-width:80%;" src="/uploads/ga-cancelled.png"/>
+<figcaption>GA beacons cancelled when user navigates away during page load.</figcaption>
+</figure>
 
 These non-pageviews are *phantom bounces*. They don't appear anywhere in your analytics, but they could be a significant proportion of your traffic driven by marketing campaigns. What's worse, your marketing budget will be spent on traffic which may never reach your landing pages.
 
@@ -56,13 +70,13 @@ There's little that one can do to improve your analytics. With GA you can increa
 
 Phantom bounces are an interesting challenge. From the DoubleClick study we know that there is a disparity between the clicks being logged and the pages being loaded. The flow goes something like this, assuming a click from Google's SERP:
 
- - User clicks a link (looks like your site, is actually Google)
- - Google logs the click, redirects user to your site
- - User's browser makes a request for your site
- - Your site responds with some HTML
- - HTML, CSS, JavaScript are processed
- - Page loads
- - Analytics fires
+ 1. User clicks a link (looks like your site, is actually Google)
+ 2. Google logs the click, redirects user to your site
+ 3. User's browser makes a request for your site
+ 4. Your site responds with some HTML
+ 5. HTML, CSS, JavaScript are processed
+ 6. Page loads
+ 7. Analytics fires
 
  Ideally, we would get data from the first step - how many people make the intention to load the page. This information is extremely hard to get, although an advertising provider should report on the number of clicks. If you have a good URL strategy then you might be able to do your own DoubleClick-style study, correlating ad clicks with pageviews.
 
