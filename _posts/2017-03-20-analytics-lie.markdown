@@ -7,7 +7,8 @@ comments: true
 image:
   feature: "../uploads/analytics-hero.png"
 toc: true
-excerpt: You can't rely on your web analytics for performance data and it's underestating bounce rate and  traffic numbers from old devices.
+excerpt: You can't rely on your web analytics for performance data and it's underestating
+  bounce rate and  traffic numbers from old devices.
 layout: post
 ---
 
