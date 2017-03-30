@@ -12,7 +12,7 @@ excerpt: You can't rely on your web analytics for performance data and it's unde
 layout: post
 ---
 
-tl;dr: your analytics is almost certainly rubbish at reporting site speed data, and definitely under-reports bounce rate and traffic from old devices.
+tl;dr: your analytics is rubbish at reporting site speed data, and definitely under-reports your bounce rate as well as traffic figures from old devices.
 
 ## The site speed fallacy
 
