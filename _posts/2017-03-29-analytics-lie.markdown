@@ -16,12 +16,14 @@ tl;dr: your analytics is almost certainly rubbish at reporting site speed data, 
 
 ## The site speed fallacy
 
-In a recent webinar, Andy Davies and I asked a poll of the attendees: where do you get your site speed data? Bear in mind that the majority of the attendees on the webinar were from Ecommerce or Digital Management. The results were just about what we were expecting, over half of attendees use web analytics to get their speed data:
+In a recent webinar, [Andy Davies](https://twitter.com/AndyDavies) and I asked a poll of the attendees: where do you get your site speed data? Bear in mind that the majority of the attendees on the webinar were from Ecommerce or Digital Management. The results were just about what we were expecting, over half of attendees use web analytics to get their speed data:
 
 <figure align="center">
 <img style="max-width:80%;" class="resp" data-width="80" data-src="https://webperf.ninja/uploads/poll-analytics.png"/>
 <figcaption>Poll showing that 58% use web analytics to get site speed data</figcaption>
 </figure>
+
+(Miss the webinar? You can [watch the recording here](https://attendee.gotowebinar.com/recording/224707572878182658))
 
 A further 29% of attendees use synthetic monitoring as their source of site speed data. While synthetic monitoring is great for measuring operational performance and tracking changes over time, it gives little indication of the real user experience. Only 2% of attendees stated that they use real user monitoring.
 
@@ -70,7 +72,7 @@ Right, that's enough of problems. How do we go about getting the right informati
 
 ## Analytics
 
-There's little that you can do to improve your analytics. With GA you can increase the site speed sample rate, but the data still doesn't have much value. It's the same with Adobe Analytics. Unfortunately I think it's necessary to separate performance and analytics products, even though they have a significant overlap. There's a niche waiting to be exploited!
+There's little that you can do to improve your analytics. With GA you can increase the site speed sample rate, but the data still doesn't have much value. It's the same with Adobe Analytics. Unfortunately I think it's necessary to separate performance and analytics products, even though they have a significant overlap. There's a niche waiting to be exploited! NCC's RUM solution has been designed to help build a business case for site speed improvements. I highly recommend a [a three week free trial](https://www.nccgroup.trust/rum-webinar/).
 
 ## Phantom bounces
 
