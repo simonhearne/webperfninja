@@ -92,10 +92,10 @@ Phantom bounces are an interesting challenge. From the DoubleClick study we know
 
 ## Device representation
 
-The homogenous 'iPhone' and 'iPad' issue can be solved pretty easily using [WURFL.js](). Simply instrument the JavaScript snippet on your site, integrate with GA and voila: iPhone and iPad models in your analytics.
+The homogenous 'iPhone' and 'iPad' issue can be solved pretty easily using [WURFL.js](https://web.wurfl.io/#wurfl-js). Simply instrument the JavaScript snippet on your site, integrate with GA and voila: iPhone and iPad models in your analytics.
 
 Unless your website has a very specific audience, base your device testing on your target markets not your analytics. [Amazon's best sellers list](https://www.amazon.co.uk/Best-Sellers-Electronics-Mobile-Phones-Smartphones/zgbs/electronics/5362060031/ref=zg_bs_nav_ce_3_1340509031) is usually a great place to start, bolt on the last 2.5 years of Apple and Samsung flagships, plus the Chinese upstarts OnePlus and Xiaomi, and you'll get reasonable coverage.
 
 The top 12 devices should give you around 20% coverage of the whole smartphone market. You'll need 60 devices to get to 50%! Testing on the latest flagships should be a given, testing on the budget devices that make up around [half of the market](http://opensignal.com/reports/2015/08/android-fragmentation/) is the next step to take.
 
-Get in touch via [email]](mailto:simon@hearne.me) or [twitter](https://twitter.com/simonhearne) if you need help getting better performance data, optimising your analytics configuration or setting up a device lab.
+Get in touch via [email](mailto:simon@hearne.me) or [twitter](https://twitter.com/simonhearne) if you need help getting better performance data, optimising your analytics configuration or setting up a device lab.
