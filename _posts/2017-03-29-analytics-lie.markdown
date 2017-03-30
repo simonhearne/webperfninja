@@ -23,7 +23,7 @@ In a recent webinar, [Andy Davies](https://twitter.com/AndyDavies) and I asked a
 <figcaption>Poll showing that 58% use web analytics to get site speed data</figcaption>
 </figure>
 
-(Miss the webinar? You can [watch the recording here](https://attendee.gotowebinar.com/recording/224707572878182658))
+> > Miss the webinar? You can [watch the recording here](https://attendee.gotowebinar.com/recording/224707572878182658)
 
 A further 29% of attendees use synthetic monitoring as their source of site speed data. While synthetic monitoring is great for measuring operational performance and tracking changes over time, it gives little indication of the real user experience. Only 2% of attendees stated that they use real user monitoring.
 
