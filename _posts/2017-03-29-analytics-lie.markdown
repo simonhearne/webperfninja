@@ -59,7 +59,7 @@ These non-pageviews are *phantom bounces*. They don't appear anywhere in your an
 
 ## Device representation
 
-Most of my clients base their device testing strategy on their analytics. I vividly remember a story I was told by an employee at a large UK retailer: when first joining the mobile team as a contract resource she questioned why there was no testing on the first generation iPad. She was told that their analytics showed no traffic from such an old device (three years after it was launched) so there was no need to test on it. The sceptical contractor got our her very-much-still-working iPad 1 and loaded the homepage. Safari crashed. No analytics event was recorded.
+Most of my clients base their device testing strategy on their analytics. I vividly remember a story I was told by an employee at a large UK retailer: when first joining the mobile team as a contract resource she questioned why there was no testing on the first generation iPad. She was told that their analytics showed no traffic from such an old device (three years after it was launched) so there was no need to test on it. The sceptical contractor got out her very-much-still-working iPad 1 and loaded the homepage. Safari crashed. No analytics event was recorded.
 
 This is a textbook case of the [tail wagging the dog](https://en.wiktionary.org/wiki/tail_wagging_the_dog).
 
@@ -68,6 +68,7 @@ It is common for my clients to focus their attention on flagship devices from Ap
 Just because Apple and Samsung make up for 80% of your smartphone traffic, that doesn't mean that you can ignore the other 20%. As we've seen above, that 20% could be under-represented due to older devices failing to load your site *at all*.
 
 # Solutions
+
 Right, that's enough of problems. How do we go about getting the right information?
 
 ## Analytics
