@@ -38,7 +38,7 @@ GA's site speed data is flawed. The data is sampled, limited by default to [no m
 
 <figure align="center">
 <code>ga('create', 'UA-XXXX-Y', {'siteSpeedSampleRate': 100});</code>
-<figcaption>Set a 100% sample rate for GA site speed.</figcaption>
+<figcaption>Set a 100% sample rate for GA site speed (p.s. [do not do this](https://developers.google.com/analytics/devguides/collection/analyticsjs/user-timings#sampling_considerations)!)</figcaption>
 </figure>
 
 Most of my job as a performance consultant is convincing companies that site speed is critical to their business, GA does not make that easy!
