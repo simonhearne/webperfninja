@@ -7,7 +7,7 @@ comments: true
 image:
   feature: "../uploads/analytics-hero.png"
 toc: true
-excerpt: You can't rely on your web analytics for performance data and it's underestating
+excerpt: You can't rely on your web analytics for performance data and it's understating
   bounce rate and  traffic numbers from old devices.
 layout: post
 ---
@@ -73,7 +73,7 @@ Right, that's enough of problems. How do we go about getting the right informati
 
 ## Analytics
 
-There's little that you can do to improve your analytics. With GA you can increase the site speed sample rate, but the data still doesn't have much value. It's the same with Adobe Analytics. Unfortunately I think it's necessary to separate performance and analytics products, even though they have a significant overlap. There's a niche waiting to be exploited! NCC's RUM solution has been designed to help build a business case for site speed improvements. I highly recommend a [a three week free trial](https://www.nccgroup.trust/rum-webinar/).
+There's little that you can do to improve your analytics. With GA you can increase the site speed sample rate, but the data still doesn't have much value. It's the same with Adobe Analytics. Unfortunately I think it's necessary to separate performance and analytics products, even though they have a significant overlap. There's a niche waiting to be exploited! NCC's RUM solution has been designed to help build a business case for site speed improvements. I highly recommend a [three week free trial](https://www.nccgroup.trust/rum-webinar/).
 
 ## Phantom bounces
 
