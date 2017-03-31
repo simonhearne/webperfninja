@@ -31,10 +31,10 @@ Using analytics for site speed is logical, if you have a website you will have a
 
 <figure align="center">
 <img style="max-width:80%;" s class="resp" data-width="80" data-src="https://webperf.ninja/uploads/ga-speed-sampling.png"/>
-<figcaption>GA quietly samples site speed data.</figcaption>
+<figcaption>GA quietly samples site speed data to 1%, independent of traffic sampling.</figcaption>
 </figure>
 
-GA's site speed data is flawed. The data is sampled, limited by default to [no more than 1% of pageviews](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference#siteSpeedSampleRate). This sample rate can be changed to 100%, although I've not seen that done on a high-traffic site. Even if GA collects 100% of site speed data, it cannot be correlated with any other metric. The speed data is aggregated and averaged by time and not linked with sessions. As such it is impossible to determine the user experience of a whole session, or to correlate speed with goal completion.
+GA's site speed data is flawed. The data is sampled, limited by default to [no more than 1% of pageviews](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference#siteSpeedSampleRate) even for Analytics 360 paid accounts. This sample rate can be changed to 100%, although that will dramatically skew your data towards traffic in the early hours of the morning, [especially if your site attracts over 1M pageviews per day](https://developers.google.com/analytics/devguides/collection/analyticsjs/user-timings#sampling_considerations). Even if GA collects 100% of site speed data, it cannot be correlated with any other metric. The speed data is aggregated and averaged by time and not linked with sessions. As such it is impossible to determine the user experience of a whole session, or to correlate speed with goal completion.
 
 <figure align="center">
 <code>ga('create', 'UA-XXXX-Y', {'siteSpeedSampleRate': 100});</code>
