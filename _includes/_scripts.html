@@ -18,6 +18,7 @@ function isInViewport(element) {
 
 debounce = false;
 function respIm(force){
+  var local = window.location.hostname.includes('localhost');
   var forEach = function (array, callback, scope) {
     for (var i = 0; i < array.length; i++) {
       callback.call(scope, i, array[i]); // passes back stuff we need
@@ -45,8 +46,11 @@ function respIm(force){
       }
       
       w = parseInt(w * dpr);
-
-      v.src = imcdn+w+'/'+p;
+      if (local) {
+        v.src = p;
+      } else {
+        v.src = imcdn+w+'/'+p;
+      }
     }
   });
   window.debounce=true;
