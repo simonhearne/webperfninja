@@ -265,7 +265,6 @@ $button-size: 1.5rem;
 	h3 {
 		margin: 0;
 		padding-bottom: .5em;
-		@include font-rem(28);
 	}
 	article {
 		border-radius: 4px;
@@ -274,7 +273,6 @@ $button-size: 1.5rem;
 		h2 {
 			margin-bottom: 4px;
 			margin-top: 7px;
-			@include font-rem(28);
 			&.link-post {
 				margin-bottom: 0px + $doc-line-height;
 				margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
