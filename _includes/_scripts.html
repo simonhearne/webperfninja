@@ -42,7 +42,7 @@ function respIm(force){
     if (inv) {
       var p = v.getAttribute('data-src');
       var w = v.width;
-      if (w == 0) {
+      if (w < 50) {
         w = v.parentElement.clientWidth;
         if (v.hasAttribute('data-width')) {
           var x = v.getAttribute('data-width');
@@ -50,6 +50,8 @@ function respIm(force){
           w*=x;
         }
       }
+
+      if (w < 100) w=100;
       
       w = parseInt(w * dpr);
       if (local) {
