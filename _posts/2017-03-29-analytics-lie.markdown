@@ -12,8 +12,6 @@ excerpt: You can't rely on your web analytics for performance data and it's unde
 layout: post
 ---
 
-tl;dr: your analytics is rubbish at reporting site speed data, and definitely under-reports your bounce rate as well as traffic figures from old devices.
-
 ## The site speed fallacy
 
 In a recent webinar, [Andy Davies](https://twitter.com/AndyDavies) and I asked a poll of the attendees: where do you get your site speed data? Bear in mind that the majority of the attendees on the webinar were from Ecommerce or Digital Management. The results were just about what we were expecting, over half of attendees use web analytics to get their speed data:
