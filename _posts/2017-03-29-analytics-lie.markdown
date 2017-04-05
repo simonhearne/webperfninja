@@ -19,7 +19,7 @@ tl;dr: your analytics is rubbish at reporting site speed data, and definitely un
 In a recent webinar, [Andy Davies](https://twitter.com/AndyDavies) and I asked a poll of the attendees: where do you get your site speed data? Bear in mind that the majority of the attendees on the webinar were from Ecommerce or Digital Management. The results were just about what we were expecting, over half of attendees use web analytics to get their speed data:
 
 <figure align="center">
-<img style="max-width:80%;" class="resp" data-width="80" data-src="https://webperf.ninja/uploads/poll-analytics.png"/>
+<img style="max-width:100%;" class="resp" data-width="100" data-src="https://webperf.ninja/uploads/analytics-hero.png"/>
 <figcaption>Poll showing that 58% use web analytics to get site speed data</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ A further 29% of attendees use synthetic monitoring as their source of site spee
 Using analytics for site speed is logical, if you have a website you will have analytics. Access to products like Google Analytics is widespread throughout an organisation, and it provides reporting on site speed data. Google Analytics (GA) is actually the best we've seen for reporting site speed. You can view multiple timing metrics and even segment by device type or location. Adobe Analytics has no default site speed data, you have to manually add it to the analytics code, once it's being collected there is very little you can do with it.
 
 <figure align="center">
-<img style="max-width:80%;" s class="resp" data-width="80" data-src="https://webperf.ninja/uploads/ga-speed-sampling.png"/>
+<img style="max-width:100%;" s class="resp" data-width="100" data-src="https://webperf.ninja/uploads/ga-speed-sampling.png"/>
 <figcaption>GA quietly samples site speed data to 1%, independent of traffic sampling.</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ It's scary to think about it, but your bounce rate is likely much higher than 50
 A recent [study by Google](https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/) compared DoubleClick and Google Analytics data to find that 53% of mobile ad clicks never result in a pageview, when the page has a load time of three seconds or more. Your analytics shows you that your mobile page load time is eight seconds, how many users who click on a link to your site *never* result in a pageview?
 
 <figure align="center">
-<img style="max-width:80%;"  class="resp" data-width="80" data-src="https://webperf.ninja/uploads/ga_cancelled.png"/>
+<img style="max-width:100%;"  class="resp" data-width="100" data-src="https://webperf.ninja/uploads/ga_cancelled.png"/>
 <figcaption>GA beacons cancelled when user navigates away during a slow page load.</figcaption>
 </figure>
 
