@@ -18,6 +18,12 @@ function isInViewport(element) {
 
 debounce = false;
 function respIm(force){
+  if (!String.prototype.includes) {
+     String.prototype.includes = function() {
+         'use strict';
+         return String.prototype.indexOf.apply(this, arguments) !== -1;
+     };
+ }
   var local = window.location.hostname.includes('localhost');
   var forEach = function (array, callback, scope) {
     for (var i = 0; i < array.length; i++) {
