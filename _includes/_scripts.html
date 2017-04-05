@@ -95,8 +95,8 @@ window.addEventListener('load',function(){initAnalytics()});
 </script>
 <script type="text/javascript" nonce="azureapplicationinsights-events">
   var evnts = document.querySelectorAll('[data-event]');
-  evnts.forEach(function(evnt){
-    evnt.addEventListener("click", logAzureEvent);
+  [].forEach.call(evnts,function(evnt) {
+    evnt.addEventListener("click", function(){logAzureEvent();return false;});
   });
   function logAzureEvent() {
     appInsights.trackEvent(this.attributes['data-event'].value);
