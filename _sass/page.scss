@@ -292,8 +292,8 @@ $button-size: 1.5rem;
 
 /* Large feature header image */
 .image-wrap {
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+	-webkit-clip-path: circle(85% at 35% 0%);
+    clip-path: circle(85% at 35% 0%);
 	position: relative;
 	margin-bottom: 2em;
 	@include clearfix;
