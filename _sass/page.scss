@@ -4,6 +4,9 @@
 
 body {
 	background-color: $bodycolor;
+	background: url(/images/foot-pattern.svg) fixed center center no-repeat;
+    background-size: cover;
+	padding-bottom:100px;
 	font-family: $base-font;
 	color: $text-color;
 }
@@ -273,6 +276,7 @@ $button-size: 1.5rem;
 		padding-bottom: .5em;
 	}
 	article {
+		background-color: #fff;
 		border-radius: 4px;
 		box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
 		padding: 10px 10px 0px 10px;
@@ -296,8 +300,8 @@ $button-size: 1.5rem;
 
 /* Large feature header image */
 .image-wrap {
-	-webkit-clip-path: circle(90% at 35% -25%);
-    clip-path: circle(90% at 35% -25%);
+	-webkit-clip-path: polygon(100% 0, 0 0, 0 100%, 100% 90%);;
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 90%);;
 	position: relative;
 	margin-bottom: 2em;
 	@include clearfix;

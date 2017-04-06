@@ -10,16 +10,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
 }
 h1 {
-	@include font-size(26);
+	@include font-size(24);
 	@media #{$small} {
-		@include font-size(32);
+		@include font-size(28);
 	}
 
 }
 h2 {
-	@include font-size(24);
+	@include font-size(22);
 	@media #{$small} {
-		@include font-size(28);
+		@include font-size(24);
 	}
 
 }
@@ -30,16 +30,16 @@ h2 .subtitle {
 	text-decoration-color:gray;
 }
 h3 {
-	@include font-size(24);
-}
-h4 {
 	@include font-size(20);
 }
-h5 {
+h4 {
 	@include font-size(16);
 }
-h6 {
+h5 {
 	@include font-size(14);
+}
+h6 {
+	@include font-size(12);
 }
 
 /*
@@ -149,7 +149,7 @@ blockquote {
 
 p {
 	margin: 0 0 $indent-var;
-	@include font-size(20);
+	@include font-size(18);
 	// sibling indentation
   @if $paragraph-indent == true {
     & + p {
