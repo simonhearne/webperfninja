@@ -2,8 +2,11 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
-<link rel="preconnect" href="https://llpc.lite.imgeng.in/">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+
+<link rel="preconnect" href="https://llpc.lite.imgeng.in/">
+<link rel="preload" as="image" type="image/svg+xml" href="{{ site.url }}/images/pattern.svg">
+
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 {% if page.author %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
