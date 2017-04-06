@@ -32,7 +32,7 @@ body {
 
 /* Site name */
 .site-name {	
-	padding-top:4px;
+	padding-top:6px;
 	@include grid(12,10);
 	@include prefix(12,1);
 	@include suffix(12,1);
