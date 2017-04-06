@@ -13,12 +13,18 @@ body {
    ========================================================================== */
 
 .navigation-wrapper {
+	border-bottom: 4px solid black;
+	background-image: url(/images/pattern.svg);
+    background-size: cover;
 	@include container;
-	padding: 1em 0 0;
+	padding: 1em 0 0.5em 0;
 	font-family: $heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
 	@include clearfix;
+	a {
+		color:#222 !important;
+	}
 }
 
 /* Site name */
@@ -290,8 +296,8 @@ $button-size: 1.5rem;
 
 /* Large feature header image */
 .image-wrap {
-	-webkit-clip-path: circle(85% at 35% 0%);
-    clip-path: circle(85% at 35% 0%);
+	-webkit-clip-path: circle(90% at 35% -25%);
+    clip-path: circle(90% at 35% -25%);
 	position: relative;
 	margin-bottom: 2em;
 	@include clearfix;
