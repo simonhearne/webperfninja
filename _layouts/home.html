@@ -33,19 +33,22 @@
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
+    <!--<h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>-->
     {% for post in site.posts %}
-    <a href="{{ site.url }}{{ post.url }}#hero-top" title="{{ post.title }}"><article>
-	  {% if post.image %}
-      <img class="resp wide" alt="{{ post.title }} feature image" data-src="{{ site.url }}/images/{{ post.image.feature }}"/>
-	  {% endif %}
+    <a href="{{ site.url }}{{ post.url }}#hero-top" title="{{ post.title }}">
+      <article>
+      {% if post.image %}<img class="resp wide" alt="{{ post.title }} feature image" data-src="{{ site.url }}/images/{{ post.image.feature }}"/>{% endif %}
+	  
+      <div class="article-text">
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
       {% else %}
         <h2>{{ post.title }}</h2>
         <p>{{ post.excerpt | strip_html | truncate: 320 }}</p>
       {% endif %}
-    </article></a>
+      </div>
+    </article>
+    </a>
     {% endfor %}
   </div><!-- /#index -->
 </div><!-- /#main -->
