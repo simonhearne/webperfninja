@@ -3,11 +3,8 @@
 - title: About
   url: /about/
 
-- title: All Posts
-  url: /posts/
-
 - title: Talks
   url: /talks/
 
-- title: WebPerf Tools
+- title: Tools
   url: /tools/
