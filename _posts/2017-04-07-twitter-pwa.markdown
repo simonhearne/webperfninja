@@ -1,20 +1,6 @@
 ---
-title: Twitter's PWA is rubbish, but that's okay
-date: 2017-04-07 00:00:00 Z
-categories:
-- '2017'
-comments: true
-image:
-  feature: "/uploads/hero-twitter-pwa.png"
-toc: true
-<<<<<<< HEAD:_posts/2017-04-07-twitter-pwa.markdown
-excerpt: Twitter's Progressive Web App is finally out of testing, and it's not as good as the native app. Missing push notifications, wonky images, small text boxes, lack of sharing intents and confusing pull-to-update behaviour all damage the user experience. But the fact that Twitter is on-board with PWAs is a great step towards better web experiences.
-=======
-excerpt: Twitter's Progressive Web App is finally out of testing, and it's not as
-  good as the native app. Missing push notifications, wonky images, small text boxes
-  and confusing pull-to-refresh behaviour make the experience confusing.
->>>>>>> 484089ecbc61481a6468fac5780272f21edc5a92:_posts/2017-04-06-twitter-pwa.markdown
-layout: post
+title: 2017 04 07 Twitter Pwa
+date: 2017-04-07 14:15:11.546000000 Z
 ---
 
 ## The promise of PWAs
