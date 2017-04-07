@@ -69,8 +69,8 @@ I use an increased font-size in my browser configuration, this is because so man
 <video autoplay muted loop poster="/uploads/text.jpg" style="width:80%; max-width:480px;">
   <source src="/uploads/text.webm" type="video/webm">
   <source src="/uploads/text.mp4" type="video/mp4">
-  <figcaption>Text boxes are too small and do not overflow correctly</figcaption>
 </video>
+<figcaption>Text boxes are too small and do not overflow correctly</figcaption>
 </figure>
 
 ### Push notifications are less reliable
@@ -93,8 +93,8 @@ Another slight irritation is shown in the video below. There is no indication to
 <video autoplay muted loop poster="/uploads/image.jpg" style="width:80%; max-width:480px;">
   <source src="/uploads/image.webm" type="video/webm">
   <source src="/uploads/image.mp4" type="video/mp4">
-  <figcaption>Images aren't correctly rotated, and there's no way to fix it</figcaption>
 </video>
+<figcaption>Images aren't correctly rotated, and there's no way to fix it</figcaption>
 </figure>
 
 ### Pull-to-...?
@@ -105,8 +105,8 @@ The native Twitter application has trained me to pull-to-update on the feed. Pul
 <video autoplay muted loop poster="/uploads/ptr.jpg" style="width:80%; max-width:480px;">
   <source src="/uploads/ptr.webm" type="video/webm">
   <source src="/uploads/ptr.mp4" type="video/mp4">
-  <figcaption>Pull-to-update behaviour is inconstistent.</figcaption>
 </video>
+<figcaption>Pull-to-update behaviour is inconstistent.</figcaption>
 </figure>
 
 ### Sharing
