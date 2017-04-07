@@ -7,7 +7,8 @@ comments: true
 image:
   feature: "../uploads/velocity_hillary_hero.jpg"
 layout: post
-excerpt: Velocity Amsterdam has just come to a close. Here are the three key things that I am taking away from the two days of sessions.
+excerpt: Velocity Amsterdam has just come to a close. Here are the three key things
+  that I am taking away from the two days of sessions.
 ---
 
 ## 1) Performance KPIs are broken

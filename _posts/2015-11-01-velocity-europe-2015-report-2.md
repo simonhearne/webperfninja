@@ -14,8 +14,12 @@ image:
   feature: ams_hero.jpg
   credit: Velocity at the RAI in Amsterdam
 layout: post
-excerpt: This post is a review and summary of the talks at Velocity Europe that I attended. I've summarised each talk and given links to the slides, videos and ratings. A <a href="/2015/velocity-europe-2015-report-1/">previous post</a> contains the talks that got a five star review from me. Less than a five star review is not a bad thing, though. Five stars means exceptional, while three stars means the talk had some value.
-
+excerpt: This post is a review and summary of the talks at Velocity Europe that I
+  attended. I've summarised each talk and given links to the slides, videos and ratings.
+  A <a href="/2015/velocity-europe-2015-report-1/">previous post</a> contains the
+  talks that got a five star review from me. Less than a five star review is not a
+  bad thing, though. Five stars means exceptional, while three stars means the talk
+  had some value.
 ---
 
 ### Continuous Performance - *Stijn Polfliet (CoScale)*

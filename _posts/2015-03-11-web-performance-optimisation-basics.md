@@ -11,9 +11,9 @@ layout: post
 comments: true
 image:
   feature: speed_hero.jpg
-excerpt: Website performance is critical to user experience. We need rules to make it easier.
+excerpt: Website performance is critical to user experience. We need rules to make
+  it easier.
 ---
-
 
 Our web performance industry was unquestionably seeded by Steve Souders' book [High Performance Websites](http://shop.oreilly.com/product/9780596529307.do). In his book, steve identifies [14 rules](http://stevesouders.com/hpws/rules.php) to improve web perfomance.
 

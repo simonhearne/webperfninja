@@ -14,7 +14,8 @@ description: Web performance is critically important, how will upcoming technolo
 comments: true
 image:
   feature: future_hero.jpg
-excerpt: Web performance is critically important, how will upcoming technologies change the way we manage it?
+excerpt: Web performance is critically important, how will upcoming technologies change
+  the way we manage it?
 ---
 
 Web performance is [critical](/2015/web-performance-optimisation-basics/) to a successful online business.
