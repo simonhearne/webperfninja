@@ -27,7 +27,9 @@ Normal websites can be upgraded to add great features such as a good offline exp
 
 Have you ever started to install an application, then stop because it requested permission to record audio, spam all of your contacts, install a trojan horse or turn your phone pink? The web has a well developed permissions model for things like access to the camera, vibration, location and sensors. A PWA inherits all of this development in web permissions.
 
-## Twitter
+> > I want to point out here that, although I am picking at the flaws in Twitter Lite, I have great respect for the team that created it. Twitter releasing a progressive web app is such a positive sign for the web. I'm also aware that I am not the key audience of Twitter Lite: I have a phone that cost an eye-watering amount to buy and consistent access to 4G coverage. The issues I highlight below are minor compared to the increased reach provided by Twitter Lite: to users who cannot access the latest devices, who may only have 2G network coverage and might rely solely on their phone for communication. Twitter Lite is a positive step for the web! Browsers just need to catch up with what we are now expecting of them.
+
+## Twitter Lite
 
 <figure align="center">
 <img style="max-width:50%;" class="resp" data-width="50" data-src="https://webperf.ninja/uploads/twitter-app-size.png"/>
@@ -82,6 +84,13 @@ Also frustrating is the lack of grouping of notifications, a popular tweet can q
 <figure align="center">
 <img style="max-width:60%;" class="resp" data-width="60" data-src="https://webperf.ninja/uploads/twitter-pwa-notifications.png"/>
 <figcaption>Fewer notifications from the PWA</figcaption>
+</figure>
+
+A small secondary issue is that newline characters are not escaped in the notifications. I'm not sure if this behaviour changes between devices, if so this would be really tough to test. It makes the PWA feel a bit immature.
+
+<figure align="center">
+<img style="max-width:60%;" class="resp" data-width="60" data-src="https://webperf.ninja/uploads/twitter-newlines.png"/>
+<figcaption>Newlines are not escaped in notifications.</figcaption>
 </figure>
 
 ### 3) Portrait images aren't re-oriented
