@@ -9,9 +9,9 @@ image:
 toc: true
 excerpt: Twitter's Progressive Web App is finally out of testing, and it's not as
   good as the native app. Missing push notifications, wonky images, small text boxes,
-  lack of sharing intents and confusing pull-to-update behaviour all damage the user
-  experience. But the fact that Twitter is on-board with PWAs is a great step towards
-  better web experiences.
+  lack of sharing intents and confusing pull-to-update behaviour all highlight the
+  challenge of building a PWA. The fact that Twitter is on-board with PWAs is a great
+  step towards better web experiences for all.
 layout: post
 ---
 
