@@ -45,8 +45,11 @@
         {% if page.excerpt %}
         <p class="excerpt">{{ page.excerpt }}</p>
         {% endif %}
-        <p style="text-align:right;font-size:90%;line-height:2;">Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}</p>
-      </div>
+        <p>
+          Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
+        </p>
+        </div>
+        <hr>
       {{ content }}
       <hr />
       <footer role="contentinfo">

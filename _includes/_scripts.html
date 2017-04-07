@@ -50,12 +50,12 @@ function respIm(force){
           w*=x;
         }
       }
-
       if (w < 100) w=100;
       
       w = parseInt(w * dpr);
       if (local) {
-        v.src = p;
+        var parts=p.toString().split('/');
+        v.src = '/'+parts[parts.length-2]+'/'+parts[parts.length-1];
       } else {
         v.src = imcdn+w+'/'+p;
       }

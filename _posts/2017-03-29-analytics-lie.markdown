@@ -1,5 +1,5 @@
 ---
-title: Your Analytics is Lying to You
+title: Your Analytics Lies to You
 date: 2017-03-29 00:00:00 Z
 categories:
 - '2017'
