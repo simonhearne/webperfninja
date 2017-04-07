@@ -66,7 +66,7 @@ There are three key issues I have with the twitter PWA which have led me back to
 I use an increased font-size in my browser configuration, this is because so many websites use tiny font sizes and disable zooming on mobile. It's easier for me to just have bigger text everywhere. Unfortunately this breaks the way Twitter's input boxes grow with text, making it really awkward to edit or review a tweet.
 
 <figure align="center">
-<video autoplay muted loop style="width:80%; max-width:480px;">
+<video autoplay muted loop poster="/uploads/text.jpg" style="width:80%; max-width:480px;">
   <source src="/uploads/text.webm" type="video/webm">
   <source src="/uploads/text.mp4" type="video/mp4">
   <figcaption>Text boxes are too small and do not overflow correctly</figcaption>
@@ -90,7 +90,7 @@ When attempting to add a portrait picture, which the native application uploads 
 Another slight irritation is shown in the video below. There is no indication to the user that the image is being uploaded! This is on wifi and there is an eight second delay with no user feedback, while the whole browser is locked up. Considering that the PWA is designed for users with low bandwidth mobile connections, this delay could be significantly longer.
 
 <figure align="center">
-<video autoplay muted loop style="width:80%; max-width:480px;">
+<video autoplay muted loop poster="/uploads/image.jpg" style="width:80%; max-width:480px;">
   <source src="/uploads/image.webm" type="video/webm">
   <source src="/uploads/image.mp4" type="video/mp4">
   <figcaption>Images aren't correctly rotated, and there's no way to fix it</figcaption>
@@ -102,7 +102,7 @@ Another slight irritation is shown in the video below. There is no indication to
 The native Twitter application has trained me to pull-to-update on the feed. Pulling down in other screens does nothing. Unfortunately, due to the dependence on the browser, this behaviour is not consistent in the PWA. It will reload the whole page if you pull on most pages. Implementing pull-to-update across the whole PWA might make this more consistent.
 
 <figure align="center">
-<video autoplay muted loop style="width:80%; max-width:480px;">
+<video autoplay muted loop poster="/uploads/ptr.jpg" style="width:80%; max-width:480px;">
   <source src="/uploads/ptr.webm" type="video/webm">
   <source src="/uploads/ptr.mp4" type="video/mp4">
   <figcaption>Pull-to-update behaviour is inconstistent.</figcaption>
