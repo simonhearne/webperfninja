@@ -14,15 +14,9 @@ image:
   feature: ams_hero_5.jpg
   credit: Velocity at the RAI in Amsterdam
 layout: post
+excerpt: This post is a review and summary of the talks at Velocity Europe that got a 5 star review from me. I've summarised each talk and given links to the slides, videos and ratings. A <a href="/2015/velocity-europe-2015-report-2/">further post</a> contains the talks that didn't quite get a five star review from me.
+
 ---
-
-This post is a review and summary of the talks at Velocity Europe that got a 5 star review from me. I've summarised each talk and given links to the slides, videos and ratings.
-
-I hope that this will help anyone who did not get a chance to attend the conference to get a taste of the exceptional talks that I was lucky enough to see.
-
-A [further post](/2015/velocity-europe-2015-report-2/) contains the talks that didn't quite get a five star review from me.
-
-----------
 
 ### The Physical Web is a Speed Issue - *Scott Jenson (Google)*
 

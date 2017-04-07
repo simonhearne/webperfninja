@@ -15,9 +15,8 @@ description: Sometimes prioritising recommendations is more important than makin
 comments: true
 image:
   feature: prioritisation_hero.jpg
+excerpt: Sometimes prioritising recommendations is more important than making them.
 ---
-
-#### Sometimes prioritising recommendations is more important than making them.
 
 One of my favourite tasks as a consultant is to provide reports to clients which make recommendations for improving site speed. Often these reports are taken very seriously, with senior managers using them to help drive the development roadmap for the next few months.
 

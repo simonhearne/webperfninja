@@ -15,11 +15,8 @@ description: Modernizr might be making your site slow, especially on mobiles
 comments: true
 image:
   feature: parachute_hero.jpg
-  credit: flickr/jaguarcarsmena
-  creditlink: https://www.flickr.com/photos/jaguarcarsmena/18769889306
+excerpt: Modernizr might be making your site slow, especially on mobiles
 ---
-
-#### Modernizr might be making your site slow, especially on mobiles
 
 According to [Modernizr.com](http://www.modernizr.com/), Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
 This framework tests for features in the user's browser then adds classes to your page declaring which HTML5 and CSS3 features are (and are not) supported in that browser.

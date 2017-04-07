@@ -13,11 +13,8 @@ layout: post
 comments: true
 image:
   feature: question_hero.jpg
-  credit: flickr/eleaf
-  creditlink: https://www.flickr.com/photos/eleaf/2536358399
+excerpt: We need rules to keep third-party Javascript in check.
 ---
-
-#### We need rules to keep third-party Javascript in check.
 
 We've discussed how to [find the third-party assets](http://webperf.ninja/2015/find-third-party-assets/) on your site and started to look at how to [mitigate the risk](http://webperf.ninja/2015/manage-3p-risk-csp/) that they pose.
 But what should you do when you add new third-parties to the site?

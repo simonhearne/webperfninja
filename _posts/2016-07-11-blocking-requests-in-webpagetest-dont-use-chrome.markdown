@@ -6,9 +6,8 @@ categories:
 tags:
 - webpagetest
 layout: post
+excerpt: We know that third-party content can harm the user experience on a website. Measuring that impact can be tricky.
 ---
-
-We know that third-party content can harm the user experience on a website. Measuring that impact can be tricky.
 
 TL;DR: Blocking third-party requests in webpagetest shows you the impact they're having on a page, but Chrome is inefficient at blocking the requests. So use another browser such as Internet Explorer to do third-party impact testing.
 
