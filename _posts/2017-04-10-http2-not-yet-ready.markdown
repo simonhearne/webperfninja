@@ -1,15 +1,17 @@
 ---
 title: HTTP/2 is not living up to the webperf promises
 date: 2017-04-10 00:00:00 Z
+published: false
 categories:
 - '2017'
 comments: true
 image:
   feature: "../uploads/hero-twitter-pwa.png"
 toc: true
-excerpt: HTTP/2, the first major change to HTTP in 18 years, promised to dramatically improve web performance. It's now out in the wild, and the results do not live up to expectations.
+excerpt: HTTP/2, the first major change to HTTP in 18 years, promised to dramatically
+  improve web performance. It's now out in the wild, and the results do not live up
+  to expectations.
 layout: post
-published: false
 ---
 
 ## The promise of HTTP/2
