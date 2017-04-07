@@ -5,6 +5,7 @@
   "start_url": "/",
   "display": "Browser",
   "theme_color": "#6a1b9a",
+  "background_color": "#fff",
   "icons": [
     {
       "src": "/images/apple-touch-icon-180x180-precomposed.png",
