@@ -44,5 +44,3 @@ Here you can see that the root domain (www.answers.com) makes up a small proport
 Another observation is based on the length of the edges on the map (the lines which join the blobs), these are proportional to the mean response time of that domain. Blobs that are far away from the target site on the map are far away from the customer's experience. A single asset from www.dsply.com (far left) took over 1.1s to load less than one kilobyte of content! It also took almost a second to load two kilobytes from snip.answers.com. Are these assets critical to the user experience? If so, there's a massive performance hit here.
 
 There's a lot of work to do on analysing third-party components but visualising who is on your site (and how they got there) is a good start!
-
-Si.
