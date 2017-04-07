@@ -16,7 +16,8 @@ layout: post
 comments: true
 image:
   feature: csp_hero.png
-excerpt: A feature to prevent cross-site-scripting may make it easier to police third-party javascript.
+excerpt: A feature to prevent cross-site-scripting may make it easier to police third-party
+  javascript.
 ---
 
 Andy Davies and I have [spoken](https://www.youtube.com/watch?v=9OtUOgx0cZg "What Are Third-party Components Doing to Your Site?") at a number of conferences about the risks that third-party components can have on your website.

@@ -13,7 +13,11 @@ comments: true
 image:
   feature: render_hero_bruce.jpg
 layout: post
-excerpt: Render Conference - previously known as jQuery UK - was held in Oxford last week. It's a front-end conference for front-end people, which makes me a bit of an outsider. Performance is not the focus of Render Conference. Render is an opportunity for me to hone up my front-end skills and get an idea of what front-end developers are up against and the latest technologies in play.
+excerpt: Render Conference - previously known as jQuery UK - was held in Oxford last
+  week. It's a front-end conference for front-end people, which makes me a bit of
+  an outsider. Performance is not the focus of Render Conference. Render is an opportunity
+  for me to hone up my front-end skills and get an idea of what front-end developers
+  are up against and the latest technologies in play.
 ---
 
 ### [Bruce Lawson](https://twitter.com/@brucel) - web.next
