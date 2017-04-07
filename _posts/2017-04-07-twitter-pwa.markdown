@@ -59,9 +59,9 @@ This also means that the performance of the PWA is dependent on browser performa
 
 ## Things that just don't work
 
-There are three key issues I have with the twitter PWA which have led me back to the native application, for now.
+There are five key issues I have with the twitter PWA which have led me back to the native application, for now.
 
-### Text boxes are tiny
+### 1) Text boxes are tiny, and broken
 
 I use an increased font-size in my browser configuration, this is because so many websites use tiny font sizes and disable zooming on mobile. It's easier for me to just have bigger text everywhere. Unfortunately this breaks the way Twitter's input boxes grow with text, making it really awkward to edit or review a tweet.
 
@@ -73,7 +73,7 @@ I use an increased font-size in my browser configuration, this is because so man
 <figcaption>Text boxes are too small and do not overflow correctly</figcaption>
 </figure>
 
-### Push notifications are less reliable
+### 2) Push notifications are less reliable
 
 I noticed a few times during my trial of the PWA that I would open Twitter to find unread notifications, but I had received no push notifications. On re-installing the native application I often get more notifications from the application than the PWA. The Web Push API depends on a [third-party server](https://developers.google.com/web/fundamentals/engage-and-retain/push-notifications/sending-messages) to send notifications, and it's generally fire-and-forget with no ability to re-send failed notifications.
 Also frustrating is the lack of grouping of notifications, a popular tweet can quickly fill up your notifications!
@@ -83,7 +83,7 @@ Also frustrating is the lack of grouping of notifications, a popular tweet can q
 <figcaption>Fewer notifications from the PWA</figcaption>
 </figure>
 
-### Portrait images aren't re-oriented
+### 3) Portrait images aren't re-oriented
 
 When attempting to add a portrait picture, which the native application uploads with the correct orientation, the PWA has it sideways. This wouldn't be such an issue if the image could then be rotated in the PWA, but it cannot. As such this is a killer bug for me.
 
@@ -97,7 +97,7 @@ Another slight irritation is shown in the video below. There is no indication to
 <figcaption>Images aren't correctly rotated, and there's no way to fix it</figcaption>
 </figure>
 
-### Pull-to-...?
+### 4) Pull-to-...?
 
 The native Twitter application has trained me to pull-to-update on the feed. Pulling down in other screens does nothing. Unfortunately, due to the dependence on the browser, this behaviour is not consistent in the PWA. It will reload the whole page if you pull on most pages. Implementing pull-to-update across the whole PWA might make this more consistent.
 
@@ -109,7 +109,7 @@ The native Twitter application has trained me to pull-to-update on the feed. Pul
 <figcaption>Pull-to-update behaviour is inconstistent.</figcaption>
 </figure>
 
-### Sharing
+### 5) Sharing
 
 One of the key features of the web is being able to share content. The native Twitter application adds sharing intents to menus, so that you can share content via tweets or direct messages from any other application (or browser) on your device. This is missing in the PWA which makes day-to-day use significantly more tricky - copy to clipboard, back to homescreen, open PWA, click the tweet button, tap-and-hold, paste text.
 
