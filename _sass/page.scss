@@ -308,12 +308,15 @@ figure img,video {
 .image-wrap {
 	-webkit-clip-path: polygon(100% 0, 0 0, 0 100%, 100% 90%);;
     clip-path: polygon(100% 0, 0 0, 0 100%, 100% 90%);;
+	background-color: #e0ebff;
+	text-align:center;
 	position: relative;
 	margin-bottom: 2em;
 	@include clearfix;
 
 	img {
 		width: 100%;
+		max-width:1200px;
 		height: auto;
 		margin-bottom: -1em;
 		-ms-interpolation-mode: bicubic;
