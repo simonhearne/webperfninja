@@ -1,5 +1,5 @@
 ---
-title: Twitter's PWA is rubbish, but that's okay
+title: Twitter Lite isn't as good as the app, and that's okay
 date: 2017-04-07 00:00:00 Z
 categories:
 - '2017'
