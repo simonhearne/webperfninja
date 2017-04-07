@@ -15,7 +15,7 @@ layout: post
 comments: true
 image:
   feature: requestmap_hero.png
-excerpt: "Third party" means not you or me, but them.
+excerpt: Third party means not you or me, but them.
 ---
 
 <a href="http://requestmap.webperf.tools" class="btn btn-block btn-primary">Go to the tool</a>
