@@ -7,7 +7,9 @@ comments: true
 image:
   feature: "../uploads/analytics-hero.png"
 toc: true
-excerpt: Twitter's Progressive Web App is finally out of testing, and it's not as good as the native app. Missing push notifications, wonky images, small text boxes and confusing pull-to-refresh behaviour make the experience confusing.
+excerpt: Twitter's Progressive Web App is finally out of testing, and it's not as
+  good as the native app. Missing push notifications, wonky images, small text boxes
+  and confusing pull-to-refresh behaviour make the experience confusing.
 layout: post
 ---
 
