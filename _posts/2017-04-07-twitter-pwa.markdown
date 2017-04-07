@@ -129,6 +129,13 @@ One of the key features of the web is being able to share content. The native Tw
 <figcaption>Lack of integrated share options is frustrating.</figcaption>
 </figure>
 
+## Minor annoyances
+
+1. Can't have multiple accounts logged in simultaneously
+2. Saved searches are gone
+3. No option to add to list
+4. No swipe actions
+
 ## Conclusion
 
 So I've moved back to the native application. Of course that doesn't mean I can't use the PWA, as I can just open up [mobile.twitter.com](https://mobile.twitter.com/) and get the full PWA experience. The Twitter PWA is trying to do a lot, while browsers are still getting to grips with implementing the specifications. Having Twitter invested in the PWA ecosystem should really help to push the development along.
