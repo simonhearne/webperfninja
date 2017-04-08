@@ -135,6 +135,9 @@ One of the key features of the web is being able to share content. The native Tw
 2. Saved searches are gone
 3. No option to add to list
 4. No swipe actions
+5. No tweet analytics
+
+As the PWA is [built on the Twitter API](https://blog.twitter.com/2017/how-we-built-twitter-lite) its functionality is limited to what is currently available to all other Twitter clients.
 
 ## Conclusion
 

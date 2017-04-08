@@ -12,7 +12,8 @@ layout: post
 comments: true
 image:
   feature: janky_hero.png
-excerpt: Webpage jank can harm the user experience, here's an easy way to measure it on your pages
+excerpt: Webpage jank can harm the user experience, here's an easy way to measure
+  it on your pages
 ---
 
 Here's the bookmarklet: 
