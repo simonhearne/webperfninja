@@ -30,7 +30,9 @@ function respIm(force){
       callback.call(scope, i, array[i]); // passes back stuff we need
     }
   };
-  var imcdn = '//llpc.lite.imgeng.in/w_';
+  //var imcdn = '//llpc.lite.imgeng.in/w_';
+  var imcdn = 'https://loxima.imgix.net/';
+  
   var imgs = document.querySelectorAll('img.resp');
   forEach(imgs,function(i,v){
     var inv;
@@ -41,6 +43,15 @@ function respIm(force){
     else inv = isInViewport(v);
     if (inv) {
       var p = v.getAttribute('data-src');
+      p=p.replace("https://webperf.ninja/","");
+      p=p.replace("http://webperf.ninja/","");
+      p=p.replace("//webperf.ninja/","");
+      p=p.replace("webperf.ninja/","");
+      p=p.replace("https://localhost:4000/","");
+      p=p.replace("https://localhost:4000/","");
+
+      
+
       var w = v.width;
       if (w < 50) {
         w = v.parentElement.clientWidth;
@@ -52,12 +63,13 @@ function respIm(force){
       }
       if (w < 100) w=100;
       
-      w = parseInt(w * dpr);
+      //w = parseInt(w * dpr);
+      local=false;
       if (local) {
         var parts=p.toString().split('/');
         v.src = '/'+parts[parts.length-2]+'/'+parts[parts.length-1];
       } else {
-        v.src = imcdn+w+'/'+p;
+        v.src = imcdn+p+"?w="+w+"&dpr="+dpr+"&f=auto";
       }
     }
   });
