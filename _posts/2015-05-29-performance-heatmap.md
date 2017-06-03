@@ -8,8 +8,7 @@ tags:
 layout: post
 image:
   feature: heatmap_hero.jpg
-excerpt: I've made a [Web Performance Heatmap](http://heatmap.webperf.tools/ "Web
-  Performance Heatmap") to visualise when each element loads on a page.
+excerpt: I've made a Heatmap to visualise when each element loads on a page.
 ---
 
 <a href="http://heatmap.webperf.tools" class="btn btn-block btn-primary">Go to the tool</a>
