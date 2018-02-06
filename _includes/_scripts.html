@@ -32,6 +32,7 @@ function respIm(force){
   };
   //var imcdn = '//llpc.lite.imgeng.in/w_';
   var imcdn = 'https://loxima.imgix.net/';
+  imcdn = "";
   
   var imgs = document.querySelectorAll('img.resp');
   forEach(imgs,function(i,v){
@@ -51,24 +52,21 @@ function respIm(force){
       p=p.replace("https://localhost:4000/","");
 
       
-
-      var w = v.width;
-      if (w < 50) {
-        w = v.parentElement.clientWidth;
-        if (v.hasAttribute('data-width')) {
-          var x = v.getAttribute('data-width');
-          if (x > 1) x/=100;
-          w*=x;
-        }
-      }
-      if (w < 100) w=100;
-      
-      //w = parseInt(w * dpr);
-      local=false;
+      local=true;
       if (local) {
         var parts=p.toString().split('/');
         v.src = '/'+parts[parts.length-2]+'/'+parts[parts.length-1];
       } else {
+        var w = v.width;
+        if (w < 50) {
+          w = v.parentElement.clientWidth;
+          if (v.hasAttribute('data-width')) {
+            var x = v.getAttribute('data-width');
+            if (x > 1) x/=100;
+            w*=x;
+          }
+        }
+        if (w < 100) w=100;
         v.src = imcdn+p+"?w="+w+"&dpr="+dpr+"&f=auto";
       }
     }
