@@ -8,7 +8,7 @@ comments: false
 share: false
 ---
 
-Simon is a Web Performance Consultant with [NCC Group Web Performance](https://www.nccgroup.com/en/our-services/website-performance/) in Surrey, UK.
+Simon is a Data Visualisation lead at [Akamai](https://www.soasta.com) in Surrey, UK.
 He has a passion for all things fast and works with some of the UK's largest websites to help improve their users' online experiences.
 
 Simon presents about interesting web performance topics at a number of events, why not have a look at [some of his talks](/talks) .
