@@ -41,7 +41,6 @@ owner:
     ad-client: 
     ad-slot: 
   azure:
-    instrumentation: 7999632c-6787-4954-88be-1effe25bc8ea
   bing-verify: 
   github: simonhearne
   stackoverflow: 
