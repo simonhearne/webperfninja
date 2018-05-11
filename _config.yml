@@ -40,7 +40,7 @@ owner:
     verify: 
     ad-client: 
     ad-slot: 
-  azure:
+  azure: 
   bing-verify: 
   github: simonhearne
   stackoverflow: 
