@@ -5,10 +5,9 @@ categories:
 - '2018'
 comments: true
 toc: true
-//image:
-//  feature: "../uploads/deltav_hosts.jpg"
-excerpt: 
-  Lead Developer is a conference for senior and lead engineers.
+"//image": 
+"//  feature": "../uploads/deltav_hosts.jpg"
+excerpt: Lead Developer is a conference for senior and lead engineers.
 layout: post
 ---
 
