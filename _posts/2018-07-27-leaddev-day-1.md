@@ -5,10 +5,10 @@ categories:
 - '2018'
 comments: true
 toc: true
-//image:
-//  feature: "../images/leaddev_hero.jpg"
+image:
+  feature: "../images/leaddev_hero.jpg"
 excerpt: 
-  Lead Developer is a conference for senior and lead engineers.
+  Lead Developer is a conference for senior and lead software engineers. These are my raw notes from day one.
 layout: post
 ---
 
@@ -102,3 +102,38 @@ Use 'we' instead of 'you'. Ask questions instead of making statements. Don't mak
 
 Don't forget to give positive feedback.
 
+## Pia Nilsson - Growing teams to continuously deliver
+
+@pia_nilsson
+
+Increasing flow in the back-end continuous delivery squad:
+
+1) WIP limits to increase focus, but also increased stress as engineers focussed on finishing tasks, even when delays were out of their control.
+2) TDD & DDD 
+3) Pairing & Mob programming
+
+"Yes, and" - never say "No" or "but".
+
+Non-violent communication method.
+
+Objectives and key results (OKR).
+
+Despicable design. Define the worst possible experience.
+
+## Menno van Slooten - How I learned to stop worrying and love meetings
+
+@mennovanslooten
+
+> Becoming a lead: the subtle art of not making a difference.
+
+1) Let go of programming - chasing your old job prevents you from seeing the value in what you _are_ doing
+2) If you attend a meeting your developers don't have to, so they can focus on what they love to do
+3) Learn to love interruptions - they are opportunities to help people
+
+How do you say no??
+
+## Jenny Duckett - Building sustainable teams to handle uncertainty
+
+@jenny_duckett
+
+Have a single clear goal for your team, reiterate it constantly. Use it to add context to tasks.
