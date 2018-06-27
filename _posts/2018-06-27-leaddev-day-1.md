@@ -137,3 +137,11 @@ How do you say no??
 @jenny_duckett
 
 Have a single clear goal for your team, reiterate it constantly. Use it to add context to tasks.
+
+[Mobbing](https://gdstechnology.blog.gov.uk/2016/09/08/our-top-12-mob-programming-tips-and-thoughts/)
+
+Use every task as an opportunity for the developer to grow & learn.
+
+> Make yourself dispensable
+
+Don't insulate your team too much, make it clear where their work fits in the wider picture.
