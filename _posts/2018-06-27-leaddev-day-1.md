@@ -7,8 +7,8 @@ comments: true
 toc: true
 image:
   feature: "../images/leaddev_hero.jpg"
-excerpt: 
-  Lead Developer is a conference for senior and lead software engineers. These are my raw notes from day one.
+excerpt: Lead Developer is a conference for senior and lead software engineers. These
+  are my raw notes from day one.
 layout: post
 ---
 
