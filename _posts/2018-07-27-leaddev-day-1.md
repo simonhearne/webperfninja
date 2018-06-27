@@ -43,3 +43,33 @@ Don't containerise databases - use cloud services
   - project manager
 
 > Do you want containers, or a blog post?!
+
+## First Steps as a Lead - Dan Persa (⚡️ talk)
+
+@danpersa
+
+Dan is an engineering lead at Zalando, based in Berlin.
+
+> Dealing with people problems is much more interesting than dealing with development problems
+
+The responsibility of tech leads varies by company, from a technical lead role to a line management role. It is important to understand the role at your company and whether it fits your career goals.
+
+Dan had three months of intense mentoring from an experienced tech lead at Zalando as part of a transition process from engineer to lead.
+
+Dan's tips on how to learn fast:
+ 
+ 1) get a mentor
+ 2) _apply_ what you read in books
+ 3) reflect on your past - how you were managed
+
+Trust instead of control:
+
+ 1) earn the respect of the team through pair-programming
+ 2) regular 1:1s
+ 3) transparency around performance evaluations
+
+The lead's role is to help the team discover solutions to challenges, not to solve them yourself.
+
+Not taking a decision is a decision in itself.
+
+Give feedback as soon as possible, with a balance of positive and constructive feedback. Always ask for feedback in return.
