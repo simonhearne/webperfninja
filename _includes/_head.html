@@ -1,6 +1,7 @@
 {% include _csp.html %}
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+<meta http-equiv="refresh" content="0;url=https://simonhearne.com{{ page.url}}" />
 {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
 <link rel="manifest" href="/manifest.json">
